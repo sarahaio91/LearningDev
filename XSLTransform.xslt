@@ -50,16 +50,18 @@
 
   <xsl:template name="sumText">
     <xsl:param name="sum"/>
-    <xsl:param name="currentNode"/>
-    <xsl:variable name="newSum" select="$current + $sum"/>
+    <xsl:param name="currentPosition"/>
+    <xsl:variable name="newSum" select="string-length(translate(self::node()[position()],'&#x20;&#x9;&#xD;&#xA;','')) + $sum"/>
     <xsl:choose>
       <xsl:when test="following-sibling::node()">
         <xsl:call-template name="sumText">
-          <xsl:param name="current" select=""/>
-          <xsl:param name="sum"/>
-          <xsl:param name="currentNode"/>
+          <xsl:with-param name="sum" select="$newSum"/>
+          <xsl:with-param name="currentPosition" select="$currentPosition + 1"/>
         </xsl:call-template>
       </xsl:when>
+      <xsl:otherwise>
+        <xsl:value-of select="$newSum"/>
+      </xsl:otherwise>
     </xsl:choose>
   </xsl:template>
 
@@ -67,19 +69,23 @@
     <level>
       <xsl:for-each select="PARA/POSTILLA">
         <level>
-          <xsl:variable name="previousNodes" select="translate((../preceding-sibling::PARA[1]/node()[1]),'&#x20;&#x9;&#xD;&#xA;','')"/>
-          <xsl:for-each select="../preceding-sibling::PARA[1]/node()">
-            <xsl:variable name="sumText">
-              <xsl:call-template name="sumText">
-                <xsl:with-param name="currentNode" select="../preceding-sibling::PARA[1]/node()[1]"/>
-                <xsl:with-param name="sum" select="0"/>
-              </xsl:call-template>
-            </xsl:variable>
-
-          </xsl:for-each>
-          <xsl:call-template name="sumText">
-
-          </xsl:call-template>
+          <xsl:variable name="prevText">
+            <xsl:variable name="processNode" select="../preceding-sibling::PARA[1]/node()[1]"/>
+              <xsl:choose>
+                <xsl:when test="$processNode::*">
+                </xsl:when>
+                <xsl:when test="string-length(translate(self::node()[position()],'&#x20;&#x9;&#xD;&#xA;','')) = 0">
+                </xsl:when>
+                <xsl:otherwise>
+                  <xsl:variable name="sumText">
+                    <xsl:call-template name="sumText">
+                      <xsl:with-param name="currentPosition" select="position()"/>
+                      <xsl:with-param name="sum" select="0"/>
+                    </xsl:call-template>
+                  </xsl:variable>
+                </xsl:otherwise>
+              </xsl:choose>
+          </xsl:variable>
           <xsl:choose>
             <xsl:when test="string-length(../preceding-sibling::PARA[1]/text()) &lt; 40">
               <italic>
