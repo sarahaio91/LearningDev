@@ -48,9 +48,55 @@
     </xsl:choose>
   </xsl:template>
 
+  <xsl:template name="sumText">
+    <xsl:param name="sum"/>
+    <xsl:param name="currentNode"/>
+    <xsl:variable name="newSum" select="$current + $sum"/>
+    <xsl:choose>
+      <xsl:when test="following-sibling::node()">
+        <xsl:call-template name="sumText">
+          <xsl:param name="current" select=""/>
+          <xsl:param name="sum"/>
+          <xsl:param name="currentNode"/>
+        </xsl:call-template>
+      </xsl:when>
+    </xsl:choose>
+  </xsl:template>
+
   <xsl:template match="TESTO-COMM">
     <level>
-      <xsl:apply-templates/>
+      <xsl:for-each select="PARA/POSTILLA">
+        <level>
+          <xsl:variable name="previousNodes" select="translate((../preceding-sibling::PARA[1]/node()[1]),'&#x20;&#x9;&#xD;&#xA;','')"/>
+          <xsl:for-each select="../preceding-sibling::PARA[1]/node()">
+            <xsl:variable name="sumText">
+              <xsl:call-template name="sumText">
+                <xsl:with-param name="currentNode" select="../preceding-sibling::PARA[1]/node()[1]"/>
+                <xsl:with-param name="sum" select="0"/>
+              </xsl:call-template>
+            </xsl:variable>
+
+          </xsl:for-each>
+          <xsl:call-template name="sumText">
+
+          </xsl:call-template>
+          <xsl:choose>
+            <xsl:when test="string-length(../preceding-sibling::PARA[1]/text()) &lt; 40">
+              <italic>
+                <xsl:value-of select="../preceding-sibling::PARA[1]/text()"/>
+              </italic>
+              <p>
+                <xsl:apply-templates/>
+              </p>
+            </xsl:when>
+            <xsl:otherwise>
+              <p>
+                <xsl:apply-templates/>
+              </p>
+            </xsl:otherwise>
+          </xsl:choose>
+        </level>
+      </xsl:for-each>
     </level>
   </xsl:template>
 
@@ -67,9 +113,8 @@
   </xsl:template>
 
   <xsl:template match="PARA">
-    <p>
-      <xsl:apply-templates/>
-    </p>
+    <xsl:apply-templates/>
+    <br/>
   </xsl:template>
 
   <xsl:template match="TIPOG">
