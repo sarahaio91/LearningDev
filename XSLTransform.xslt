@@ -19,7 +19,7 @@
     </document>
   </xsl:template>
 
-  <xsl:template match="LEGGI-SPEC | COMUNE | DESCRIZIONE | COMMENTO | TESTO-COMM">
+  <xsl:template match="LEGGI-SPEC | COMUNE | COMMENTO | TESTO-COMM">
     <xsl:apply-templates/>
   </xsl:template>
 
@@ -28,32 +28,41 @@
     <xsl:apply-templates select="RIF"/>
   </xsl:template>
 
-  <xsl:template match="PARA">
+  <xsl:template match="DESCRIZIONE">
     <xsl:choose>
-      <xsl:when test="parent::DESCRIZIONE and ../parent::ARTICOLO">
-        <h3>
-          <bold>
-            <xsl:text>Art. </xsl:text>
-            <xsl:value-of select="../../@testo"/>
-            <xsl:text> </xsl:text>
-            <xsl:apply-templates/>
-          </bold>
-        </h3>
-      </xsl:when>
-      <xsl:when test="parent::DESCRIZIONE and ../parent::COMMENTO">
+      <xsl:when test="parent::COMMENTO">
         <h6>
           <bold>
-            <xsl:value-of select="../../@testo"/>
-            <xsl:apply-templates/>
+            <xsl:apply-templates select="PARA" mode="commento"/>
           </bold>
         </h6>
       </xsl:when>
-      <xsl:otherwise>
-        <p>
-          <xsl:apply-templates/>
-        </p>
-      </xsl:otherwise>
+      <xsl:when test="parent::ARTICOLO">
+        <h3>
+          <bold>
+            <xsl:apply-templates select="PARA" mode="articolo"/>
+          </bold>
+        </h3>
+      </xsl:when>
     </xsl:choose>
+  </xsl:template>
+
+  <xsl:template match="PARA" mode="articolo">
+    <xsl:text>Art. </xsl:text>
+    <xsl:value-of select="../../@testo"/>
+    <xsl:text> </xsl:text>
+    <xsl:apply-templates/>
+  </xsl:template>
+
+  <xsl:template match="PARA" mode="commento">
+    <xsl:value-of select="../../@testo"/>
+    <xsl:apply-templates/>
+  </xsl:template>
+
+  <xsl:template match="PARA">
+    <p>
+      <xsl:apply-templates/>
+    </p>
   </xsl:template>
 
   <xsl:template match="TIPOG">
