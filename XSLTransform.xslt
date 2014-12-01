@@ -4,12 +4,6 @@
 >
   <xsl:output method="xml" indent="yes" omit-xml-declaration="yes"/>
 
-  <xsl:template match="@* | node()">
-    <xsl:copy>
-      <xsl:apply-templates select="@* | node()"/>
-    </xsl:copy>
-  </xsl:template>
-
   <xsl:template match="CAA | ABSTRACT | ESTREMI"/>
 
 
@@ -19,7 +13,7 @@
     </document>
   </xsl:template>
 
-  <xsl:template match="LEGGI-SPEC | COMUNE | COMMENTO | TESTO-COMM">
+  <xsl:template match="LEGGI-SPEC | COMUNE | COMMENTO">
     <xsl:apply-templates/>
   </xsl:template>
 
@@ -31,20 +25,33 @@
   <xsl:template match="DESCRIZIONE">
     <xsl:choose>
       <xsl:when test="parent::COMMENTO">
-        <h6>
-          <bold>
-            <xsl:apply-templates select="PARA" mode="commento"/>
-          </bold>
-        </h6>
+        <level>
+          <div class="heading">
+            <h6>
+              <bold>
+                <xsl:apply-templates select="PARA" mode="commento"/>
+              </bold>
+            </h6>
+          </div>
+          <xsl:apply-templates select="following-sibling::TESTO-COMM"/>
+        </level>
       </xsl:when>
       <xsl:when test="parent::ARTICOLO">
-        <h3>
-          <bold>
-            <xsl:apply-templates select="PARA" mode="articolo"/>
-          </bold>
-        </h3>
+        <div class="titel">
+          <h3>
+            <bold>
+              <xsl:apply-templates select="PARA" mode="articolo"/>
+            </bold>
+          </h3>
+        </div>
       </xsl:when>
     </xsl:choose>
+  </xsl:template>
+
+  <xsl:template match="TESTO-COMM">
+    <level>
+      <xsl:apply-templates/>
+    </level>
   </xsl:template>
 
   <xsl:template match="PARA" mode="articolo">
@@ -73,6 +80,12 @@
 
   <xsl:template match="POSTILLA">
     <div class="POSTILLA">
+      <xsl:apply-templates/>
+    </div>
+  </xsl:template>
+
+  <xsl:template match="RIF">
+    <div class="biblio">
       <xsl:apply-templates/>
     </div>
   </xsl:template>
