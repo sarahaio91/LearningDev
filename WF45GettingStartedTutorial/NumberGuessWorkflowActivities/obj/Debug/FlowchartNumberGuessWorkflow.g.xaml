@@ -33,91 +33,109 @@
         <Variable x:TypeArguments="x:Int32" Name="Target" />
       </Flowchart.Variables>
       <Flowchart.StartNode>
-        <x:Reference>__ReferenceID6</x:Reference>
+        <FlowStep x:Name="__ReferenceID1">
+          <Assign>
+            <Assign.To>
+              <OutArgument x:TypeArguments="x:Int32">
+                <mca:CSharpReference x:TypeArguments="x:Int32">Target</mca:CSharpReference>
+              </OutArgument>
+            </Assign.To>
+            <Assign.Value>
+              <InArgument x:TypeArguments="x:Int32">
+                <mca:CSharpValue x:TypeArguments="x:Int32">new System.Random().Next(1, MaxNumber+1)</mca:CSharpValue>
+              </InArgument>
+            </Assign.Value>
+          </Assign>
+          <FlowStep.Next>
+            <FlowStep x:Name="__ReferenceID0">
+              <local:Prompt BookmarkName="EnterGuess">
+                <local:Prompt.Result>
+                  <OutArgument x:TypeArguments="x:Int32">
+                    <mca:CSharpReference x:TypeArguments="x:Int32">Guess</mca:CSharpReference>
+                  </OutArgument>
+                </local:Prompt.Result>
+                <local:Prompt.Text>
+                  <InArgument x:TypeArguments="x:String">
+                    <mca:CSharpValue x:TypeArguments="x:String">"Please enter a number between 1 and " + MaxNumber</mca:CSharpValue>
+                  </InArgument>
+                </local:Prompt.Text>
+              </local:Prompt>
+              <FlowStep.Next>
+                <FlowStep x:Name="__ReferenceID2">
+                  <Assign>
+                    <Assign.To>
+                      <OutArgument x:TypeArguments="x:Int32">
+                        <mca:CSharpReference x:TypeArguments="x:Int32">Turns</mca:CSharpReference>
+                      </OutArgument>
+                    </Assign.To>
+                    <Assign.Value>
+                      <InArgument x:TypeArguments="x:Int32">
+                        <mca:CSharpValue x:TypeArguments="x:Int32">Turns + 1</mca:CSharpValue>
+                      </InArgument>
+                    </Assign.Value>
+                  </Assign>
+                  <FlowStep.Next>
+                    <FlowDecision x:Name="__ReferenceID3">
+                      <FlowDecision.Condition>
+                        <mca:CSharpValue x:TypeArguments="x:Boolean">Guess == Target</mca:CSharpValue>
+                      </FlowDecision.Condition>
+                      <FlowDecision.True>
+                        <FlowStep x:Name="__ReferenceID7">
+                          <WriteLine>
+                            <InArgument x:TypeArguments="x:String">
+                              <mca:CSharpValue x:TypeArguments="x:String">Guess + " is correct. You guessed it in " + Turns</mca:CSharpValue>
+                            </InArgument>
+                          </WriteLine>
+                        </FlowStep>
+                      </FlowDecision.True>
+                      <FlowDecision.False>
+                        <FlowDecision x:Name="__ReferenceID4">
+                          <FlowDecision.Condition>
+                            <mca:CSharpValue x:TypeArguments="x:Boolean">Guess &lt; Target</mca:CSharpValue>
+                          </FlowDecision.Condition>
+                          <FlowDecision.True>
+                            <FlowStep x:Name="__ReferenceID5">
+                              <WriteLine>
+                                <InArgument x:TypeArguments="x:String">
+                                  <mca:CSharpValue x:TypeArguments="x:String">Guess + " is too low"</mca:CSharpValue>
+                                </InArgument>
+                              </WriteLine>
+                              <FlowStep.Next>
+                                <x:Reference>__ReferenceID0</x:Reference>
+                              </FlowStep.Next>
+                            </FlowStep>
+                          </FlowDecision.True>
+                          <FlowDecision.False>
+                            <FlowStep x:Name="__ReferenceID6">
+                              <WriteLine>
+                                <InArgument x:TypeArguments="x:String">
+                                  <mca:CSharpValue x:TypeArguments="x:String">Guess + " is too high"</mca:CSharpValue>
+                                </InArgument>
+                              </WriteLine>
+                              <FlowStep.Next>
+                                <x:Reference>__ReferenceID0</x:Reference>
+                              </FlowStep.Next>
+                            </FlowStep>
+                          </FlowDecision.False>
+                        </FlowDecision>
+                      </FlowDecision.False>
+                    </FlowDecision>
+                  </FlowStep.Next>
+                </FlowStep>
+              </FlowStep.Next>
+            </FlowStep>
+          </FlowStep.Next>
+        </FlowStep>
       </Flowchart.StartNode>
-      <FlowStep x:Name="__ReferenceID6">
-        <Assign>
-          <Assign.To>
-            <OutArgument x:TypeArguments="x:Int32">
-              <mca:CSharpReference x:TypeArguments="x:Int32">Target</mca:CSharpReference>
-            </OutArgument>
-          </Assign.To>
-          <Assign.Value>
-            <InArgument x:TypeArguments="x:Int32">
-              <mca:CSharpValue x:TypeArguments="x:Int32">new System.Random().Next(1, MaxNumber+1)</mca:CSharpValue>
-            </InArgument>
-          </Assign.Value>
-        </Assign>
-        <FlowStep.Next>
-          <FlowStep x:Name="__ReferenceID0">
-            <local:Prompt BookmarkName="EnterGuess">
-              <local:Prompt.Result>
-                <OutArgument x:TypeArguments="x:Int32">
-                  <mca:CSharpReference x:TypeArguments="x:Int32">Guess</mca:CSharpReference>
-                </OutArgument>
-              </local:Prompt.Result>
-              <local:Prompt.Text>
-                <InArgument x:TypeArguments="x:String">
-                  <mca:CSharpValue x:TypeArguments="x:String">"Please enter a number between 1 and " + MaxNumber</mca:CSharpValue>
-                </InArgument>
-              </local:Prompt.Text>
-            </local:Prompt>
-            <FlowStep.Next>
-              <FlowStep x:Name="__ReferenceID1">
-                <Assign>
-                  <Assign.To>
-                    <OutArgument x:TypeArguments="x:Int32">
-                      <mca:CSharpReference x:TypeArguments="x:Int32">Turns</mca:CSharpReference>
-                    </OutArgument>
-                  </Assign.To>
-                  <Assign.Value>
-                    <InArgument x:TypeArguments="x:Int32">
-                      <mca:CSharpValue x:TypeArguments="x:Int32">Turns + 1</mca:CSharpValue>
-                    </InArgument>
-                  </Assign.Value>
-                </Assign>
-                <FlowStep.Next>
-                  <FlowDecision x:Name="__ReferenceID2">
-                    <FlowDecision.Condition>
-                      <mca:CSharpValue x:TypeArguments="x:Boolean">Guess == Target</mca:CSharpValue>
-                    </FlowDecision.Condition>
-                    <FlowDecision.False>
-                      <FlowDecision x:Name="__ReferenceID3">
-                        <FlowDecision.Condition>
-                          <mca:CSharpValue x:TypeArguments="x:Boolean">Guess &lt; Target</mca:CSharpValue>
-                        </FlowDecision.Condition>
-                        <FlowDecision.True>
-                          <FlowStep x:Name="__ReferenceID4">
-                            <WriteLine Text="Your guess is too low" />
-                            <FlowStep.Next>
-                              <x:Reference>__ReferenceID0</x:Reference>
-                            </FlowStep.Next>
-                          </FlowStep>
-                        </FlowDecision.True>
-                        <FlowDecision.False>
-                          <FlowStep x:Name="__ReferenceID5">
-                            <WriteLine Text="Your guess is too high" />
-                            <FlowStep.Next>
-                              <x:Reference>__ReferenceID0</x:Reference>
-                            </FlowStep.Next>
-                          </FlowStep>
-                        </FlowDecision.False>
-                      </FlowDecision>
-                    </FlowDecision.False>
-                  </FlowDecision>
-                </FlowStep.Next>
-              </FlowStep>
-            </FlowStep.Next>
-          </FlowStep>
-        </FlowStep.Next>
-      </FlowStep>
-      <x:Reference>__ReferenceID0</x:Reference>
       <x:Reference>__ReferenceID1</x:Reference>
+      <x:Reference>__ReferenceID0</x:Reference>
       <x:Reference>__ReferenceID2</x:Reference>
       <x:Reference>__ReferenceID3</x:Reference>
       <x:Reference>__ReferenceID4</x:Reference>
       <x:Reference>__ReferenceID5</x:Reference>
-      <sads:DebugSymbol.Symbol>9xCpk8VXDlQfeAvfFAbX8Lpdf0M6XFVzZXJzXHRydW9uZy5sZVxEZXNrdG9wXFdvcmtzcGFjZVxXRjQ1R2V0dGluZ1N0YXJ0ZWRUdXRvcmlhbFxOdW1iZXJHdWVzc1dvcmtmbG93QWN0aXZpdGllc1xGbG93Y2hhcnROdW1iZXJHdWVzc1dvcmtmbG93LnhhbWwRLQOIAQ8CAQE2B0EQAgEnRAtPGgIBG1IPXRgCARBhFWFjAgELZhlmaQIBBnIbcnQCAQRqG2pzAgECPg0+cgIBLTkNOVgCAShEJkQyAgEmTBFMgQECASFHEUdbAgEcWhVaWwIBFlUVVV8CARFyWXJxAgEFallqcAIBAw==</sads:DebugSymbol.Symbol>
+      <x:Reference>__ReferenceID6</x:Reference>
+      <x:Reference>__ReferenceID7</x:Reference>
+      <sads:DebugSymbol.Symbol>9xDutnH1rITjG8qntygTnwNrf0M6XFVzZXJzXHRydW9uZy5sZVxEZXNrdG9wXFdvcmtzcGFjZVxXRjQ1R2V0dGluZ1N0YXJ0ZWRUdXRvcmlhbFxOdW1iZXJHdWVzc1dvcmtmbG93QWN0aXZpdGllc1xGbG93Y2hhcnROdW1iZXJHdWVzc1dvcmtmbG93LnhhbWwTLQOcAQ8CAQE0CT8SAgE1Qg1NHAIBKVARWxoCAR5fF19lAgEZbxtvawIBFH8dgwEpAgEOcx13KQIBCGMZaCUCAQI8Dzx0AgE7Nw83WgIBNkIoQjQCATRKE0qDAQIBL0UTRV0CASpYF1hdAgEkUxdTYQIBH4EBIYEBdQIBD3UhdXQCAQllHWWMAQIBAw==</sads:DebugSymbol.Symbol>
     </Flowchart>
   </local:FlowchartNumberGuessWorkflow.Implementation>
 </local:FlowchartNumberGuessWorkflow>

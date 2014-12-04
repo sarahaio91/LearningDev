@@ -158,6 +158,30 @@ namespace NumberGuessWorkflowActivities {
                 SequentialNumberGuessWorkflow_TypedDataContext2_ForReadOnly valDataContext8 = ((SequentialNumberGuessWorkflow_TypedDataContext2_ForReadOnly)(cachedCompiledDataContext[0]));
                 return valDataContext8.ValueType___Expr8Get();
             }
+            if ((expressionId == 9)) {
+                System.Activities.XamlIntegration.CompiledDataContext[] cachedCompiledDataContext = SequentialNumberGuessWorkflow_TypedDataContext2_ForReadOnly.GetCompiledDataContextCacheHelper(this.dataContextActivities, activityContext, this.rootActivity, this.forImplementation, 2);
+                if ((cachedCompiledDataContext[0] == null)) {
+                    cachedCompiledDataContext[0] = new SequentialNumberGuessWorkflow_TypedDataContext2_ForReadOnly(locations, activityContext, true);
+                }
+                SequentialNumberGuessWorkflow_TypedDataContext2_ForReadOnly valDataContext9 = ((SequentialNumberGuessWorkflow_TypedDataContext2_ForReadOnly)(cachedCompiledDataContext[0]));
+                return valDataContext9.ValueType___Expr9Get();
+            }
+            if ((expressionId == 10)) {
+                System.Activities.XamlIntegration.CompiledDataContext[] cachedCompiledDataContext = SequentialNumberGuessWorkflow_TypedDataContext2_ForReadOnly.GetCompiledDataContextCacheHelper(this.dataContextActivities, activityContext, this.rootActivity, this.forImplementation, 2);
+                if ((cachedCompiledDataContext[0] == null)) {
+                    cachedCompiledDataContext[0] = new SequentialNumberGuessWorkflow_TypedDataContext2_ForReadOnly(locations, activityContext, true);
+                }
+                SequentialNumberGuessWorkflow_TypedDataContext2_ForReadOnly valDataContext10 = ((SequentialNumberGuessWorkflow_TypedDataContext2_ForReadOnly)(cachedCompiledDataContext[0]));
+                return valDataContext10.ValueType___Expr10Get();
+            }
+            if ((expressionId == 11)) {
+                System.Activities.XamlIntegration.CompiledDataContext[] cachedCompiledDataContext = SequentialNumberGuessWorkflow_TypedDataContext2_ForReadOnly.GetCompiledDataContextCacheHelper(this.dataContextActivities, activityContext, this.rootActivity, this.forImplementation, 2);
+                if ((cachedCompiledDataContext[0] == null)) {
+                    cachedCompiledDataContext[0] = new SequentialNumberGuessWorkflow_TypedDataContext2_ForReadOnly(locations, activityContext, true);
+                }
+                SequentialNumberGuessWorkflow_TypedDataContext2_ForReadOnly valDataContext11 = ((SequentialNumberGuessWorkflow_TypedDataContext2_ForReadOnly)(cachedCompiledDataContext[0]));
+                return valDataContext11.ValueType___Expr11Get();
+            }
             return null;
         }
         
@@ -203,6 +227,18 @@ namespace NumberGuessWorkflowActivities {
             if ((expressionId == 8)) {
                 SequentialNumberGuessWorkflow_TypedDataContext2_ForReadOnly valDataContext8 = new SequentialNumberGuessWorkflow_TypedDataContext2_ForReadOnly(locations, true);
                 return valDataContext8.ValueType___Expr8Get();
+            }
+            if ((expressionId == 9)) {
+                SequentialNumberGuessWorkflow_TypedDataContext2_ForReadOnly valDataContext9 = new SequentialNumberGuessWorkflow_TypedDataContext2_ForReadOnly(locations, true);
+                return valDataContext9.ValueType___Expr9Get();
+            }
+            if ((expressionId == 10)) {
+                SequentialNumberGuessWorkflow_TypedDataContext2_ForReadOnly valDataContext10 = new SequentialNumberGuessWorkflow_TypedDataContext2_ForReadOnly(locations, true);
+                return valDataContext10.ValueType___Expr10Get();
+            }
+            if ((expressionId == 11)) {
+                SequentialNumberGuessWorkflow_TypedDataContext2_ForReadOnly valDataContext11 = new SequentialNumberGuessWorkflow_TypedDataContext2_ForReadOnly(locations, true);
+                return valDataContext11.ValueType___Expr11Get();
             }
             return null;
         }
@@ -265,6 +301,24 @@ namespace NumberGuessWorkflowActivities {
                 expressionId = 8;
                 return true;
             }
+            if (((isReference == false) 
+                        && ((expressionText == "Guess + \" is too low\"") 
+                        && (SequentialNumberGuessWorkflow_TypedDataContext2_ForReadOnly.Validate(locations, true, 0) == true)))) {
+                expressionId = 9;
+                return true;
+            }
+            if (((isReference == false) 
+                        && ((expressionText == "Guess + \" is too high\"") 
+                        && (SequentialNumberGuessWorkflow_TypedDataContext2_ForReadOnly.Validate(locations, true, 0) == true)))) {
+                expressionId = 10;
+                return true;
+            }
+            if (((isReference == false) 
+                        && ((expressionText == "Guess + \" is correct. You guessed it in \" + Turns") 
+                        && (SequentialNumberGuessWorkflow_TypedDataContext2_ForReadOnly.Validate(locations, true, 0) == true)))) {
+                expressionId = 11;
+                return true;
+            }
             expressionId = -1;
             return false;
         }
@@ -306,6 +360,15 @@ namespace NumberGuessWorkflowActivities {
             }
             if ((expressionId == 8)) {
                 return new SequentialNumberGuessWorkflow_TypedDataContext2_ForReadOnly(locationReferences).@__Expr8GetTree();
+            }
+            if ((expressionId == 9)) {
+                return new SequentialNumberGuessWorkflow_TypedDataContext2_ForReadOnly(locationReferences).@__Expr9GetTree();
+            }
+            if ((expressionId == 10)) {
+                return new SequentialNumberGuessWorkflow_TypedDataContext2_ForReadOnly(locationReferences).@__Expr10GetTree();
+            }
+            if ((expressionId == 11)) {
+                return new SequentialNumberGuessWorkflow_TypedDataContext2_ForReadOnly(locationReferences).@__Expr11GetTree();
             }
             return null;
         }
@@ -953,6 +1016,87 @@ namespace NumberGuessWorkflowActivities {
             public bool ValueType___Expr8Get() {
                 this.GetValueTypeValues();
                 return this.@__Expr8Get();
+            }
+            
+            internal System.Linq.Expressions.Expression @__Expr9GetTree() {
+                
+                #line 105 "C:\USERS\TRUONG.LE\DESKTOP\WORKSPACE\WF45GETTINGSTARTEDTUTORIAL\NUMBERGUESSWORKFLOWACTIVITIES\SEQUENTIALNUMBERGUESSWORKFLOW.XAML"
+                System.Linq.Expressions.Expression<System.Func<string>> expression = () => 
+                    Guess + " is too low";
+                
+                #line default
+                #line hidden
+                return base.RewriteExpressionTree(expression);
+            }
+            
+            [System.Diagnostics.DebuggerHiddenAttribute()]
+            public string @__Expr9Get() {
+                
+                #line 105 "C:\USERS\TRUONG.LE\DESKTOP\WORKSPACE\WF45GETTINGSTARTEDTUTORIAL\NUMBERGUESSWORKFLOWACTIVITIES\SEQUENTIALNUMBERGUESSWORKFLOW.XAML"
+                return 
+                    Guess + " is too low";
+                
+                #line default
+                #line hidden
+            }
+            
+            public string ValueType___Expr9Get() {
+                this.GetValueTypeValues();
+                return this.@__Expr9Get();
+            }
+            
+            internal System.Linq.Expressions.Expression @__Expr10GetTree() {
+                
+                #line 112 "C:\USERS\TRUONG.LE\DESKTOP\WORKSPACE\WF45GETTINGSTARTEDTUTORIAL\NUMBERGUESSWORKFLOWACTIVITIES\SEQUENTIALNUMBERGUESSWORKFLOW.XAML"
+                System.Linq.Expressions.Expression<System.Func<string>> expression = () => 
+                    Guess + " is too high";
+                
+                #line default
+                #line hidden
+                return base.RewriteExpressionTree(expression);
+            }
+            
+            [System.Diagnostics.DebuggerHiddenAttribute()]
+            public string @__Expr10Get() {
+                
+                #line 112 "C:\USERS\TRUONG.LE\DESKTOP\WORKSPACE\WF45GETTINGSTARTEDTUTORIAL\NUMBERGUESSWORKFLOWACTIVITIES\SEQUENTIALNUMBERGUESSWORKFLOW.XAML"
+                return 
+                    Guess + " is too high";
+                
+                #line default
+                #line hidden
+            }
+            
+            public string ValueType___Expr10Get() {
+                this.GetValueTypeValues();
+                return this.@__Expr10Get();
+            }
+            
+            internal System.Linq.Expressions.Expression @__Expr11GetTree() {
+                
+                #line 121 "C:\USERS\TRUONG.LE\DESKTOP\WORKSPACE\WF45GETTINGSTARTEDTUTORIAL\NUMBERGUESSWORKFLOWACTIVITIES\SEQUENTIALNUMBERGUESSWORKFLOW.XAML"
+                System.Linq.Expressions.Expression<System.Func<string>> expression = () => 
+                Guess + " is correct. You guessed it in " + Turns;
+                
+                #line default
+                #line hidden
+                return base.RewriteExpressionTree(expression);
+            }
+            
+            [System.Diagnostics.DebuggerHiddenAttribute()]
+            public string @__Expr11Get() {
+                
+                #line 121 "C:\USERS\TRUONG.LE\DESKTOP\WORKSPACE\WF45GETTINGSTARTEDTUTORIAL\NUMBERGUESSWORKFLOWACTIVITIES\SEQUENTIALNUMBERGUESSWORKFLOW.XAML"
+                return 
+                Guess + " is correct. You guessed it in " + Turns;
+                
+                #line default
+                #line hidden
+            }
+            
+            public string ValueType___Expr11Get() {
+                this.GetValueTypeValues();
+                return this.@__Expr11Get();
             }
             
             protected override void GetValueTypeValues() {

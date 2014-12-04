@@ -1,0 +1,10 @@
+C:\Users\truong.le\Desktop\Workspace\WF45GettingStartedTutorial\ApplyDynamicUpdate\bin\Debug\ApplyDynamicUpdate.exe.config
+C:\Users\truong.le\Desktop\Workspace\WF45GettingStartedTutorial\ApplyDynamicUpdate\bin\Debug\ApplyDynamicUpdate.exe
+C:\Users\truong.le\Desktop\Workspace\WF45GettingStartedTutorial\ApplyDynamicUpdate\bin\Debug\ApplyDynamicUpdate.pdb
+C:\Users\truong.le\Desktop\Workspace\WF45GettingStartedTutorial\ApplyDynamicUpdate\bin\Debug\NumberGuessWorkflowHost.exe
+C:\Users\truong.le\Desktop\Workspace\WF45GettingStartedTutorial\ApplyDynamicUpdate\bin\Debug\NumberGuessWorkflowActivities.dll
+C:\Users\truong.le\Desktop\Workspace\WF45GettingStartedTutorial\ApplyDynamicUpdate\bin\Debug\NumberGuessWorkflowHost.pdb
+C:\Users\truong.le\Desktop\Workspace\WF45GettingStartedTutorial\ApplyDynamicUpdate\bin\Debug\NumberGuessWorkflowActivities.pdb
+C:\Users\truong.le\Desktop\Workspace\WF45GettingStartedTutorial\ApplyDynamicUpdate\obj\Debug\ApplyDynamicUpdate.csprojResolveAssemblyReference.cache
+C:\Users\truong.le\Desktop\Workspace\WF45GettingStartedTutorial\ApplyDynamicUpdate\obj\Debug\ApplyDynamicUpdate.exe
+C:\Users\truong.le\Desktop\Workspace\WF45GettingStartedTutorial\ApplyDynamicUpdate\obj\Debug\ApplyDynamicUpdate.pdb

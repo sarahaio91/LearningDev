@@ -87,17 +87,32 @@
                   </InArgument>
                 </If.Condition>
                 <If.Then>
-                  <WriteLine Text="Your guess is too low" />
+                  <WriteLine>
+                    <InArgument x:TypeArguments="x:String">
+                      <mca:CSharpValue x:TypeArguments="x:String">Guess + " is too low"</mca:CSharpValue>
+                    </InArgument>
+                  </WriteLine>
                 </If.Then>
                 <If.Else>
-                  <WriteLine Text="Your guess is too high" />
+                  <WriteLine>
+                    <InArgument x:TypeArguments="x:String">
+                      <mca:CSharpValue x:TypeArguments="x:String">Guess + " is too high"</mca:CSharpValue>
+                    </InArgument>
+                  </WriteLine>
                 </If.Else>
               </If>
             </If.Then>
+            <If.Else>
+              <WriteLine>
+                <InArgument x:TypeArguments="x:String">
+                  <mca:CSharpValue x:TypeArguments="x:String">Guess + " is correct. You guessed it in " + Turns</mca:CSharpValue>
+                </InArgument>
+              </WriteLine>
+            </If.Else>
           </If>
         </Sequence>
       </DoWhile>
-      <sads:DebugSymbol.Symbol>9xBMlSKXbRg2f4uhCmqCZIMlgAFDOlxVc2Vyc1x0cnVvbmcubGVcRGVza3RvcFxXb3Jrc3BhY2VcV0Y0NUdldHRpbmdTdGFydGVkVHV0b3JpYWxcTnVtYmVyR3Vlc3NXb3JrZmxvd0FjdGl2aXRpZXNcU2VxdWVudGlhbE51bWJlckd1ZXNzV29ya2Zsb3cueGFtbBYsA3MOAgEBMQU8DgIBMD0FcQ8CAQI5CzlwAgE2NAs0VgIBMT8JP1cCAStBB3ASAgEDQglNGAIBH04JWRICARRaCW8OAgEEQiRCMAIBKkoPSn8CASVFD0VZAgEgVg9WVQIBGlEPUVkCARVdD11dAgEFYQ1tEgIBCmQTZGMCAQtoEWhpAgESaxFragIBEGhPaGYCARNrT2tnAgER</sads:DebugSymbol.Symbol>
+      <sads:DebugSymbol.Symbol>9xDQLSQhRTpPO42m2MipBMs0gAFDOlxVc2Vyc1x0cnVvbmcubGVcRGVza3RvcFxXb3Jrc3BhY2VcV0Y0NUdldHRpbmdTdGFydGVkVHV0b3JpYWxcTnVtYmVyR3Vlc3NXb3JrZmxvd0FjdGl2aXRpZXNcU2VxdWVudGlhbE51bWJlckd1ZXNzV29ya2Zsb3cueGFtbBgsA4IBDgIBATEFPA4CAT49BYABDwIBAjkLOXACAUQ0CzRWAgE/Pwk/VwIBOUEHfxICAQNCCU0YAgEtTglZEgIBIloJfg4CAQRCJEIwAgE4Sg9KfwIBM0UPRVkCAS5WD1ZVAgEoUQ9RWQIBI10PXV0CAQVhDXUSAgEQeA18GQIBCmQTZGMCARFoEWwdAgEcbxFzHQIBFnoReoABAgELahVqaAIBHXEVcWkCARc=</sads:DebugSymbol.Symbol>
     </Sequence>
   </local:SequentialNumberGuessWorkflow.Implementation>
 </local:SequentialNumberGuessWorkflow>

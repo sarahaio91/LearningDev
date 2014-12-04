@@ -1,0 +1,6 @@
+C:\Users\truong.le\Desktop\Workspace\WF45GettingStartedTutorial\CreateUpdateMaps\bin\Debug\CreateUpdateMaps.exe.config
+C:\Users\truong.le\Desktop\Workspace\WF45GettingStartedTutorial\CreateUpdateMaps\bin\Debug\CreateUpdateMaps.exe
+C:\Users\truong.le\Desktop\Workspace\WF45GettingStartedTutorial\CreateUpdateMaps\bin\Debug\CreateUpdateMaps.pdb
+C:\Users\truong.le\Desktop\Workspace\WF45GettingStartedTutorial\CreateUpdateMaps\obj\Debug\CreateUpdateMaps.csprojResolveAssemblyReference.cache
+C:\Users\truong.le\Desktop\Workspace\WF45GettingStartedTutorial\CreateUpdateMaps\obj\Debug\CreateUpdateMaps.exe
+C:\Users\truong.le\Desktop\Workspace\WF45GettingStartedTutorial\CreateUpdateMaps\obj\Debug\CreateUpdateMaps.pdb
