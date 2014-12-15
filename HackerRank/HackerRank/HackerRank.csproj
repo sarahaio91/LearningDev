@@ -43,10 +43,12 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AcmIcpc.cs" />
+    <Compile Include="ChocolateFeast.cs" />
     <Compile Include="FillingJars.cs" />
     <Compile Include="GameOfThrones.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SherlockAndSquare.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
