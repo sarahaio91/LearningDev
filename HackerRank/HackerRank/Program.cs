@@ -14,7 +14,8 @@ namespace HackerRank
             //AcmIcpc obj = new AcmIcpc();
             //FillingJars obj = new FillingJars();
             //ChocolateFeast obj = new ChocolateFeast();
-            SherlockAndSquare obj = new SherlockAndSquare();
+            //SherlockAndSquare obj = new SherlockAndSquare();
+            FindDigits obj = new FindDigits();
             obj.execute();
         }
     }
