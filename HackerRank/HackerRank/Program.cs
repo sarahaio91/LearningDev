@@ -10,6 +10,9 @@ namespace HackerRank
     {
         static void Main(string[] args)
         {
+            //GameOfThrones obj = new GameOfThrones();
+            AcmIcpc obj = new AcmIcpc();
+            obj.execute();
         }
     }
 }
