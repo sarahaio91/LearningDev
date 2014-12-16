@@ -43,6 +43,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AcmIcpc.cs" />
+    <Compile Include="AngryChildren.cs" />
     <Compile Include="ChocolateFeast.cs" />
     <Compile Include="FillingJars.cs" />
     <Compile Include="FindDigits.cs" />

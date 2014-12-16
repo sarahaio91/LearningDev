@@ -15,7 +15,8 @@ namespace HackerRank
             //FillingJars obj = new FillingJars();
             //ChocolateFeast obj = new ChocolateFeast();
             //SherlockAndSquare obj = new SherlockAndSquare();
-            FindDigits obj = new FindDigits();
+            //FindDigits obj = new FindDigits();
+            AngryChildren obj = new AngryChildren();
             obj.execute();
         }
     }
