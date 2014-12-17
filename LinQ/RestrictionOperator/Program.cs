@@ -15,7 +15,8 @@ namespace RestrictionOperator
             //obj.LinQ1();
             //obj.LinQ2();
             //obj.LinQ3();
-            obj.LinQ4();
+            //obj.LinQ4();
+            obj.LinQ5();
         }
         public class Product
         {
@@ -84,6 +85,14 @@ namespace RestrictionOperator
                     {
                         Console.WriteLine("{0} {1}",j.OrderID, j.OrderDate);
                     }
+                }
+            }
+            public void LinQ5()
+            {
+                string[] digits = { "zero", "one", "two", "three", "four", "five", "six", "seven", "eight", "nine" }; 
+                foreach (string temp in Array.FindAll(digits, x => x.Length < Array.IndexOf(digits, x)))
+                {
+                    Console.WriteLine(temp);
                 }
             }
             public List<Product> GetProductList()
