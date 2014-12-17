@@ -18,7 +18,7 @@ namespace HackerRank
             }
             Array.Sort(arrayPacket);
             int minimum = arrayPacket[numOfChildren-1]-arrayPacket[0];
-            for (int i = 0; i < numOfPackets - numOfChildren; i = i + numOfChildren)
+            for (int i = 0; i < numOfPackets - numOfChildren; i++)
             {
                 int temp = arrayPacket[i + numOfChildren-1] - arrayPacket[i];
                 if (temp < minimum)
