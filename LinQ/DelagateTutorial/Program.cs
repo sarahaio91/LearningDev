@@ -53,117 +53,117 @@ namespace Bookstore
     }
 }
 
-//// Using the Bookstore classes:
-//namespace BookTestClient
-//{
-//    using Bookstore;
-
-//    // Class to total and average prices of books:
-//    class PriceTotaller
-//    {
-//        int countBooks = 0;
-//        decimal priceBooks = 0.0m;
-
-//        internal void AddBookToTotal(Book book)
-//        {
-//            countBooks += 1;
-//            priceBooks += book.Price;
-//        }
-
-//        internal decimal AveragePrice()
-//        {
-//            return priceBooks / countBooks;
-//        }
-//    }
-
-//    // Class to test the book database:
-//    class Test
-//    {
-//        // Print the title of the book.
-//        static void PrintTitle(Book b)
-//        {
-//            Console.WriteLine("   {0}", b.Title);
-//        }
-
-//        // Execution starts here.
-//        static void Main()
-//        {
-//            BookDB bookDB = new BookDB();
-
-//            // Initialize the database with some books:
-//            AddBooks(bookDB);
-
-//            // Print all the titles of paperbacks:
-//            Console.WriteLine("Paperback Book Titles:");
-//            // Create a new delegate object associated with the static 
-//            // method Test.PrintTitle:
-//            bookDB.ProcessPaperbackBooks(new ProcessBookDelegate(PrintTitle));
-
-//            // Get the average price of a paperback by using
-//            // a PriceTotaller object:
-//            PriceTotaller totaller = new PriceTotaller();
-//            // Create a new delegate object associated with the nonstatic 
-//            // method AddBookToTotal on the object totaller:
-//            bookDB.ProcessPaperbackBooks(new ProcessBookDelegate(totaller.AddBookToTotal));
-//            Console.WriteLine("Average Paperback Book Price: ${0:#.##}",
-//               totaller.AveragePrice());
-//        }
-
-//        // Initialize the book database with some test books:
-//        static void AddBooks(BookDB bookDB)
-//        {
-//            bookDB.AddBook("The C Programming Language",
-//               "Brian W. Kernighan and Dennis M. Ritchie", 19.95m, true);
-//            bookDB.AddBook("The Unicode Standard 2.0",
-//               "The Unicode Consortium", 39.95m, true);
-//            bookDB.AddBook("The MS-DOS Encyclopedia",
-//               "Ray Duncan", 129.95m, false);
-//            bookDB.AddBook("Dogbert's Clues for the Clueless",
-//               "Scott Adams", 12.00m, true);
-//        }
-//    }
-//}
-namespace Example2
+// Using the Bookstore classes:
+namespace BookTestClient
 {
-    delegate void MyDelegate(string s);
+    using Bookstore;
 
-    class MyClass
+    // Class to total and average prices of books:
+    class PriceTotaller
     {
-        public static void Hello(string s)
+        int countBooks = 0;
+        decimal priceBooks = 0.0m;
+
+        internal void AddBookToTotal(Book book)
         {
-            Console.WriteLine("  Hello, {0}!", s);
+            countBooks += 1;
+            priceBooks += book.Price;
         }
 
-        public static void Goodbye(string s)
+        internal decimal AveragePrice()
         {
-            Console.WriteLine("  Goodbye, {0}!", s);
+            return priceBooks / countBooks;
+        }
+    }
+
+    // Class to test the book database:
+    class Test
+    {
+        // Print the title of the book.
+        static void PrintTitle(Book b)
+        {
+            Console.WriteLine("   {0}", b.Title);
         }
 
-        public static void Main()
+        // Execution starts here.
+        static void Main()
         {
-            MyDelegate a, b, c, d;
+            BookDB bookDB = new BookDB();
 
-            // Create the delegate object a that references 
-            // the method Hello:
-            a = new MyDelegate(Hello);
-            // Create the delegate object b that references 
-            // the method Goodbye:
-            b = new MyDelegate(Goodbye);
-            // The two delegates, a and b, are composed to form c: 
-            c = a + b;
-            // Remove a from the composed delegate, leaving d, 
-            // which calls only the method Goodbye:
-            d = c - a;
+            // Initialize the database with some books:
+            AddBooks(bookDB);
 
-            Console.WriteLine("Invoking delegate a:");
-            a("A");
-            Console.WriteLine("Invoking delegate b:");
-            b("B");
-            Console.WriteLine("Invoking delegate c:");
-            c("C");
-            Console.WriteLine("Invoking delegate d:");
-            d("D");
+            // Print all the titles of paperbacks:
+            Console.WriteLine("Paperback Book Titles:");
+            // Create a new delegate object associated with the static 
+            // method Test.PrintTitle:
+            bookDB.ProcessPaperbackBooks(new ProcessBookDelegate(PrintTitle));
+
+            // Get the average price of a paperback by using
+            // a PriceTotaller object:
+            PriceTotaller totaller = new PriceTotaller();
+            // Create a new delegate object associated with the nonstatic 
+            // method AddBookToTotal on the object totaller:
+            bookDB.ProcessPaperbackBooks(new ProcessBookDelegate(totaller.AddBookToTotal));
+            Console.WriteLine("Average Paperback Book Price: ${0:#.##}",
+               totaller.AveragePrice());
+        }
+
+        // Initialize the book database with some test books:
+        static void AddBooks(BookDB bookDB)
+        {
+            bookDB.AddBook("The C Programming Language",
+               "Brian W. Kernighan and Dennis M. Ritchie", 19.95m, true);
+            bookDB.AddBook("The Unicode Standard 2.0",
+               "The Unicode Consortium", 39.95m, true);
+            bookDB.AddBook("The MS-DOS Encyclopedia",
+               "Ray Duncan", 129.95m, false);
+            bookDB.AddBook("Dogbert's Clues for the Clueless",
+               "Scott Adams", 12.00m, true);
         }
     }
 }
+//namespace Example2
+//{
+//    delegate void MyDelegate(string s);
+
+//    class MyClass
+//    {
+//        public static void Hello(string s)
+//        {
+//            Console.WriteLine("  Hello, {0}!", s);
+//        }
+
+//        public static void Goodbye(string s)
+//        {
+//            Console.WriteLine("  Goodbye, {0}!", s);
+//        }
+
+//        public static void Main()
+//        {
+//            MyDelegate a, b, c, d;
+
+//            // Create the delegate object a that references 
+//            // the method Hello:
+//            a = new MyDelegate(Hello);
+//            // Create the delegate object b that references 
+//            // the method Goodbye:
+//            b = new MyDelegate(Goodbye);
+//            // The two delegates, a and b, are composed to form c: 
+//            c = a + b;
+//            // Remove a from the composed delegate, leaving d, 
+//            // which calls only the method Goodbye:
+//            d = c - a;
+
+//            Console.WriteLine("Invoking delegate a:");
+//            a("A");
+//            Console.WriteLine("Invoking delegate b:");
+//            b("B");
+//            Console.WriteLine("Invoking delegate c:");
+//            c("C");
+//            Console.WriteLine("Invoking delegate d:");
+//            d("D");
+//        }
+//    }
+//}
 
