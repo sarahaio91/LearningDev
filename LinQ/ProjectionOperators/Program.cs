@@ -17,7 +17,13 @@ namespace ProjectionOperators
             //obj.LinQ7();
             //obj.LinQ8();
             //obj.LinQ9();
-            obj.LinQ10();
+            //obj.LinQ10();
+            //obj.LinQ11();
+            //obj.LinQ12();
+            //obj.LinQ13();
+            //obj.LinQ14();
+            //obj.LinQ15();
+            obj.LinQ16();
         }
     }
     public class ProjectionExample
@@ -80,11 +86,62 @@ namespace ProjectionOperators
         {
             int[] numbers = { 5, 4, 1, 3, 9, 8, 6, 7, 2, 0 };
             string[] strings = { "zero", "one", "two", "three", "four", "five", "six", "seven", "eight", "nine" };
-            Array.ForEach(numbers, x => Console.WriteLine("{0} length is {1}", x, strings[x].Length%2==0?"Even":"Odd"));
+            Array.ForEach(numbers, x => Console.WriteLine("{0} length is {1}", x, strings[x].Length % 2 == 0 ? "Even" : "Odd"));
         }
         public void LinQ11()
         {
             DataRow[] products = testDS.Tables["Products"].AsEnumerable().ToArray();
+            var product = (from p in products
+                           select new
+                           {
+                               ID = p.Field<int>("ProductID"),
+                               ProductName = p.Field<string>("ProductName"),
+                               Category = p.Field<string>("Category"),
+                               Price = p.Field<decimal>("UnitPrice")
+                           }).ToArray();
+            Array.ForEach(product, x => Console.WriteLine("ProductID: {0}; ProductName {1}; Category {2}; Price: {3}", x.ID, x.ProductName, x.Category, x.Price));
+        }
+        public void LinQ12()
+        {
+            int[] numbers = { 5, 4, 1, 3, 9, 8, 6, 7, 2, 0 };
+            Array.ForEach(numbers, x => Console.WriteLine("{0}", (x == Array.IndexOf(numbers, x)) ? "Yes" : "No"));
+        }
+        public void LinQ13()
+        {
+            int[] numbers = { 5, 4, 1, 3, 9, 8, 6, 7, 2, 0 };
+            string[] digits = { "zero", "one", "two", "three", "four", "five", "six", "seven", "eight", "nine" };
+
+            var result = (from p in numbers
+                          where p < 5
+                          select digits[p]).ToArray();
+            Array.ForEach(result, x => Console.WriteLine(x));
+        }
+        public void LinQ14()
+        {
+            Action<int, int> act = (a, b) => { if (a < b) Console.WriteLine("{0} < {1}", a, b); };
+            int[] numbersA = { 0, 2, 4, 5, 6, 8, 9 };
+            int[] numbersB = { 1, 3, 5, 7, 8 };
+            Array.ForEach(numbersA, x => Array.ForEach(numbersB, y => { if (x < y) Console.WriteLine("{0} < {1}", x, y); }));
+        }
+        public void LinQ15()
+        {
+            var orders = testDS.Tables["Orders"].AsEnumerable().ToArray();
+            Array.ForEach(orders, x =>
+            {
+                if (x.Field<decimal>("Total") < 500)
+                    Console.WriteLine("OrderID: {0}; CustomerID: {1}; Total: {2}", x.Field<int>("OrderID"), x.Field<string>("CustomerID"), x.Field<decimal>("Total"));
+            });
+        }
+        public void LinQ16()
+        {
+            var orders = testDS.Tables["Orders"].AsEnumerable().ToArray();
+            DateTime temp = new DateTime(1998, 1, 1);
+            Array.ForEach(orders, x =>
+            {
+                int result = DateTime.Compare(x.Field<DateTime>("OrderDate"), temp);
+                if (result > 0)
+                    Console.WriteLine("OrderID: {0}; CustomerID: {1}; Total: {2}; DateTime: {3}", x.Field<int>("OrderID"), x.Field<string>("CustomerID"), x.Field<decimal>("Total"), x.Field<DateTime>("OrderDate"));
+            });
         }
     }
     internal class TestHelper

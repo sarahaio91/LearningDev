@@ -12,11 +12,16 @@ namespace RestrictionOperator
         static void Main(string[] args)
         {
             LinQExample obj = new LinQExample();
+            // Restriction
             //obj.LinQ1();
             //obj.LinQ2();
             //obj.LinQ3();
             //obj.LinQ4();
-            obj.LinQ5();
+            //obj.LinQ5();
+
+            // Partitioning
+            //obj.LinQ20();
+            obj.LinQ21();
         }
         public class Product
         {
@@ -63,7 +68,8 @@ namespace RestrictionOperator
             public void LinQ2()
             {
                 List<Product> products = GetProductList();
-                foreach (Product i in products.FindAll(x => x.UnitsInStock<=0)){
+                foreach (Product i in products.FindAll(x => x.UnitsInStock <= 0))
+                {
                     Console.WriteLine(i.ProductName);
                 }
             }
@@ -78,22 +84,48 @@ namespace RestrictionOperator
             public void LinQ4()
             {
                 List<Customer> customers = GetCustomerList();
-                foreach (Customer i in customers.FindAll(x => (x.Region == "WA" )))
+                foreach (Customer i in customers.FindAll(x => (x.Region == "WA")))
                 {
                     Console.WriteLine(i.CompanyName);
                     foreach (Order j in i.Orders)
                     {
-                        Console.WriteLine("{0} {1}",j.OrderID, j.OrderDate);
+                        Console.WriteLine("{0} {1}", j.OrderID, j.OrderDate);
                     }
                 }
             }
             public void LinQ5()
             {
-                string[] digits = { "zero", "one", "two", "three", "four", "five", "six", "seven", "eight", "nine" }; 
+                string[] digits = { "zero", "one", "two", "three", "four", "five", "six", "seven", "eight", "nine" };
                 foreach (string temp in Array.FindAll(digits, x => x.Length < Array.IndexOf(digits, x)))
                 {
                     Console.WriteLine(temp);
                 }
+            }
+            public void LinQ20()
+            {
+
+                int[] numbers = { 5, 4, 1, 3, 9, 8, 6, 7, 2, 0 };
+                var first3 = numbers.Take(3).ToArray();
+                Array.ForEach(first3, x =>
+                {
+                    Console.WriteLine(x);
+                });
+
+            }
+            public void LinQ21()
+            {
+                List<Customer> customers = GetCustomerList();
+
+                // get the first 3 orders from customers in Washington.
+                var orders = customers.Where(cust => cust.Region == "WA").SelectMany(cust => cust.Orders, (cust, order) => new { cust.CustomerID, order.OrderID, order.OrderDate }).Take(3).ToArray();
+
+                Array.ForEach(orders, x => Console.WriteLine("{0} {1} {2}", x.CustomerID, x.OrderID, x.OrderDate));
+
+                //var result = customers.Where(x => x.Region == "WA").Take(//.Select(cus => cus.Orders.Select(y => new {CusID = cus.CustomerID, OrderID = y.OrderID, OrderDate = y.OrderDate})).ToArray();
+
+                //var subResult = result.Take(3).ToArray();
+                //Array.ForEach(subResult, x => Console.WriteLine("{0} {1} {2}",x.C))
+
             }
             public List<Product> GetProductList()
             {

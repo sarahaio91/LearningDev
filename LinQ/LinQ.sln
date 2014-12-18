@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
 VisualStudioVersion = 12.0.30723.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RestrictionOperators", "RestrictionOperator\RestrictionOperators.csproj", "{DCC36938-CD6A-4FC2-BF43-7706B81A2D5D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinQ", "RestrictionOperator\LinQ.csproj", "{DCC36938-CD6A-4FC2-BF43-7706B81A2D5D}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DelagateTutorial", "DelagateTutorial\DelagateTutorial.csproj", "{E49E5F37-304E-490A-8ECB-E6ED8D55330B}"
 EndProject
