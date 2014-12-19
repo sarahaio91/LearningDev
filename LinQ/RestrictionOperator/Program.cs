@@ -38,7 +38,9 @@ namespace RestrictionOperator
             //obj.LinQ34();
             //obj.LinQ39();
             //obj.LinQ40();
-            obj.LinQ41();
+            //obj.LinQ41();
+            //obj.LinQ42();
+            obj.LinQ43();
         }
         public class Product
         {
@@ -162,12 +164,12 @@ namespace RestrictionOperator
             public void LinQ27()
             {
                 int[] numbers = { 5, 4, 1, 3, 9, 8, 6, 7, 2, 0 };
-                Array.ForEach(numbers.SkipWhile((p,n) => p >= n).ToArray(), p => Console.WriteLine(p));
+                Array.ForEach(numbers.SkipWhile((p, n) => p >= n).ToArray(), p => Console.WriteLine(p));
             }
             public void LinQ28()
             {
                 string[] words = { "cherry", "apple", "blueberry" };
-                Array.ForEach(words.OrderBy(x => x).ToArray(),y => Console.WriteLine(y));
+                Array.ForEach(words.OrderBy(x => x).ToArray(), y => Console.WriteLine(y));
             }
             public void LinQ29()
             {
@@ -208,23 +210,12 @@ namespace RestrictionOperator
             public void LinQ40()
             {
                 int[] numbers = { 5, 4, 1, 3, 9, 8, 6, 7, 2, 0 };
-                Array.ForEach(numbers.GroupBy(x => x % 5).Select(y => new {Remainder = y.Key, y}).ToArray(), y =>
+                Array.ForEach(numbers.GroupBy(x => x % 5).Select(y => new { Remainder = y.Key, y }).ToArray(), y =>
                 {
                     Console.WriteLine("Remainder: {0}", y.Remainder);
                     foreach (var g in y.y)
                     {
                         Console.WriteLine("{0}", g);
-                    }
-                });
-            }
-            public void LinQ41()
-            {
-                string[] words = { "blueberry", "chimpanzee", "abacus", "banana", "apple", "cheese" };
-                Array.ForEach(words.GroupBy(x => x[0]).Select(y => new{Key = y.Key, Word = y}).ToArray(), m => {
-                    Console.WriteLine("Start with {0}", m.Key);
-                    foreach (var s in m.Word)
-                    {
-                        Console.WriteLine(s);
                     }
                 });
             }
@@ -239,7 +230,45 @@ namespace RestrictionOperator
                         Console.WriteLine(s);
                     }
                 });
-            } 
+            }
+            public void LinQ42()
+            {
+                List<Product> products = GetProductList();
+                Array.ForEach(products.GroupBy(x => x.Category).Select(y => new { Key = y.Key, Products = y }).ToArray(), z =>
+                {
+                    Console.WriteLine(z.Key);
+                    foreach (var m in z.Products)
+                    {
+                        Console.WriteLine(m.ProductID + " " + m.ProductName);
+                    }
+                });
+            }
+            public void LinQ43()
+            {
+                List<Customer> customers = GetCustomerList();
+                Array.ForEach(customers.GroupBy(x => x.CompanyName).Select(y => new { Cus = y.Key, Customers = y }).ToArray(), z =>
+                {
+                    Console.WriteLine(z.Cus);
+                    foreach (var m in z.Customers)
+                    {
+                        var temp = m.Orders.GroupBy(s => s.OrderDate.Year).Select(u => new {Year = u.Key, Orders = u});
+                        
+                        foreach (var dd in temp){
+                            Console.WriteLine("Year "+dd.Year);
+
+                            var query = dd.Orders.GroupBy(x => x.OrderDate.Month).Select(x => new { Month = x.Key, Orders = x });
+                            foreach (var x in query)
+                            {
+                                Console.WriteLine("Month "+x.Month);
+                                foreach (var cus3 in x.Orders)
+                                {
+                                    Console.WriteLine("{0} {1} {2}", cus3.OrderID, cus3.OrderDate, cus3.Total);
+                                }
+                            }
+                        }
+                    }
+                });
+            }
 
             public List<Product> GetProductList()
             {
@@ -369,7 +398,7 @@ namespace RestrictionOperator
                     .ToList();
             }
 
-            
+
         }
     }
 }
