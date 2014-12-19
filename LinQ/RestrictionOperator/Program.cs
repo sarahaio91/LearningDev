@@ -26,7 +26,19 @@ namespace RestrictionOperator
             //obj.LinQ24();
             //obj.LinQ25();
             //obj.LinQ26();
-            obj.LinQ27();
+            //obj.LinQ27();
+
+            // Ordering
+            //obj.LinQ28();
+            //obj.LinQ29();
+            //obj.LinQ30();
+            //obj.LinQ31();
+            //obj.Linq32();
+            //obj.LinQ33();
+            //obj.LinQ34();
+            //obj.LinQ39();
+            //obj.LinQ40();
+            obj.LinQ41();
         }
         public class Product
         {
@@ -152,6 +164,83 @@ namespace RestrictionOperator
                 int[] numbers = { 5, 4, 1, 3, 9, 8, 6, 7, 2, 0 };
                 Array.ForEach(numbers.SkipWhile((p,n) => p >= n).ToArray(), p => Console.WriteLine(p));
             }
+            public void LinQ28()
+            {
+                string[] words = { "cherry", "apple", "blueberry" };
+                Array.ForEach(words.OrderBy(x => x).ToArray(),y => Console.WriteLine(y));
+            }
+            public void LinQ29()
+            {
+                string[] words = { "cherry", "apple", "blueberry" };
+                Array.ForEach(words.OrderBy(x => x.Length).ToArray(), y => Console.WriteLine(y));
+            }
+            public void LinQ30()
+            {
+                List<Product> products = GetProductList();
+                Array.ForEach(products.OrderBy(x => x.ProductName).ToArray(), y => Console.WriteLine(y.ProductName));
+            }
+            public void LinQ31()
+            {
+                string[] words = { "aPPLE", "AbAcUs", "bRaNcH", "BlUeBeRrY", "ClOvEr", "cHeRry" };
+                //First way
+                Array.ForEach(words.OrderBy(x => x.ToLower()).ToArray(), y => Console.WriteLine(y));
+            }
+            public void Linq32()
+            {
+                double[] doubles = { 1.7, 2.3, 1.9, 4.1, 2.9 };
+                Array.ForEach(doubles.OrderByDescending(s => s).ToArray(), y => Console.WriteLine(y));
+            }
+            public void LinQ33()
+            {
+                List<Product> products = GetProductList();
+                Array.ForEach(products.OrderByDescending(y => y.UnitsInStock).ToArray(), x => Console.WriteLine("{0} {1}", x.ProductName, x.UnitsInStock));
+            }
+            public void LinQ34()
+            {
+                string[] digits = { "zero", "one", "two", "three", "four", "five", "six", "seven", "eight", "nine" };
+                Array.ForEach(digits.OrderBy(y => y.Length).ThenBy(y => y).ToArray(), x => Console.WriteLine("{0}", x));
+            }
+            public void LinQ39()
+            {
+                string[] digits = { "zero", "one", "two", "three", "four", "five", "six", "seven", "eight", "nine" };
+                Array.ForEach(digits.Where(x => x[1] == 'i').Reverse().ToArray(), y => Console.WriteLine(y));
+            }
+            public void LinQ40()
+            {
+                int[] numbers = { 5, 4, 1, 3, 9, 8, 6, 7, 2, 0 };
+                Array.ForEach(numbers.GroupBy(x => x % 5).Select(y => new {Remainder = y.Key, y}).ToArray(), y =>
+                {
+                    Console.WriteLine("Remainder: {0}", y.Remainder);
+                    foreach (var g in y.y)
+                    {
+                        Console.WriteLine("{0}", g);
+                    }
+                });
+            }
+            public void LinQ41()
+            {
+                string[] words = { "blueberry", "chimpanzee", "abacus", "banana", "apple", "cheese" };
+                Array.ForEach(words.GroupBy(x => x[0]).Select(y => new{Key = y.Key, Word = y}).ToArray(), m => {
+                    Console.WriteLine("Start with {0}", m.Key);
+                    foreach (var s in m.Word)
+                    {
+                        Console.WriteLine(s);
+                    }
+                });
+            }
+            public void LinQ41()
+            {
+                string[] words = { "blueberry", "chimpanzee", "abacus", "banana", "apple", "cheese" };
+                Array.ForEach(words.GroupBy(x => x[0]).Select(y => new { Key = y.Key, Word = y }).ToArray(), m =>
+                {
+                    Console.WriteLine("Start with {0}", m.Key);
+                    foreach (var s in m.Word)
+                    {
+                        Console.WriteLine(s);
+                    }
+                });
+            } 
+
             public List<Product> GetProductList()
             {
                 if (productList == null)
@@ -279,6 +368,8 @@ namespace RestrictionOperator
                     })
                     .ToList();
             }
+
+            
         }
     }
 }
