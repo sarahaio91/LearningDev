@@ -21,7 +21,12 @@ namespace RestrictionOperator
 
             // Partitioning
             //obj.LinQ20();
-            obj.LinQ21();
+            //obj.LinQ21();
+            //obj.LinQ23();
+            //obj.LinQ24();
+            //obj.LinQ25();
+            //obj.LinQ26();
+            obj.LinQ27();
         }
         public class Product
         {
@@ -120,12 +125,32 @@ namespace RestrictionOperator
                 var orders = customers.Where(cust => cust.Region == "WA").SelectMany(cust => cust.Orders, (cust, order) => new { cust.CustomerID, order.OrderID, order.OrderDate }).Take(3).ToArray();
 
                 Array.ForEach(orders, x => Console.WriteLine("{0} {1} {2}", x.CustomerID, x.OrderID, x.OrderDate));
-
-                //var result = customers.Where(x => x.Region == "WA").Take(//.Select(cus => cus.Orders.Select(y => new {CusID = cus.CustomerID, OrderID = y.OrderID, OrderDate = y.OrderDate})).ToArray();
-
-                //var subResult = result.Take(3).ToArray();
-                //Array.ForEach(subResult, x => Console.WriteLine("{0} {1} {2}",x.C))
-
+            }
+            public void LinQ23()
+            {
+                List<Customer> customers = GetCustomerList();
+                var orders = customers.Where(cus => cus.Region == "WA").SelectMany(cus => cus.Orders, (cus, order) => new { cus.CustomerID, order.OrderID, order.OrderDate }).Skip(2).ToArray();
+                Array.ForEach(orders, x => Console.WriteLine("{0} {1} {2}", x.CustomerID, x.OrderID, x.OrderDate));
+            }
+            public void LinQ24()
+            {
+                int[] numbers = { 5, 4, 1, 3, 9, 8, 6, 7, 2, 0 };
+                Array.ForEach(numbers.TakeWhile(p => p < 6).ToArray(), p => Console.WriteLine(p));
+            }
+            public void LinQ25()
+            {
+                int[] numbers = { 5, 4, 1, 3, 9, 8, 6, 7, 2, 0 };
+                Array.ForEach(numbers.TakeWhile((p, k) => p >= k).ToArray(), p => Console.WriteLine(p));
+            }
+            public void LinQ26()
+            {
+                int[] numbers = { 5, 4, 1, 3, 9, 8, 6, 7, 2, 0 };
+                Array.ForEach(numbers.SkipWhile(p => p % 3 != 0).ToArray(), p => Console.WriteLine(p));
+            }
+            public void LinQ27()
+            {
+                int[] numbers = { 5, 4, 1, 3, 9, 8, 6, 7, 2, 0 };
+                Array.ForEach(numbers.SkipWhile((p,n) => p >= n).ToArray(), p => Console.WriteLine(p));
             }
             public List<Product> GetProductList()
             {
