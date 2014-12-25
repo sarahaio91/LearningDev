@@ -136,7 +136,7 @@
         <Variable x:TypeArguments="x:Int32" Name="Guess" />
         <Variable x:TypeArguments="x:Int32" Name="Target" />
       </StateMachine.Variables>
-      <sads:DebugSymbol.Symbol>9xAezbOP54ydPyUialEuJ5PzggFDOlxVc2Vyc1x0cnVvbmcubGVcRGVza3RvcFxXb3Jrc3BhY2VcV0Y0NUdldHRpbmdTdGFydGVkVHV0b3JpYWxcTnVtYmVyR3Vlc3NXb3JrZmxvd0FjdGl2aXRpZXNcU3RhdGVNYWNoaW5lTnVtYmVyR3Vlc3NXb3JrZmxvdy54YW1sGS0DnAESAgEBLweSAQ8CAUBBD44BFwIBBGMXY4oBAgECMQs8FAIBQ0MTRx8CATpKE1UcAgEvWhdgJwIBKG4XbmUCASNmF2sjAgEdigEXigFlAgEYcxeHARwCAQY5ETl4AgFJNBE0XAIBREUXRYcBAgE7UhlSXwIBNU0ZTWMCATBaS1pXAgEuXR1dZwIBKWgbaIoBAgEedh12bQIBB3obficCARKBARuFAScCAQx8H3xyAgETgwEfgwFzAgEN</sads:DebugSymbol.Symbol>
+      <sads:DebugSymbol.Symbol>9xAezbOP54ydPyUialEuJ5Pzf0M6XFVzZXJzXFRydW9uZ1xEZXNrdG9wXFdvcmtzcGFjZVxXRjQ1R2V0dGluZ1N0YXJ0ZWRUdXRvcmlhbFxOdW1iZXJHdWVzc1dvcmtmbG93QWN0aXZpdGllc1xTdGF0ZU1hY2hpbmVOdW1iZXJHdWVzc1dvcmtmbG93LnhhbWwZLQOcARICAQEvB5IBDwIBQEEPjgEXAgEEYxdjigECAQIxCzwUAgFDQxNHHwIBOkoTVRwCAS9aF2AnAgEobhduZQIBI2YXayMCAR2KAReKAWUCARhzF4cBHAIBBjkROXgCAUk0ETRcAgFERRdFhwECATtSGVJfAgE1TRlNYwIBMFpLWlcCAS5dHV1nAgEpaBtoigECAR52HXZtAgEHeht+JwIBEoEBG4UBJwIBDHwffHICARODAR+DAXMCAQ0=</sads:DebugSymbol.Symbol>
     </StateMachine>
   </local:StateMachineNumberGuessWorkflow.Implementation>
 </local:StateMachineNumberGuessWorkflow>

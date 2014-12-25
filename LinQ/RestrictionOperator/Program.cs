@@ -40,7 +40,8 @@ namespace RestrictionOperator
             //obj.LinQ40();
             //obj.LinQ41();
             //obj.LinQ42();
-            obj.LinQ43();
+            //obj.LinQ43();
+            obj.LinQ44();
         }
         public class Product
         {
@@ -251,15 +252,16 @@ namespace RestrictionOperator
                     Console.WriteLine(z.Cus);
                     foreach (var m in z.Customers)
                     {
-                        var temp = m.Orders.GroupBy(s => s.OrderDate.Year).Select(u => new {Year = u.Key, Orders = u});
-                        
-                        foreach (var dd in temp){
-                            Console.WriteLine("Year "+dd.Year);
+                        var temp = m.Orders.GroupBy(s => s.OrderDate.Year).Select(u => new { Year = u.Key, Orders = u });
+
+                        foreach (var dd in temp)
+                        {
+                            Console.WriteLine("Year " + dd.Year);
 
                             var query = dd.Orders.GroupBy(x => x.OrderDate.Month).Select(x => new { Month = x.Key, Orders = x });
                             foreach (var x in query)
                             {
-                                Console.WriteLine("Month "+x.Month);
+                                Console.WriteLine("Month " + x.Month);
                                 foreach (var cus3 in x.Orders)
                                 {
                                     Console.WriteLine("{0} {1} {2}", cus3.OrderID, cus3.OrderDate, cus3.Total);
@@ -268,6 +270,31 @@ namespace RestrictionOperator
                         }
                     }
                 });
+            }
+            public void LinQ44()
+            {
+                string[] anagrams = { "from   ", " salt", " earn ", "  last   ", " near ", " form  " };
+                Array.ForEach(anagrams.GroupBy(x => x.Trim(), new MyCompare()).Select(x => new { Key = x.Key, Str = x}).ToArray(), y => {
+                    Console.WriteLine("Key: " + y.Key);
+                    Array.ForEach(y.Str.ToArray(), m => Console.WriteLine(m));
+                });
+            }
+            public class MyCompare : IEqualityComparer<string>
+            {
+                public bool Equals(string a, string b)
+                {
+                    return getSortedString(a) == getSortedString(b);
+                }
+                public int GetHashCode(string obj)
+                {
+                    return getSortedString(obj).GetHashCode();
+                }
+                private string getSortedString(string a)
+                {
+                    char[] b = a.ToCharArray();
+                    Array.Sort(b);
+                    return b.ToString();
+                }
             }
 
             public List<Product> GetProductList()

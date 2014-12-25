@@ -17,7 +17,7 @@ namespace NumberGuessWorkflowHost
 {
     public partial class WorkflowHostForm : Form
     {
-        const string connectionString = "Server=.\\SQLEXPRESS;Initial Catalog=WF45GettingStartedTutorial;Trusted_Connection=True;";
+        const string connectionString = "Server=TRUONGLE;Initial Catalog=WF45GettingStartedTutorial;Trusted_Connection=True;";
         SqlWorkflowInstanceStore store;
         bool WorkflowStarting;
 

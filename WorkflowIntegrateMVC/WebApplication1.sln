@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30723.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebMVC", "WebApplication1\WebMVC.csproj", "{13BA0EA8-B3BE-4F64-AB62-CDD41920A5F1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WorkflowHost", "WindowsFormsApplication1\WorkflowHost.csproj", "{B5AEAD1A-9231-4C36-97A0-41B8E7DE80CC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WorkflowActivities", "WorkflowActivities\WorkflowActivities.csproj", "{B5300544-AB3B-4309-9CE3-1F071A3827FF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{13BA0EA8-B3BE-4F64-AB62-CDD41920A5F1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{13BA0EA8-B3BE-4F64-AB62-CDD41920A5F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{13BA0EA8-B3BE-4F64-AB62-CDD41920A5F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{13BA0EA8-B3BE-4F64-AB62-CDD41920A5F1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B5AEAD1A-9231-4C36-97A0-41B8E7DE80CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B5AEAD1A-9231-4C36-97A0-41B8E7DE80CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B5AEAD1A-9231-4C36-97A0-41B8E7DE80CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B5AEAD1A-9231-4C36-97A0-41B8E7DE80CC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B5300544-AB3B-4309-9CE3-1F071A3827FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B5300544-AB3B-4309-9CE3-1F071A3827FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B5300544-AB3B-4309-9CE3-1F071A3827FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B5300544-AB3B-4309-9CE3-1F071A3827FF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

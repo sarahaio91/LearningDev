@@ -1,60 +1,60 @@
 namespace NumberGuessWorkflowActivities {
     
-    #line 21 "C:\Users\truong.le\Desktop\Workspace\WF45GettingStartedTutorial\NumberGuessWorkflowActivities\StateMachineNumberGuessWorkflow.xaml"
+    #line 21 "C:\Users\Truong\Desktop\Workspace\WF45GettingStartedTutorial\NumberGuessWorkflowActivities\StateMachineNumberGuessWorkflow.xaml"
     using System;
     
     #line default
     #line hidden
     
-    #line 1 "C:\Users\truong.le\Desktop\Workspace\WF45GettingStartedTutorial\NumberGuessWorkflowActivities\StateMachineNumberGuessWorkflow.xaml"
+    #line 1 "C:\Users\Truong\Desktop\Workspace\WF45GettingStartedTutorial\NumberGuessWorkflowActivities\StateMachineNumberGuessWorkflow.xaml"
     using System.Collections;
     
     #line default
     #line hidden
     
-    #line 22 "C:\Users\truong.le\Desktop\Workspace\WF45GettingStartedTutorial\NumberGuessWorkflowActivities\StateMachineNumberGuessWorkflow.xaml"
+    #line 22 "C:\Users\Truong\Desktop\Workspace\WF45GettingStartedTutorial\NumberGuessWorkflowActivities\StateMachineNumberGuessWorkflow.xaml"
     using System.Collections.Generic;
     
     #line default
     #line hidden
     
-    #line 1 "C:\Users\truong.le\Desktop\Workspace\WF45GettingStartedTutorial\NumberGuessWorkflowActivities\StateMachineNumberGuessWorkflow.xaml"
+    #line 1 "C:\Users\Truong\Desktop\Workspace\WF45GettingStartedTutorial\NumberGuessWorkflowActivities\StateMachineNumberGuessWorkflow.xaml"
     using System.Activities;
     
     #line default
     #line hidden
     
-    #line 1 "C:\Users\truong.le\Desktop\Workspace\WF45GettingStartedTutorial\NumberGuessWorkflowActivities\StateMachineNumberGuessWorkflow.xaml"
+    #line 1 "C:\Users\Truong\Desktop\Workspace\WF45GettingStartedTutorial\NumberGuessWorkflowActivities\StateMachineNumberGuessWorkflow.xaml"
     using System.Activities.Expressions;
     
     #line default
     #line hidden
     
-    #line 1 "C:\Users\truong.le\Desktop\Workspace\WF45GettingStartedTutorial\NumberGuessWorkflowActivities\StateMachineNumberGuessWorkflow.xaml"
+    #line 1 "C:\Users\Truong\Desktop\Workspace\WF45GettingStartedTutorial\NumberGuessWorkflowActivities\StateMachineNumberGuessWorkflow.xaml"
     using System.Activities.Statements;
     
     #line default
     #line hidden
     
-    #line 23 "C:\Users\truong.le\Desktop\Workspace\WF45GettingStartedTutorial\NumberGuessWorkflowActivities\StateMachineNumberGuessWorkflow.xaml"
+    #line 23 "C:\Users\Truong\Desktop\Workspace\WF45GettingStartedTutorial\NumberGuessWorkflowActivities\StateMachineNumberGuessWorkflow.xaml"
     using System.Data;
     
     #line default
     #line hidden
     
-    #line 24 "C:\Users\truong.le\Desktop\Workspace\WF45GettingStartedTutorial\NumberGuessWorkflowActivities\StateMachineNumberGuessWorkflow.xaml"
+    #line 24 "C:\Users\Truong\Desktop\Workspace\WF45GettingStartedTutorial\NumberGuessWorkflowActivities\StateMachineNumberGuessWorkflow.xaml"
     using System.Linq;
     
     #line default
     #line hidden
     
-    #line 25 "C:\Users\truong.le\Desktop\Workspace\WF45GettingStartedTutorial\NumberGuessWorkflowActivities\StateMachineNumberGuessWorkflow.xaml"
+    #line 25 "C:\Users\Truong\Desktop\Workspace\WF45GettingStartedTutorial\NumberGuessWorkflowActivities\StateMachineNumberGuessWorkflow.xaml"
     using System.Text;
     
     #line default
     #line hidden
     
-    #line 1 "C:\Users\truong.le\Desktop\Workspace\WF45GettingStartedTutorial\NumberGuessWorkflowActivities\StateMachineNumberGuessWorkflow.xaml"
+    #line 1 "C:\Users\Truong\Desktop\Workspace\WF45GettingStartedTutorial\NumberGuessWorkflowActivities\StateMachineNumberGuessWorkflow.xaml"
     using System.Activities.XamlIntegration;
     
     #line default
@@ -789,7 +789,7 @@ namespace NumberGuessWorkflowActivities {
             
             internal System.Linq.Expressions.Expression @__Expr1GetTree() {
                 
-                #line 51 "C:\USERS\TRUONG.LE\DESKTOP\WORKSPACE\WF45GETTINGSTARTEDTUTORIAL\NUMBERGUESSWORKFLOWACTIVITIES\STATEMACHINENUMBERGUESSWORKFLOW.XAML"
+                #line 51 "C:\USERS\TRUONG\DESKTOP\WORKSPACE\WF45GETTINGSTARTEDTUTORIAL\NUMBERGUESSWORKFLOWACTIVITIES\STATEMACHINENUMBERGUESSWORKFLOW.XAML"
                 System.Linq.Expressions.Expression<System.Func<int>> expression = () => 
                 Target;
                 
@@ -801,7 +801,7 @@ namespace NumberGuessWorkflowActivities {
             [System.Diagnostics.DebuggerHiddenAttribute()]
             public int @__Expr1Get() {
                 
-                #line 51 "C:\USERS\TRUONG.LE\DESKTOP\WORKSPACE\WF45GETTINGSTARTEDTUTORIAL\NUMBERGUESSWORKFLOWACTIVITIES\STATEMACHINENUMBERGUESSWORKFLOW.XAML"
+                #line 51 "C:\USERS\TRUONG\DESKTOP\WORKSPACE\WF45GETTINGSTARTEDTUTORIAL\NUMBERGUESSWORKFLOWACTIVITIES\STATEMACHINENUMBERGUESSWORKFLOW.XAML"
                 return 
                 Target;
                 
@@ -817,7 +817,7 @@ namespace NumberGuessWorkflowActivities {
             [System.Diagnostics.DebuggerHiddenAttribute()]
             public void @__Expr1Set(int value) {
                 
-                #line 51 "C:\USERS\TRUONG.LE\DESKTOP\WORKSPACE\WF45GETTINGSTARTEDTUTORIAL\NUMBERGUESSWORKFLOWACTIVITIES\STATEMACHINENUMBERGUESSWORKFLOW.XAML"
+                #line 51 "C:\USERS\TRUONG\DESKTOP\WORKSPACE\WF45GETTINGSTARTEDTUTORIAL\NUMBERGUESSWORKFLOWACTIVITIES\STATEMACHINENUMBERGUESSWORKFLOW.XAML"
                 
                 Target = value;
                 
@@ -882,7 +882,7 @@ namespace NumberGuessWorkflowActivities {
             
             internal System.Linq.Expressions.Expression @__Expr0GetTree() {
                 
-                #line 56 "C:\USERS\TRUONG.LE\DESKTOP\WORKSPACE\WF45GETTINGSTARTEDTUTORIAL\NUMBERGUESSWORKFLOWACTIVITIES\STATEMACHINENUMBERGUESSWORKFLOW.XAML"
+                #line 56 "C:\USERS\TRUONG\DESKTOP\WORKSPACE\WF45GETTINGSTARTEDTUTORIAL\NUMBERGUESSWORKFLOWACTIVITIES\STATEMACHINENUMBERGUESSWORKFLOW.XAML"
                 System.Linq.Expressions.Expression<System.Func<int>> expression = () => 
                 new System.Random().Next(1, MaxNumber + 1);
                 
@@ -894,7 +894,7 @@ namespace NumberGuessWorkflowActivities {
             [System.Diagnostics.DebuggerHiddenAttribute()]
             public int @__Expr0Get() {
                 
-                #line 56 "C:\USERS\TRUONG.LE\DESKTOP\WORKSPACE\WF45GETTINGSTARTEDTUTORIAL\NUMBERGUESSWORKFLOWACTIVITIES\STATEMACHINENUMBERGUESSWORKFLOW.XAML"
+                #line 56 "C:\USERS\TRUONG\DESKTOP\WORKSPACE\WF45GETTINGSTARTEDTUTORIAL\NUMBERGUESSWORKFLOWACTIVITIES\STATEMACHINENUMBERGUESSWORKFLOW.XAML"
                 return 
                 new System.Random().Next(1, MaxNumber + 1);
                 
@@ -958,7 +958,7 @@ namespace NumberGuessWorkflowActivities {
             
             internal System.Linq.Expressions.Expression @__Expr4GetTree() {
                 
-                #line 76 "C:\USERS\TRUONG.LE\DESKTOP\WORKSPACE\WF45GETTINGSTARTEDTUTORIAL\NUMBERGUESSWORKFLOWACTIVITIES\STATEMACHINENUMBERGUESSWORKFLOW.XAML"
+                #line 76 "C:\USERS\TRUONG\DESKTOP\WORKSPACE\WF45GETTINGSTARTEDTUTORIAL\NUMBERGUESSWORKFLOWACTIVITIES\STATEMACHINENUMBERGUESSWORKFLOW.XAML"
                 System.Linq.Expressions.Expression<System.Func<int>> expression = () => 
                         Turns;
                 
@@ -970,7 +970,7 @@ namespace NumberGuessWorkflowActivities {
             [System.Diagnostics.DebuggerHiddenAttribute()]
             public int @__Expr4Get() {
                 
-                #line 76 "C:\USERS\TRUONG.LE\DESKTOP\WORKSPACE\WF45GETTINGSTARTEDTUTORIAL\NUMBERGUESSWORKFLOWACTIVITIES\STATEMACHINENUMBERGUESSWORKFLOW.XAML"
+                #line 76 "C:\USERS\TRUONG\DESKTOP\WORKSPACE\WF45GETTINGSTARTEDTUTORIAL\NUMBERGUESSWORKFLOWACTIVITIES\STATEMACHINENUMBERGUESSWORKFLOW.XAML"
                 return 
                         Turns;
                 
@@ -986,7 +986,7 @@ namespace NumberGuessWorkflowActivities {
             [System.Diagnostics.DebuggerHiddenAttribute()]
             public void @__Expr4Set(int value) {
                 
-                #line 76 "C:\USERS\TRUONG.LE\DESKTOP\WORKSPACE\WF45GETTINGSTARTEDTUTORIAL\NUMBERGUESSWORKFLOWACTIVITIES\STATEMACHINENUMBERGUESSWORKFLOW.XAML"
+                #line 76 "C:\USERS\TRUONG\DESKTOP\WORKSPACE\WF45GETTINGSTARTEDTUTORIAL\NUMBERGUESSWORKFLOWACTIVITIES\STATEMACHINENUMBERGUESSWORKFLOW.XAML"
                 
                         Turns = value;
                 
@@ -1002,7 +1002,7 @@ namespace NumberGuessWorkflowActivities {
             
             internal System.Linq.Expressions.Expression @__Expr5GetTree() {
                 
-                #line 92 "C:\USERS\TRUONG.LE\DESKTOP\WORKSPACE\WF45GETTINGSTARTEDTUTORIAL\NUMBERGUESSWORKFLOWACTIVITIES\STATEMACHINENUMBERGUESSWORKFLOW.XAML"
+                #line 92 "C:\USERS\TRUONG\DESKTOP\WORKSPACE\WF45GETTINGSTARTEDTUTORIAL\NUMBERGUESSWORKFLOWACTIVITIES\STATEMACHINENUMBERGUESSWORKFLOW.XAML"
                 System.Linq.Expressions.Expression<System.Func<int>> expression = () => 
                             Guess;
                 
@@ -1014,7 +1014,7 @@ namespace NumberGuessWorkflowActivities {
             [System.Diagnostics.DebuggerHiddenAttribute()]
             public int @__Expr5Get() {
                 
-                #line 92 "C:\USERS\TRUONG.LE\DESKTOP\WORKSPACE\WF45GETTINGSTARTEDTUTORIAL\NUMBERGUESSWORKFLOWACTIVITIES\STATEMACHINENUMBERGUESSWORKFLOW.XAML"
+                #line 92 "C:\USERS\TRUONG\DESKTOP\WORKSPACE\WF45GETTINGSTARTEDTUTORIAL\NUMBERGUESSWORKFLOWACTIVITIES\STATEMACHINENUMBERGUESSWORKFLOW.XAML"
                 return 
                             Guess;
                 
@@ -1030,7 +1030,7 @@ namespace NumberGuessWorkflowActivities {
             [System.Diagnostics.DebuggerHiddenAttribute()]
             public void @__Expr5Set(int value) {
                 
-                #line 92 "C:\USERS\TRUONG.LE\DESKTOP\WORKSPACE\WF45GETTINGSTARTEDTUTORIAL\NUMBERGUESSWORKFLOWACTIVITIES\STATEMACHINENUMBERGUESSWORKFLOW.XAML"
+                #line 92 "C:\USERS\TRUONG\DESKTOP\WORKSPACE\WF45GETTINGSTARTEDTUTORIAL\NUMBERGUESSWORKFLOWACTIVITIES\STATEMACHINENUMBERGUESSWORKFLOW.XAML"
                 
                             Guess = value;
                 
@@ -1095,7 +1095,7 @@ namespace NumberGuessWorkflowActivities {
             
             internal System.Linq.Expressions.Expression @__Expr2GetTree() {
                 
-                #line 68 "C:\USERS\TRUONG.LE\DESKTOP\WORKSPACE\WF45GETTINGSTARTEDTUTORIAL\NUMBERGUESSWORKFLOWACTIVITIES\STATEMACHINENUMBERGUESSWORKFLOW.XAML"
+                #line 68 "C:\USERS\TRUONG\DESKTOP\WORKSPACE\WF45GETTINGSTARTEDTUTORIAL\NUMBERGUESSWORKFLOWACTIVITIES\STATEMACHINENUMBERGUESSWORKFLOW.XAML"
                 System.Linq.Expressions.Expression<System.Func<string>> expression = () => 
                       "Please enter a number between 1 and " + MaxNumber;
                 
@@ -1107,7 +1107,7 @@ namespace NumberGuessWorkflowActivities {
             [System.Diagnostics.DebuggerHiddenAttribute()]
             public string @__Expr2Get() {
                 
-                #line 68 "C:\USERS\TRUONG.LE\DESKTOP\WORKSPACE\WF45GETTINGSTARTEDTUTORIAL\NUMBERGUESSWORKFLOWACTIVITIES\STATEMACHINENUMBERGUESSWORKFLOW.XAML"
+                #line 68 "C:\USERS\TRUONG\DESKTOP\WORKSPACE\WF45GETTINGSTARTEDTUTORIAL\NUMBERGUESSWORKFLOWACTIVITIES\STATEMACHINENUMBERGUESSWORKFLOW.XAML"
                 return 
                       "Please enter a number between 1 and " + MaxNumber;
                 
@@ -1122,7 +1122,7 @@ namespace NumberGuessWorkflowActivities {
             
             internal System.Linq.Expressions.Expression @__Expr3GetTree() {
                 
-                #line 81 "C:\USERS\TRUONG.LE\DESKTOP\WORKSPACE\WF45GETTINGSTARTEDTUTORIAL\NUMBERGUESSWORKFLOWACTIVITIES\STATEMACHINENUMBERGUESSWORKFLOW.XAML"
+                #line 81 "C:\USERS\TRUONG\DESKTOP\WORKSPACE\WF45GETTINGSTARTEDTUTORIAL\NUMBERGUESSWORKFLOWACTIVITIES\STATEMACHINENUMBERGUESSWORKFLOW.XAML"
                 System.Linq.Expressions.Expression<System.Func<int>> expression = () => 
                         Turns + 1;
                 
@@ -1134,7 +1134,7 @@ namespace NumberGuessWorkflowActivities {
             [System.Diagnostics.DebuggerHiddenAttribute()]
             public int @__Expr3Get() {
                 
-                #line 81 "C:\USERS\TRUONG.LE\DESKTOP\WORKSPACE\WF45GETTINGSTARTEDTUTORIAL\NUMBERGUESSWORKFLOWACTIVITIES\STATEMACHINENUMBERGUESSWORKFLOW.XAML"
+                #line 81 "C:\USERS\TRUONG\DESKTOP\WORKSPACE\WF45GETTINGSTARTEDTUTORIAL\NUMBERGUESSWORKFLOWACTIVITIES\STATEMACHINENUMBERGUESSWORKFLOW.XAML"
                 return 
                         Turns + 1;
                 
@@ -1149,7 +1149,7 @@ namespace NumberGuessWorkflowActivities {
             
             internal System.Linq.Expressions.Expression @__Expr6GetTree() {
                 
-                #line 109 "C:\USERS\TRUONG.LE\DESKTOP\WORKSPACE\WF45GETTINGSTARTEDTUTORIAL\NUMBERGUESSWORKFLOWACTIVITIES\STATEMACHINENUMBERGUESSWORKFLOW.XAML"
+                #line 109 "C:\USERS\TRUONG\DESKTOP\WORKSPACE\WF45GETTINGSTARTEDTUTORIAL\NUMBERGUESSWORKFLOWACTIVITIES\STATEMACHINENUMBERGUESSWORKFLOW.XAML"
                 System.Linq.Expressions.Expression<System.Func<bool>> expression = () => 
                       Guess == Target;
                 
@@ -1161,7 +1161,7 @@ namespace NumberGuessWorkflowActivities {
             [System.Diagnostics.DebuggerHiddenAttribute()]
             public bool @__Expr6Get() {
                 
-                #line 109 "C:\USERS\TRUONG.LE\DESKTOP\WORKSPACE\WF45GETTINGSTARTEDTUTORIAL\NUMBERGUESSWORKFLOWACTIVITIES\STATEMACHINENUMBERGUESSWORKFLOW.XAML"
+                #line 109 "C:\USERS\TRUONG\DESKTOP\WORKSPACE\WF45GETTINGSTARTEDTUTORIAL\NUMBERGUESSWORKFLOWACTIVITIES\STATEMACHINENUMBERGUESSWORKFLOW.XAML"
                 return 
                       Guess == Target;
                 
@@ -1176,7 +1176,7 @@ namespace NumberGuessWorkflowActivities {
             
             internal System.Linq.Expressions.Expression @__Expr7GetTree() {
                 
-                #line 103 "C:\USERS\TRUONG.LE\DESKTOP\WORKSPACE\WF45GETTINGSTARTEDTUTORIAL\NUMBERGUESSWORKFLOWACTIVITIES\STATEMACHINENUMBERGUESSWORKFLOW.XAML"
+                #line 103 "C:\USERS\TRUONG\DESKTOP\WORKSPACE\WF45GETTINGSTARTEDTUTORIAL\NUMBERGUESSWORKFLOWACTIVITIES\STATEMACHINENUMBERGUESSWORKFLOW.XAML"
                 System.Linq.Expressions.Expression<System.Func<string>> expression = () => 
                           Guess + " is correct. You guessed it in " + Turns;
                 
@@ -1188,7 +1188,7 @@ namespace NumberGuessWorkflowActivities {
             [System.Diagnostics.DebuggerHiddenAttribute()]
             public string @__Expr7Get() {
                 
-                #line 103 "C:\USERS\TRUONG.LE\DESKTOP\WORKSPACE\WF45GETTINGSTARTEDTUTORIAL\NUMBERGUESSWORKFLOWACTIVITIES\STATEMACHINENUMBERGUESSWORKFLOW.XAML"
+                #line 103 "C:\USERS\TRUONG\DESKTOP\WORKSPACE\WF45GETTINGSTARTEDTUTORIAL\NUMBERGUESSWORKFLOWACTIVITIES\STATEMACHINENUMBERGUESSWORKFLOW.XAML"
                 return 
                           Guess + " is correct. You guessed it in " + Turns;
                 
@@ -1203,7 +1203,7 @@ namespace NumberGuessWorkflowActivities {
             
             internal System.Linq.Expressions.Expression @__Expr8GetTree() {
                 
-                #line 137 "C:\USERS\TRUONG.LE\DESKTOP\WORKSPACE\WF45GETTINGSTARTEDTUTORIAL\NUMBERGUESSWORKFLOWACTIVITIES\STATEMACHINENUMBERGUESSWORKFLOW.XAML"
+                #line 137 "C:\USERS\TRUONG\DESKTOP\WORKSPACE\WF45GETTINGSTARTEDTUTORIAL\NUMBERGUESSWORKFLOWACTIVITIES\STATEMACHINENUMBERGUESSWORKFLOW.XAML"
                 System.Linq.Expressions.Expression<System.Func<bool>> expression = () => 
                       Guess != Target;
                 
@@ -1215,7 +1215,7 @@ namespace NumberGuessWorkflowActivities {
             [System.Diagnostics.DebuggerHiddenAttribute()]
             public bool @__Expr8Get() {
                 
-                #line 137 "C:\USERS\TRUONG.LE\DESKTOP\WORKSPACE\WF45GETTINGSTARTEDTUTORIAL\NUMBERGUESSWORKFLOWACTIVITIES\STATEMACHINENUMBERGUESSWORKFLOW.XAML"
+                #line 137 "C:\USERS\TRUONG\DESKTOP\WORKSPACE\WF45GETTINGSTARTEDTUTORIAL\NUMBERGUESSWORKFLOWACTIVITIES\STATEMACHINENUMBERGUESSWORKFLOW.XAML"
                 return 
                       Guess != Target;
                 
@@ -1230,7 +1230,7 @@ namespace NumberGuessWorkflowActivities {
             
             internal System.Linq.Expressions.Expression @__Expr9GetTree() {
                 
-                #line 117 "C:\USERS\TRUONG.LE\DESKTOP\WORKSPACE\WF45GETTINGSTARTEDTUTORIAL\NUMBERGUESSWORKFLOWACTIVITIES\STATEMACHINENUMBERGUESSWORKFLOW.XAML"
+                #line 117 "C:\USERS\TRUONG\DESKTOP\WORKSPACE\WF45GETTINGSTARTEDTUTORIAL\NUMBERGUESSWORKFLOWACTIVITIES\STATEMACHINENUMBERGUESSWORKFLOW.XAML"
                 System.Linq.Expressions.Expression<System.Func<bool>> expression = () => 
                             Guess < Target;
                 
@@ -1242,7 +1242,7 @@ namespace NumberGuessWorkflowActivities {
             [System.Diagnostics.DebuggerHiddenAttribute()]
             public bool @__Expr9Get() {
                 
-                #line 117 "C:\USERS\TRUONG.LE\DESKTOP\WORKSPACE\WF45GETTINGSTARTEDTUTORIAL\NUMBERGUESSWORKFLOWACTIVITIES\STATEMACHINENUMBERGUESSWORKFLOW.XAML"
+                #line 117 "C:\USERS\TRUONG\DESKTOP\WORKSPACE\WF45GETTINGSTARTEDTUTORIAL\NUMBERGUESSWORKFLOWACTIVITIES\STATEMACHINENUMBERGUESSWORKFLOW.XAML"
                 return 
                             Guess < Target;
                 
@@ -1257,7 +1257,7 @@ namespace NumberGuessWorkflowActivities {
             
             internal System.Linq.Expressions.Expression @__Expr10GetTree() {
                 
-                #line 123 "C:\USERS\TRUONG.LE\DESKTOP\WORKSPACE\WF45GETTINGSTARTEDTUTORIAL\NUMBERGUESSWORKFLOWACTIVITIES\STATEMACHINENUMBERGUESSWORKFLOW.XAML"
+                #line 123 "C:\USERS\TRUONG\DESKTOP\WORKSPACE\WF45GETTINGSTARTEDTUTORIAL\NUMBERGUESSWORKFLOWACTIVITIES\STATEMACHINENUMBERGUESSWORKFLOW.XAML"
                 System.Linq.Expressions.Expression<System.Func<string>> expression = () => 
                               Guess + " is too low";
                 
@@ -1269,7 +1269,7 @@ namespace NumberGuessWorkflowActivities {
             [System.Diagnostics.DebuggerHiddenAttribute()]
             public string @__Expr10Get() {
                 
-                #line 123 "C:\USERS\TRUONG.LE\DESKTOP\WORKSPACE\WF45GETTINGSTARTEDTUTORIAL\NUMBERGUESSWORKFLOWACTIVITIES\STATEMACHINENUMBERGUESSWORKFLOW.XAML"
+                #line 123 "C:\USERS\TRUONG\DESKTOP\WORKSPACE\WF45GETTINGSTARTEDTUTORIAL\NUMBERGUESSWORKFLOWACTIVITIES\STATEMACHINENUMBERGUESSWORKFLOW.XAML"
                 return 
                               Guess + " is too low";
                 
@@ -1284,7 +1284,7 @@ namespace NumberGuessWorkflowActivities {
             
             internal System.Linq.Expressions.Expression @__Expr11GetTree() {
                 
-                #line 130 "C:\USERS\TRUONG.LE\DESKTOP\WORKSPACE\WF45GETTINGSTARTEDTUTORIAL\NUMBERGUESSWORKFLOWACTIVITIES\STATEMACHINENUMBERGUESSWORKFLOW.XAML"
+                #line 130 "C:\USERS\TRUONG\DESKTOP\WORKSPACE\WF45GETTINGSTARTEDTUTORIAL\NUMBERGUESSWORKFLOWACTIVITIES\STATEMACHINENUMBERGUESSWORKFLOW.XAML"
                 System.Linq.Expressions.Expression<System.Func<string>> expression = () => 
                               Guess + " is too high";
                 
@@ -1296,7 +1296,7 @@ namespace NumberGuessWorkflowActivities {
             [System.Diagnostics.DebuggerHiddenAttribute()]
             public string @__Expr11Get() {
                 
-                #line 130 "C:\USERS\TRUONG.LE\DESKTOP\WORKSPACE\WF45GETTINGSTARTEDTUTORIAL\NUMBERGUESSWORKFLOWACTIVITIES\STATEMACHINENUMBERGUESSWORKFLOW.XAML"
+                #line 130 "C:\USERS\TRUONG\DESKTOP\WORKSPACE\WF45GETTINGSTARTEDTUTORIAL\NUMBERGUESSWORKFLOWACTIVITIES\STATEMACHINENUMBERGUESSWORKFLOW.XAML"
                 return 
                               Guess + " is too high";
                 

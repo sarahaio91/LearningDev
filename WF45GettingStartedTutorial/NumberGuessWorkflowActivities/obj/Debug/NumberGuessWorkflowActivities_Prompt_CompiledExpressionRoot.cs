@@ -1,60 +1,60 @@
 namespace NumberGuessWorkflowActivities {
     
-    #line 21 "C:\Users\truong.le\Desktop\Workspace\WF45GettingStartedTutorial\NumberGuessWorkflowActivities\Prompt.xaml"
+    #line 21 "C:\Users\Truong\Desktop\Workspace\WF45GettingStartedTutorial\NumberGuessWorkflowActivities\Prompt.xaml"
     using System;
     
     #line default
     #line hidden
     
-    #line 1 "C:\Users\truong.le\Desktop\Workspace\WF45GettingStartedTutorial\NumberGuessWorkflowActivities\Prompt.xaml"
+    #line 1 "C:\Users\Truong\Desktop\Workspace\WF45GettingStartedTutorial\NumberGuessWorkflowActivities\Prompt.xaml"
     using System.Collections;
     
     #line default
     #line hidden
     
-    #line 22 "C:\Users\truong.le\Desktop\Workspace\WF45GettingStartedTutorial\NumberGuessWorkflowActivities\Prompt.xaml"
+    #line 22 "C:\Users\Truong\Desktop\Workspace\WF45GettingStartedTutorial\NumberGuessWorkflowActivities\Prompt.xaml"
     using System.Collections.Generic;
     
     #line default
     #line hidden
     
-    #line 1 "C:\Users\truong.le\Desktop\Workspace\WF45GettingStartedTutorial\NumberGuessWorkflowActivities\Prompt.xaml"
+    #line 1 "C:\Users\Truong\Desktop\Workspace\WF45GettingStartedTutorial\NumberGuessWorkflowActivities\Prompt.xaml"
     using System.Activities;
     
     #line default
     #line hidden
     
-    #line 1 "C:\Users\truong.le\Desktop\Workspace\WF45GettingStartedTutorial\NumberGuessWorkflowActivities\Prompt.xaml"
+    #line 1 "C:\Users\Truong\Desktop\Workspace\WF45GettingStartedTutorial\NumberGuessWorkflowActivities\Prompt.xaml"
     using System.Activities.Expressions;
     
     #line default
     #line hidden
     
-    #line 1 "C:\Users\truong.le\Desktop\Workspace\WF45GettingStartedTutorial\NumberGuessWorkflowActivities\Prompt.xaml"
+    #line 1 "C:\Users\Truong\Desktop\Workspace\WF45GettingStartedTutorial\NumberGuessWorkflowActivities\Prompt.xaml"
     using System.Activities.Statements;
     
     #line default
     #line hidden
     
-    #line 23 "C:\Users\truong.le\Desktop\Workspace\WF45GettingStartedTutorial\NumberGuessWorkflowActivities\Prompt.xaml"
+    #line 23 "C:\Users\Truong\Desktop\Workspace\WF45GettingStartedTutorial\NumberGuessWorkflowActivities\Prompt.xaml"
     using System.Data;
     
     #line default
     #line hidden
     
-    #line 24 "C:\Users\truong.le\Desktop\Workspace\WF45GettingStartedTutorial\NumberGuessWorkflowActivities\Prompt.xaml"
+    #line 24 "C:\Users\Truong\Desktop\Workspace\WF45GettingStartedTutorial\NumberGuessWorkflowActivities\Prompt.xaml"
     using System.Linq;
     
     #line default
     #line hidden
     
-    #line 25 "C:\Users\truong.le\Desktop\Workspace\WF45GettingStartedTutorial\NumberGuessWorkflowActivities\Prompt.xaml"
+    #line 25 "C:\Users\Truong\Desktop\Workspace\WF45GettingStartedTutorial\NumberGuessWorkflowActivities\Prompt.xaml"
     using System.Text;
     
     #line default
     #line hidden
     
-    #line 1 "C:\Users\truong.le\Desktop\Workspace\WF45GettingStartedTutorial\NumberGuessWorkflowActivities\Prompt.xaml"
+    #line 1 "C:\Users\Truong\Desktop\Workspace\WF45GettingStartedTutorial\NumberGuessWorkflowActivities\Prompt.xaml"
     using System.Activities.XamlIntegration;
     
     #line default
@@ -340,7 +340,7 @@ namespace NumberGuessWorkflowActivities {
             
             internal System.Linq.Expressions.Expression @__Expr2GetTree() {
                 
-                #line 58 "C:\USERS\TRUONG.LE\DESKTOP\WORKSPACE\WF45GETTINGSTARTEDTUTORIAL\NUMBERGUESSWORKFLOWACTIVITIES\PROMPT.XAML"
+                #line 58 "C:\USERS\TRUONG\DESKTOP\WORKSPACE\WF45GETTINGSTARTEDTUTORIAL\NUMBERGUESSWORKFLOWACTIVITIES\PROMPT.XAML"
                 System.Linq.Expressions.Expression<System.Func<int>> expression = () => 
           Result;
                 
@@ -352,7 +352,7 @@ namespace NumberGuessWorkflowActivities {
             [System.Diagnostics.DebuggerHiddenAttribute()]
             public int @__Expr2Get() {
                 
-                #line 58 "C:\USERS\TRUONG.LE\DESKTOP\WORKSPACE\WF45GETTINGSTARTEDTUTORIAL\NUMBERGUESSWORKFLOWACTIVITIES\PROMPT.XAML"
+                #line 58 "C:\USERS\TRUONG\DESKTOP\WORKSPACE\WF45GETTINGSTARTEDTUTORIAL\NUMBERGUESSWORKFLOWACTIVITIES\PROMPT.XAML"
                 return 
           Result;
                 
@@ -368,7 +368,7 @@ namespace NumberGuessWorkflowActivities {
             [System.Diagnostics.DebuggerHiddenAttribute()]
             public void @__Expr2Set(int value) {
                 
-                #line 58 "C:\USERS\TRUONG.LE\DESKTOP\WORKSPACE\WF45GETTINGSTARTEDTUTORIAL\NUMBERGUESSWORKFLOWACTIVITIES\PROMPT.XAML"
+                #line 58 "C:\USERS\TRUONG\DESKTOP\WORKSPACE\WF45GETTINGSTARTEDTUTORIAL\NUMBERGUESSWORKFLOWACTIVITIES\PROMPT.XAML"
                 
           Result = value;
                 
@@ -469,7 +469,7 @@ namespace NumberGuessWorkflowActivities {
             
             internal System.Linq.Expressions.Expression @__Expr0GetTree() {
                 
-                #line 47 "C:\USERS\TRUONG.LE\DESKTOP\WORKSPACE\WF45GETTINGSTARTEDTUTORIAL\NUMBERGUESSWORKFLOWACTIVITIES\PROMPT.XAML"
+                #line 47 "C:\USERS\TRUONG\DESKTOP\WORKSPACE\WF45GETTINGSTARTEDTUTORIAL\NUMBERGUESSWORKFLOWACTIVITIES\PROMPT.XAML"
                 System.Linq.Expressions.Expression<System.Func<string>> expression = () => 
         Text;
                 
@@ -481,7 +481,7 @@ namespace NumberGuessWorkflowActivities {
             [System.Diagnostics.DebuggerHiddenAttribute()]
             public string @__Expr0Get() {
                 
-                #line 47 "C:\USERS\TRUONG.LE\DESKTOP\WORKSPACE\WF45GETTINGSTARTEDTUTORIAL\NUMBERGUESSWORKFLOWACTIVITIES\PROMPT.XAML"
+                #line 47 "C:\USERS\TRUONG\DESKTOP\WORKSPACE\WF45GETTINGSTARTEDTUTORIAL\NUMBERGUESSWORKFLOWACTIVITIES\PROMPT.XAML"
                 return 
         Text;
                 
@@ -496,7 +496,7 @@ namespace NumberGuessWorkflowActivities {
             
             internal System.Linq.Expressions.Expression @__Expr1GetTree() {
                 
-                #line 53 "C:\USERS\TRUONG.LE\DESKTOP\WORKSPACE\WF45GETTINGSTARTEDTUTORIAL\NUMBERGUESSWORKFLOWACTIVITIES\PROMPT.XAML"
+                #line 53 "C:\USERS\TRUONG\DESKTOP\WORKSPACE\WF45GETTINGSTARTEDTUTORIAL\NUMBERGUESSWORKFLOWACTIVITIES\PROMPT.XAML"
                 System.Linq.Expressions.Expression<System.Func<string>> expression = () => 
           BookmarkName;
                 
@@ -508,7 +508,7 @@ namespace NumberGuessWorkflowActivities {
             [System.Diagnostics.DebuggerHiddenAttribute()]
             public string @__Expr1Get() {
                 
-                #line 53 "C:\USERS\TRUONG.LE\DESKTOP\WORKSPACE\WF45GETTINGSTARTEDTUTORIAL\NUMBERGUESSWORKFLOWACTIVITIES\PROMPT.XAML"
+                #line 53 "C:\USERS\TRUONG\DESKTOP\WORKSPACE\WF45GETTINGSTARTEDTUTORIAL\NUMBERGUESSWORKFLOWACTIVITIES\PROMPT.XAML"
                 return 
           BookmarkName;
                 
