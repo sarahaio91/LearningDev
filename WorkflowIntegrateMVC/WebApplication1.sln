@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WorkflowHost", "WindowsForm
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WorkflowActivities", "WorkflowActivities\WorkflowActivities.csproj", "{B5300544-AB3B-4309-9CE3-1F071A3827FF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WorkflowHostConsole", "WorkflowHostConsole\WorkflowHostConsole.csproj", "{79FE78D2-A357-4276-9CBC-6FD8B58A54D0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{B5300544-AB3B-4309-9CE3-1F071A3827FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B5300544-AB3B-4309-9CE3-1F071A3827FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B5300544-AB3B-4309-9CE3-1F071A3827FF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{79FE78D2-A357-4276-9CBC-6FD8B58A54D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{79FE78D2-A357-4276-9CBC-6FD8B58A54D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{79FE78D2-A357-4276-9CBC-6FD8B58A54D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{79FE78D2-A357-4276-9CBC-6FD8B58A54D0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

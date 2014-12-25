@@ -18,7 +18,7 @@ namespace WebApplication1
             AutoResetEvent syncEvent = new AutoResetEvent(false);
 
             WorkflowApplication wfApp =
-                new WorkflowApplication(new Activity1());
+                new WorkflowApplication(new Germany());
 
             wfApp.Completed = delegate(WorkflowApplicationCompletedEventArgs e)
             {
