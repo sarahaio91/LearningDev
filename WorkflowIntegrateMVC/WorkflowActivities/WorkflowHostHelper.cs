@@ -129,7 +129,7 @@ namespace WorkflowActivities
         //    }
         //}
         WorkflowApplication _workflowApplication;
-        AutoResetEvent _instanceUnloaded = new AutoResetEvent(false);
+        AutoResetEvent syncEvent = new AutoResetEvent(false);
         bool _isCompleted = false;
 
         string InstanceStoreConnectionString { get { return System.Configuration.ConfigurationManager.AppSettings["InstanceStoreConnectionString"]; } }
