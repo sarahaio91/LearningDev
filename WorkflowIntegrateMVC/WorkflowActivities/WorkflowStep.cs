@@ -10,6 +10,7 @@ namespace WorkflowActivities
     public sealed class WorkflowStep<T> : NativeActivity<T>
     {
         // Define an activity input argument of type string
+        [RequiredArgument]
         public InArgument<string> BookmarkName { get; set; }
 
         public OutArgument<T> Input { get; set; }
@@ -24,6 +25,12 @@ namespace WorkflowActivities
         protected override void Execute(NativeActivityContext context)
         {
             string bookmarkName = context.GetValue(this.BookmarkName);
+
+            if (bookmarkName == string.Empty)
+            {
+                throw new ArgumentException("BookmarkName cannot be an Empty string.",
+                    "BookmarkName");
+            }
 
             context.CreateBookmark(bookmarkName, new BookmarkCallback(this.Continue));
 

@@ -1,4 +1,4 @@
-﻿<Activity mc:Ignorable="sap sap2010 sads" x:Class="WorkflowActivities.Activity1" sap2010:ExpressionActivityEditor.ExpressionActivityEditor="C#" sap2010:WorkflowViewState.IdRef="WorkflowActivities.Activity1_1"
+﻿<Activity mc:Ignorable="sap sap2010 sads" x:Class="WorkflowActivities.Activity1"
  xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities"
  xmlns:av="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
  xmlns:local="clr-namespace:WorkflowActivities"
@@ -10,6 +10,13 @@
  xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib"
  xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=mscorlib"
  xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <x:Members>
+    <x:Property Name="Index" Type="InArgument(x:String)" />
+    <x:Property Name="Contact" Type="InArgument(x:String)" />
+    <x:Property Name="About" Type="InArgument(x:String)" />
+  </x:Members>
+  <sap2010:ExpressionActivityEditor.ExpressionActivityEditor>C#</sap2010:ExpressionActivityEditor.ExpressionActivityEditor>
+  <sap2010:WorkflowViewState.IdRef>WorkflowActivities.Activity1_1</sap2010:WorkflowViewState.IdRef>
   <TextExpression.NamespacesForImplementation>
     <sco:Collection x:TypeArguments="x:String">
       <x:String>System</x:String>
@@ -24,17 +31,17 @@
       <AssemblyReference>Microsoft.CSharp</AssemblyReference>
       <AssemblyReference>System</AssemblyReference>
       <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>System.Activities.DurableInstancing</AssemblyReference>
+      <AssemblyReference>System.Configuration</AssemblyReference>
       <AssemblyReference>System.Core</AssemblyReference>
       <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.Runtime.DurableInstancing</AssemblyReference>
       <AssemblyReference>System.Runtime.Serialization</AssemblyReference>
       <AssemblyReference>System.ServiceModel</AssemblyReference>
       <AssemblyReference>System.ServiceModel.Activities</AssemblyReference>
       <AssemblyReference>System.Xaml</AssemblyReference>
       <AssemblyReference>System.Xml</AssemblyReference>
       <AssemblyReference>System.Xml.Linq</AssemblyReference>
-      <AssemblyReference>System.Activities.DurableInstancing</AssemblyReference>
-      <AssemblyReference>System.Configuration</AssemblyReference>
-      <AssemblyReference>System.Runtime.DurableInstancing</AssemblyReference>
       <AssemblyReference>mscorlib</AssemblyReference>
       <AssemblyReference>WorkflowActivities</AssemblyReference>
     </sco:Collection>
@@ -46,30 +53,54 @@
     <Flowchart.StartNode>
       <FlowDecision x:Name="__ReferenceID6" DisplayName="HasIndex" sap2010:WorkflowViewState.IdRef="FlowDecision_3">
         <FlowDecision.Condition>
-          <mca:CSharpValue x:TypeArguments="x:Boolean">Command.Equals("True")</mca:CSharpValue>
+          <mca:CSharpValue x:TypeArguments="x:Boolean">Index.Equals("True")</mca:CSharpValue>
         </FlowDecision.Condition>
         <FlowDecision.True>
           <FlowStep x:Name="__ReferenceID4" sap2010:WorkflowViewState.IdRef="FlowStep_4">
-            <local:WorkflowStep x:TypeArguments="x:String" BookmarkName="{x:Null}" Input="{x:Null}" DisplayName="Index&lt;&gt;" sap2010:WorkflowViewState.IdRef="WorkflowStep`1_1" />
+            <local:WorkflowStep x:TypeArguments="x:String" Input="{x:Null}" DisplayName="Index" sap2010:WorkflowViewState.IdRef="WorkflowStep`1_1">
+              <local:WorkflowStep.BookmarkName>
+                <InArgument x:TypeArguments="x:String">
+                  <mca:CSharpValue x:TypeArguments="x:String">Command</mca:CSharpValue>
+                </InArgument>
+              </local:WorkflowStep.BookmarkName>
+            </local:WorkflowStep>
             <FlowStep.Next>
               <FlowDecision x:Name="__ReferenceID2" DisplayName="HasContact" sap2010:WorkflowViewState.IdRef="FlowDecision_2">
                 <FlowDecision.Condition>
-                  <mca:CSharpValue x:TypeArguments="x:Boolean">Command.Equals("True")</mca:CSharpValue>
+                  <mca:CSharpValue x:TypeArguments="x:Boolean">Contact.Equals("True")</mca:CSharpValue>
                 </FlowDecision.Condition>
                 <FlowDecision.True>
                   <FlowStep x:Name="__ReferenceID5" sap2010:WorkflowViewState.IdRef="FlowStep_1">
-                    <local:WorkflowStep x:TypeArguments="x:String" BookmarkName="{x:Null}" Input="{x:Null}" DisplayName="Contact&lt;String&gt;" sap2010:WorkflowViewState.IdRef="WorkflowStep`1_2" />
+                    <local:WorkflowStep x:TypeArguments="x:String" Input="{x:Null}" DisplayName="Contact" sap2010:WorkflowViewState.IdRef="WorkflowStep`1_2">
+                      <local:WorkflowStep.BookmarkName>
+                        <InArgument x:TypeArguments="x:String">
+                          <mca:CSharpValue x:TypeArguments="x:String">Command</mca:CSharpValue>
+                        </InArgument>
+                      </local:WorkflowStep.BookmarkName>
+                    </local:WorkflowStep>
                     <FlowStep.Next>
                       <FlowDecision x:Name="__ReferenceID1" DisplayName="HasAbout" sap2010:WorkflowViewState.IdRef="FlowDecision_1">
                         <FlowDecision.Condition>
-                          <mca:CSharpValue x:TypeArguments="x:Boolean">Command.Equals("True")</mca:CSharpValue>
+                          <mca:CSharpValue x:TypeArguments="x:Boolean">About.Equals("True")</mca:CSharpValue>
                         </FlowDecision.Condition>
                         <FlowDecision.True>
                           <FlowStep x:Name="__ReferenceID3" sap2010:WorkflowViewState.IdRef="FlowStep_3">
-                            <local:WorkflowStep x:TypeArguments="x:String" BookmarkName="{x:Null}" Input="{x:Null}" DisplayName="About&lt;String&gt;" sap2010:WorkflowViewState.IdRef="WorkflowStep`1_3" />
+                            <local:WorkflowStep x:TypeArguments="x:String" Input="{x:Null}" DisplayName="About" sap2010:WorkflowViewState.IdRef="WorkflowStep`1_3">
+                              <local:WorkflowStep.BookmarkName>
+                                <InArgument x:TypeArguments="x:String">
+                                  <mca:CSharpValue x:TypeArguments="x:String">Command</mca:CSharpValue>
+                                </InArgument>
+                              </local:WorkflowStep.BookmarkName>
+                            </local:WorkflowStep>
                             <FlowStep.Next>
                               <FlowStep x:Name="__ReferenceID0" sap2010:WorkflowViewState.IdRef="FlowStep_2">
-                                <local:WorkflowStep x:TypeArguments="x:String" BookmarkName="{x:Null}" Input="{x:Null}" DisplayName="Homepage&lt;String&gt;" sap2010:WorkflowViewState.IdRef="WorkflowStep`1_4" />
+                                <local:WorkflowStep x:TypeArguments="x:String" Input="{x:Null}" DisplayName="Homepage&lt;String&gt;" sap2010:WorkflowViewState.IdRef="WorkflowStep`1_4">
+                                  <local:WorkflowStep.BookmarkName>
+                                    <InArgument x:TypeArguments="x:String">
+                                      <mca:CSharpValue x:TypeArguments="x:String">Command</mca:CSharpValue>
+                                    </InArgument>
+                                  </local:WorkflowStep.BookmarkName>
+                                </local:WorkflowStep>
                               </FlowStep>
                             </FlowStep.Next>
                           </FlowStep>
@@ -100,7 +131,7 @@
     <x:Reference>__ReferenceID6</x:Reference>
     <x:Reference>__ReferenceID2</x:Reference>
     <x:Reference>__ReferenceID0</x:Reference>
-    <sads:DebugSymbol.Symbol>d2ZDOlxVc2Vyc1xUcnVvbmdcRG9jdW1lbnRzXFZpc3VhbCBTdHVkaW8gMjAxM1xQcm9qZWN0c1xXZWJBcHBsaWNhdGlvbjFcV29ya2Zsb3dBY3Rpdml0aWVzXFdvcmtmbG93LnhhbWwJKgNoDwIBASw0LDoCAQIxCzFgAgELORM5aAIBCUEbQXACAQdIIUjTAQIBBkUdRcwBAgEFPRU9xgECAQQ1DTW2AQIBAw==</sads:DebugSymbol.Symbol>
+    <sads:DebugSymbol.Symbol>d1dDOlxVc2Vyc1xUcnVvbmdcRGVza3RvcFxXb3Jrc3BhY2VcV29ya2Zsb3dJbnRlZ3JhdGVNVkNcV29ya2Zsb3dBY3Rpdml0aWVzXFdvcmtmbG93LnhhbWwNMQOHAQ8CAQEzNDM6AgECOAs4XgIBJUYTRmgCASBUG1RuAgEbYSFnNgIBFVgdXjICAQ9KFVAqAgEJPA1CIgIBA2QnZGwCARZbI1toAgEQTRtNYAIBCj8TP1gCAQQ=</sads:DebugSymbol.Symbol>
   </Flowchart>
   <sap2010:WorkflowViewState.ViewStateManager>
     <sap2010:ViewStateManager>
@@ -163,9 +194,9 @@
       <sap2010:ViewStateData Id="FlowStep_1">
         <sap:WorkflowViewStateService.ViewState>
           <scg:Dictionary x:TypeArguments="x:String, x:Object">
-            <av:Point x:Key="ShapeLocation">40,369</av:Point>
+            <av:Point x:Key="ShapeLocation">30,369</av:Point>
             <av:Size x:Key="ShapeSize">200,22</av:Size>
-            <av:PointCollection x:Key="ConnectorLocation">240,380 270,380 270,346.5 322.5,346.5 322.5,376.5</av:PointCollection>
+            <av:PointCollection x:Key="ConnectorLocation">230,380 260,380 260,346.5 322.5,346.5 322.5,376.5</av:PointCollection>
           </scg:Dictionary>
         </sap:WorkflowViewStateService.ViewState>
       </sap2010:ViewStateData>
@@ -175,7 +206,7 @@
             <x:Boolean x:Key="IsExpanded">True</x:Boolean>
             <av:Point x:Key="ShapeLocation">255,266.5</av:Point>
             <av:Size x:Key="ShapeSize">70,87</av:Size>
-            <av:PointCollection x:Key="TrueConnector">255,310 140,310 140,369</av:PointCollection>
+            <av:PointCollection x:Key="TrueConnector">255,310 130,310 130,369</av:PointCollection>
             <av:PointCollection x:Key="FalseConnector">325,310 340,310 340,376.5</av:PointCollection>
           </scg:Dictionary>
         </sap:WorkflowViewStateService.ViewState>

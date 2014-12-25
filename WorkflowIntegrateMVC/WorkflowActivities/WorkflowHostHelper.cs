@@ -13,9 +13,8 @@ namespace WorkflowActivities
     public class WorkflowHostHelper
     {
         AutoResetEvent syncEvent = new AutoResetEvent(false);
-        WorkflowApplication wfApp = new WorkflowApplication(new Activity1());
+        WorkflowApplication wfApp;
         bool _isCompleted = false;
-        public bool workflowStarting;
         public SqlWorkflowInstanceStore store
         {
             get; set;
@@ -33,10 +32,16 @@ namespace WorkflowActivities
             wfApp = new WorkflowApplication(new Activity1());
             store = new SqlWorkflowInstanceStore(InstanceStoreConnectionString);
             wfApp.InstanceStore = store;
+        }
+
+        public Guid StartWizard(Dictionary<string, object> inputs)
+        {
+            wfApp = new WorkflowApplication(new Activity1(), inputs);
+            wfApp.InstanceStore = store;
 
             wfApp.PersistableIdle = (e) =>
             {
-                return PersistableIdleAction.Persist;
+                return PersistableIdleAction.Unload;
             };
             wfApp.Completed = (e) =>
             {
@@ -47,14 +52,7 @@ namespace WorkflowActivities
             {
                 syncEvent.Set();
             };
-        }
-
-        public Guid StartWizard()
-        {
             wfApp.Run();
-
-            syncEvent.WaitOne();
-
             return wfApp.Id;
         }
 
@@ -69,7 +67,6 @@ namespace WorkflowActivities
         public string ResumeWizard(Guid id)
         {
             wfApp.Load(id);
-
             string bookmarkName = "final";
             System.Collections.ObjectModel.ReadOnlyCollection<System.Activities.Hosting.BookmarkInfo> bookmarks = wfApp.GetBookmarks();
             if (bookmarks != null && bookmarks.Count > 0)
@@ -121,8 +118,18 @@ namespace WorkflowActivities
                     return temp;
                 }
                 
+            } 
+        }
+        public void resumeWorkflow(Guid id)
+        {
+            wfApp.Load(id);
+
+            string bookmarkName = "final";
+            var bookmarks = wfApp.GetBookmarks();
+            if (bookmarks != null && bookmarks.Count > 0)
+            {
+                bookmarkName = bookmarks[0].BookmarkName;
             }
-            
         }
     }
 }
