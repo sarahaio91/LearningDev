@@ -40,7 +40,6 @@ C:\Users\truong.le\Desktop\Workspace\WF45GettingStartedTutorial\NumberGuessWorkf
 C:\Users\truong.le\Desktop\Workspace\WF45GettingStartedTutorial\NumberGuessWorkflowActivities\obj\Debug\InProcessTempFiles\StateMachineNumberGuessWorkflow.g.xaml
 C:\Users\Truong\Desktop\Workspace\WF45GettingStartedTutorial\NumberGuessWorkflowActivities\bin\Debug\NumberGuessWorkflowActivities.dll
 C:\Users\Truong\Desktop\Workspace\WF45GettingStartedTutorial\NumberGuessWorkflowActivities\bin\Debug\NumberGuessWorkflowActivities.pdb
-C:\Users\Truong\Desktop\Workspace\WF45GettingStartedTutorial\NumberGuessWorkflowActivities\obj\Debug\NumberGuessWorkflowActivities.csprojResolveAssemblyReference.cache
 C:\Users\Truong\Desktop\Workspace\WF45GettingStartedTutorial\NumberGuessWorkflowActivities\obj\Debug\Prompt.g.xaml
 C:\Users\Truong\Desktop\Workspace\WF45GettingStartedTutorial\NumberGuessWorkflowActivities\obj\Debug\SequentialNumberGuessWorkflow.g.xaml
 C:\Users\Truong\Desktop\Workspace\WF45GettingStartedTutorial\NumberGuessWorkflowActivities\obj\Debug\FlowchartNumberGuessWorkflow.g.xaml
@@ -67,3 +66,13 @@ C:\Users\Truong\Desktop\Workspace\WF45GettingStartedTutorial\NumberGuessWorkflow
 C:\Users\Truong\Desktop\Workspace\WF45GettingStartedTutorial\NumberGuessWorkflowActivities\obj\Debug\NumberGuessWorkflowActivities_FlowchartNumberGuessWorkflow_CompiledExpressionRoot.cs
 C:\Users\Truong\Desktop\Workspace\WF45GettingStartedTutorial\NumberGuessWorkflowActivities\obj\Debug\NumberGuessWorkflowActivities_StateMachineNumberGuessWorkflow_CompiledExpressionRoot.cs
 C:\Users\Truong\Desktop\Workspace\WF45GettingStartedTutorial\NumberGuessWorkflowActivities\obj\Debug\AC2C1ABA-CCF6-44D4-8127-588FD4D0A860-DeferredValidationErrors.xml
+C:\Users\Truong\Desktop\Workspace\WF45GettingStartedTutorial\NumberGuessWorkflowActivities\obj\Debug\InProcessTempFiles\FlowchartNumberGuessWorkflow.g.cs
+C:\Users\Truong\Desktop\Workspace\WF45GettingStartedTutorial\NumberGuessWorkflowActivities\obj\Debug\InProcessTempFiles\FlowchartNumberGuessWorkflow.g.xaml
+C:\Users\Truong\Desktop\Workspace\WF45GettingStartedTutorial\NumberGuessWorkflowActivities\obj\Debug\InProcessTempFiles\Prompt.g.cs
+C:\Users\Truong\Desktop\Workspace\WF45GettingStartedTutorial\NumberGuessWorkflowActivities\obj\Debug\InProcessTempFiles\Prompt.g.xaml
+C:\Users\Truong\Desktop\Workspace\WF45GettingStartedTutorial\NumberGuessWorkflowActivities\obj\Debug\InProcessTempFiles\SequentialNumberGuessWorkflow.g.cs
+C:\Users\Truong\Desktop\Workspace\WF45GettingStartedTutorial\NumberGuessWorkflowActivities\obj\Debug\InProcessTempFiles\SequentialNumberGuessWorkflow.g.xaml
+C:\Users\Truong\Desktop\Workspace\WF45GettingStartedTutorial\NumberGuessWorkflowActivities\obj\Debug\InProcessTempFiles\StateMachineNumberGuessWorkflow.g.cs
+C:\Users\Truong\Desktop\Workspace\WF45GettingStartedTutorial\NumberGuessWorkflowActivities\obj\Debug\InProcessTempFiles\StateMachineNumberGuessWorkflow.g.xaml
+C:\Users\Truong\Desktop\Workspace\WF45GettingStartedTutorial\NumberGuessWorkflowActivities\obj\Debug\InProcessTempFiles\_NumberGuessWorkflowActivities.g.cs
+C:\Users\Truong\Desktop\Workspace\WF45GettingStartedTutorial\NumberGuessWorkflowActivities\obj\Debug\NumberGuessWorkflowActivities.csprojResolveAssemblyReference.cache

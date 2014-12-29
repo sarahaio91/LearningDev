@@ -8,13 +8,13 @@ C:\Users\truong.le\Desktop\Workspace\WF45GettingStartedTutorial\NumberGuessWorkf
 C:\Users\truong.le\Desktop\Workspace\WF45GettingStartedTutorial\NumberGuessWorkflowHost\obj\x86\Debug\NumberGuessWorkflowHost.pdb
 C:\Users\truong.le\Desktop\Workspace\WF45GettingStartedTutorial\NumberGuessWorkflowHost\obj\x86\Debug\NumberGuessWorkflowHost.WorkflowHostForm.resources
 C:\Users\truong.le\Desktop\Workspace\WF45GettingStartedTutorial\NumberGuessWorkflowHost\obj\x86\Debug\NumberGuessWorkflowHost.csproj.GenerateResource.Cache
-C:\Users\Truong\Desktop\Workspace\WF45GettingStartedTutorial\NumberGuessWorkflowHost\bin\Debug\NumberGuessWorkflowHost.exe.config
-C:\Users\Truong\Desktop\Workspace\WF45GettingStartedTutorial\NumberGuessWorkflowHost\obj\x86\Debug\NumberGuessWorkflowHost.exe
-C:\Users\Truong\Desktop\Workspace\WF45GettingStartedTutorial\NumberGuessWorkflowHost\obj\x86\Debug\NumberGuessWorkflowHost.pdb
 C:\Users\Truong\Desktop\Workspace\WF45GettingStartedTutorial\NumberGuessWorkflowHost\bin\Debug\NumberGuessWorkflowHost.exe
-C:\Users\Truong\Desktop\Workspace\WF45GettingStartedTutorial\NumberGuessWorkflowHost\bin\Debug\NumberGuessWorkflowHost.pdb
 C:\Users\Truong\Desktop\Workspace\WF45GettingStartedTutorial\NumberGuessWorkflowHost\bin\Debug\NumberGuessWorkflowActivities.dll
 C:\Users\Truong\Desktop\Workspace\WF45GettingStartedTutorial\NumberGuessWorkflowHost\bin\Debug\NumberGuessWorkflowActivities.pdb
 C:\Users\Truong\Desktop\Workspace\WF45GettingStartedTutorial\NumberGuessWorkflowHost\obj\x86\Debug\NumberGuessWorkflowHost.csprojResolveAssemblyReference.cache
 C:\Users\Truong\Desktop\Workspace\WF45GettingStartedTutorial\NumberGuessWorkflowHost\obj\x86\Debug\NumberGuessWorkflowHost.WorkflowHostForm.resources
 C:\Users\Truong\Desktop\Workspace\WF45GettingStartedTutorial\NumberGuessWorkflowHost\obj\x86\Debug\NumberGuessWorkflowHost.csproj.GenerateResource.Cache
+C:\Users\Truong\Desktop\Workspace\WF45GettingStartedTutorial\NumberGuessWorkflowHost\obj\x86\Debug\NumberGuessWorkflowHost.exe
+C:\Users\Truong\Desktop\Workspace\WF45GettingStartedTutorial\NumberGuessWorkflowHost\obj\x86\Debug\NumberGuessWorkflowHost.pdb
+C:\Users\Truong\Desktop\Workspace\WF45GettingStartedTutorial\NumberGuessWorkflowHost\bin\Debug\NumberGuessWorkflowHost.exe.config
+C:\Users\Truong\Desktop\Workspace\WF45GettingStartedTutorial\NumberGuessWorkflowHost\bin\Debug\NumberGuessWorkflowHost.pdb

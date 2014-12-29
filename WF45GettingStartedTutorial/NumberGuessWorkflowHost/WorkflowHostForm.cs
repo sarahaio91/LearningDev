@@ -168,6 +168,7 @@ namespace NumberGuessWorkflowHost
 
             wfApp.Completed = delegate(WorkflowApplicationCompletedEventArgs e)
             {
+                UpdateStatus("Completed workflow!");
                 if (e.CompletionState == ActivityInstanceState.Faulted)
                 {
                     UpdateStatus(string.Format("Workflow Terminated. Exception: {0}\r\n{1}",
@@ -187,6 +188,7 @@ namespace NumberGuessWorkflowHost
             };
             wfApp.Aborted = delegate(WorkflowApplicationAbortedEventArgs e)
             {
+                UpdateStatus("Aborted!");
                 UpdateStatus(string.Format("Workflow Aborted. Exception: {0}\r\n{1}",
                         e.Reason.GetType().FullName,
                         e.Reason.Message));
@@ -194,6 +196,7 @@ namespace NumberGuessWorkflowHost
 
             wfApp.OnUnhandledException = delegate(WorkflowApplicationUnhandledExceptionEventArgs e)
             {
+                UpdateStatus("Unhandled Exception!");
                 UpdateStatus(string.Format("Unhandled Exception: {0}\r\n{1}",
                         e.UnhandledException.GetType().FullName,
                         e.UnhandledException.Message));
@@ -202,6 +205,7 @@ namespace NumberGuessWorkflowHost
             };
             wfApp.PersistableIdle = delegate(WorkflowApplicationIdleEventArgs e)
             {
+                UpdateStatus("Persistable Idle!");
                 // Send the current WriteLine outputs to the status window.
                 var writers = e.GetInstanceExtensions<StringWriter>();
                 foreach (var writer in writers)

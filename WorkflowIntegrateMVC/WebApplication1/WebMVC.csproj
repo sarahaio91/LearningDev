@@ -170,6 +170,7 @@
     <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="Models\ManageViewModels.cs" />
     <Compile Include="Models\SampleConfigViewModel.cs" />
+    <Compile Include="Models\WorkflowModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Startup.cs" />
   </ItemGroup>
@@ -235,6 +236,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="Views\Workflow\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff" />
@@ -244,6 +246,10 @@
     <None Include="Project_Readme.html" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\WindowsFormsApplication1\WorkflowHost.csproj">
+      <Project>{b5aead1a-9231-4c36-97a0-41b8e7de80cc}</Project>
+      <Name>WorkflowHost</Name>
+    </ProjectReference>
     <ProjectReference Include="..\WorkflowActivities\WorkflowActivities.csproj">
       <Project>{b5300544-ab3b-4309-9ce3-1f071a3827ff}</Project>
       <Name>WorkflowActivities</Name>

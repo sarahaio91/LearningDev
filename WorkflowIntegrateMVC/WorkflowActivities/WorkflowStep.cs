@@ -13,7 +13,7 @@ namespace WorkflowActivities
         [RequiredArgument]
         public InArgument<string> BookmarkName { get; set; }
 
-        public OutArgument<T> Input { get; set; }
+        public OutArgument<T> ResultThings { get; set; }
 
         public WorkflowStep()
             : base()
@@ -39,7 +39,7 @@ namespace WorkflowActivities
 
         void Continue(NativeActivityContext context, Bookmark bookmark, object obj)
         {
-            Input.Set(context, (T)obj);
+            ResultThings.Set(context, (T)obj);
         }
 
         protected override bool CanInduceIdle { get { return true; } }

@@ -3,6 +3,7 @@ using System.Activities;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Threading;
 using System.Threading.Tasks;
 using WorkflowActivities;
 
@@ -12,16 +13,26 @@ namespace WorkflowHostConsole
     {
         static void Main(string[] args)
         {
-            WorkflowInvoker.Invoke(new Germany());
+            //WorkflowInvoker.Invoke(new Germany());
 
             WorkflowHostHelper wizardHostHelper = new WorkflowHostHelper();
             Guid id = wizardHostHelper.StartWizard();
 
-            wizardHostHelper.ResumeWizard(Guid.Parse("{79951da3-dae6-4934-b663-f1405d719ef5}"));
-            string bookmarkName1 = wizardHostHelper.RunWorkflow("Next");
-            string bookmarkName2 = wizardHostHelper.RunWorkflow("Next");
-            //string bookmarkName3 = wizardHostHelper.RunWorkflow("Next");
-            //string bookmarkName4 = wizardHostHelper.RunWorkflow("Next");
+            //runWork("47486BAC-A3EC-4488-BC85-F5C17086158D");
+        }
+
+        static void runWork(string id)
+        {
+            WorkflowHostHelper wizardHostHelper = new WorkflowHostHelper();
+            wizardHostHelper.ResumeWizard(Guid.Parse(id));
+
+            string command;
+            while (true)
+            {
+                Console.WriteLine("Enter command n/b: ");
+                command = Console.ReadLine();
+                wizardHostHelper.RunWorkflow(command.Equals("n") ? "Next" : "Back");
+            }
         }
     }
 }

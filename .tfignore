@@ -1,0 +1,161 @@
+﻿################################################################################
+# This .tfignore file was automatically created by Microsoft(R) Visual Studio.
+#
+# Local items matching filespecs in this file will not be added to version
+# control. This file can be checked in to share exclusions with others.
+#
+# Wildcard characters are * and ?. Patterns are matched recursively unless the
+# pattern is prefixed by the \ character.
+#
+# You can prepend a path to a pattern to make it more specific. If you do,
+# wildcard characters are not permitted in the path portion.
+#
+# The # character at the beginning of a line indicates a comment.
+#
+# The ! prefix negates a pattern. This can be used to re-include an item after
+# it was excluded by a .tfignore file higher in the tree, or by the Team
+# Project Collection's global exclusions list.
+#
+# The / character is interpreted as a \ character on Windows platforms.
+#
+# Examples:
+#
+#  # Excludes all files ending in .txt in Alpha\Beta and all its subfolders.
+#  Alpha\Beta\*.txt
+#
+#  # Excludes all files ending in .cpp in this folder only.
+#  \*.cpp
+#
+#  # Excludes all files ending in .cpp in this folder and all subfolders.
+#  *.cpp
+#
+#  # If "Contoso" is a folder, then Contoso and all its children are excluded.
+#  # If it is a file, then only the "Contoso" in this folder is excluded.
+#  \Contoso
+#
+#  # If Help.exe is excluded by a higher .tfignore file or by the Team Project
+#  # Collection global exclusions list, then this pattern re-includes it in
+#  # this folder only.
+#  !\Help.exe    
+#
+################################################################################
+
+\Editorial Module\Standard\Site\NewDesign-branch\Redactiemodule\App_Data\index\_15.fdt
+\Editorial Module\Standard\Site\NewDesign-branch\Redactiemodule\App_Data\index\_15.fdx
+\Editorial Module\Standard\Site\NewDesign-branch\Redactiemodule\App_Data\index\_15.fnm
+\Editorial Module\Standard\Site\NewDesign-branch\Redactiemodule\App_Data\index\_15.frq
+\Editorial Module\Standard\Site\NewDesign-branch\Redactiemodule\App_Data\index\_15.nrm
+\Editorial Module\Standard\Site\NewDesign-branch\Redactiemodule\App_Data\index\_15.prx
+\Editorial Module\Standard\Site\NewDesign-branch\Redactiemodule\App_Data\index\_15.tii
+\Editorial Module\Standard\Site\NewDesign-branch\Redactiemodule\App_Data\index\_15.tis
+\Editorial Module\Standard\Site\NewDesign-branch\Redactiemodule\App_Data\index\_15.tvd
+\Editorial Module\Standard\Site\NewDesign-branch\Redactiemodule\App_Data\index\_15.tvf
+\Editorial Module\Standard\Site\NewDesign-branch\Redactiemodule\App_Data\index\_15.tvx
+\Editorial Module\Standard\Site\NewDesign-branch\Redactiemodule\App_Data\index\_15_j.del
+\Editorial Module\Standard\Site\NewDesign-branch\Redactiemodule\App_Data\index\_1g.fdt
+\Editorial Module\Standard\Site\NewDesign-branch\Redactiemodule\App_Data\index\_1g.fdx
+\Editorial Module\Standard\Site\NewDesign-branch\Redactiemodule\App_Data\index\_1g.fnm
+\Editorial Module\Standard\Site\NewDesign-branch\Redactiemodule\App_Data\index\_1g.frq
+\Editorial Module\Standard\Site\NewDesign-branch\Redactiemodule\App_Data\index\_1g.nrm
+\Editorial Module\Standard\Site\NewDesign-branch\Redactiemodule\App_Data\index\_1g.prx
+\Editorial Module\Standard\Site\NewDesign-branch\Redactiemodule\App_Data\index\_1g.tii
+\Editorial Module\Standard\Site\NewDesign-branch\Redactiemodule\App_Data\index\_1g.tis
+\Editorial Module\Standard\Site\NewDesign-branch\Redactiemodule\App_Data\index\_1g.tvd
+\Editorial Module\Standard\Site\NewDesign-branch\Redactiemodule\App_Data\index\_1g.tvf
+\Editorial Module\Standard\Site\NewDesign-branch\Redactiemodule\App_Data\index\_1g.tvx
+\Editorial Module\Standard\Site\NewDesign-branch\Redactiemodule\App_Data\index\_1g_a.del
+\Editorial Module\Standard\Site\NewDesign-branch\Redactiemodule\App_Data\index\_1r.fdt
+\Editorial Module\Standard\Site\NewDesign-branch\Redactiemodule\App_Data\index\_1r.fdx
+\Editorial Module\Standard\Site\NewDesign-branch\Redactiemodule\App_Data\index\_1r.fnm
+\Editorial Module\Standard\Site\NewDesign-branch\Redactiemodule\App_Data\index\_1r.frq
+\Editorial Module\Standard\Site\NewDesign-branch\Redactiemodule\App_Data\index\_1r.nrm
+\Editorial Module\Standard\Site\NewDesign-branch\Redactiemodule\App_Data\index\_1r.prx
+\Editorial Module\Standard\Site\NewDesign-branch\Redactiemodule\App_Data\index\_1r.tii
+\Editorial Module\Standard\Site\NewDesign-branch\Redactiemodule\App_Data\index\_1r.tis
+\Editorial Module\Standard\Site\NewDesign-branch\Redactiemodule\App_Data\index\_1r.tvd
+\Editorial Module\Standard\Site\NewDesign-branch\Redactiemodule\App_Data\index\_1r.tvf
+\Editorial Module\Standard\Site\NewDesign-branch\Redactiemodule\App_Data\index\_1r.tvx
+\Editorial Module\Standard\Site\NewDesign-branch\Redactiemodule\App_Data\index\_1r_a.del
+\Editorial Module\Standard\Site\NewDesign-branch\Redactiemodule\App_Data\index\_2m.fdt
+\Editorial Module\Standard\Site\NewDesign-branch\Redactiemodule\App_Data\index\_2m.fdx
+\Editorial Module\Standard\Site\NewDesign-branch\Redactiemodule\App_Data\index\_2m.fnm
+\Editorial Module\Standard\Site\NewDesign-branch\Redactiemodule\App_Data\index\_2m.frq
+\Editorial Module\Standard\Site\NewDesign-branch\Redactiemodule\App_Data\index\_2m.nrm
+\Editorial Module\Standard\Site\NewDesign-branch\Redactiemodule\App_Data\index\_2m.prx
+\Editorial Module\Standard\Site\NewDesign-branch\Redactiemodule\App_Data\index\_2m.tii
+\Editorial Module\Standard\Site\NewDesign-branch\Redactiemodule\App_Data\index\_2m.tis
+\Editorial Module\Standard\Site\NewDesign-branch\Redactiemodule\App_Data\index\_2m.tvd
+\Editorial Module\Standard\Site\NewDesign-branch\Redactiemodule\App_Data\index\_2m.tvf
+\Editorial Module\Standard\Site\NewDesign-branch\Redactiemodule\App_Data\index\_2m.tvx
+\Editorial Module\Standard\Site\NewDesign-branch\Redactiemodule\App_Data\index\_2m_l.del
+\Editorial Module\Standard\Site\NewDesign-branch\Redactiemodule\App_Data\index\_3h.fdt
+\Editorial Module\Standard\Site\NewDesign-branch\Redactiemodule\App_Data\index\_3h.fdx
+\Editorial Module\Standard\Site\NewDesign-branch\Redactiemodule\App_Data\index\_3h.fnm
+\Editorial Module\Standard\Site\NewDesign-branch\Redactiemodule\App_Data\index\_3h.frq
+\Editorial Module\Standard\Site\NewDesign-branch\Redactiemodule\App_Data\index\_3h.nrm
+\Editorial Module\Standard\Site\NewDesign-branch\Redactiemodule\App_Data\index\_3h.prx
+\Editorial Module\Standard\Site\NewDesign-branch\Redactiemodule\App_Data\index\_3h.tii
+\Editorial Module\Standard\Site\NewDesign-branch\Redactiemodule\App_Data\index\_3h.tis
+\Editorial Module\Standard\Site\NewDesign-branch\Redactiemodule\App_Data\index\_3h.tvd
+\Editorial Module\Standard\Site\NewDesign-branch\Redactiemodule\App_Data\index\_3h.tvf
+\Editorial Module\Standard\Site\NewDesign-branch\Redactiemodule\App_Data\index\_3h.tvx
+\Editorial Module\Standard\Site\NewDesign-branch\Redactiemodule\App_Data\index\_3h_1.del
+\Editorial Module\Standard\Site\NewDesign-branch\Redactiemodule\App_Data\index\_3s.fdt
+\Editorial Module\Standard\Site\NewDesign-branch\Redactiemodule\App_Data\index\_3s.fdx
+\Editorial Module\Standard\Site\NewDesign-branch\Redactiemodule\App_Data\index\_3s.fnm
+\Editorial Module\Standard\Site\NewDesign-branch\Redactiemodule\App_Data\index\_3s.frq
+\Editorial Module\Standard\Site\NewDesign-branch\Redactiemodule\App_Data\index\_3s.nrm
+\Editorial Module\Standard\Site\NewDesign-branch\Redactiemodule\App_Data\index\_3s.prx
+\Editorial Module\Standard\Site\NewDesign-branch\Redactiemodule\App_Data\index\_3s.tii
+\Editorial Module\Standard\Site\NewDesign-branch\Redactiemodule\App_Data\index\_3s.tis
+\Editorial Module\Standard\Site\NewDesign-branch\Redactiemodule\App_Data\index\_3s.tvd
+\Editorial Module\Standard\Site\NewDesign-branch\Redactiemodule\App_Data\index\_3s.tvf
+\Editorial Module\Standard\Site\NewDesign-branch\Redactiemodule\App_Data\index\_3s.tvx
+\Editorial Module\Standard\Site\NewDesign-branch\Redactiemodule\App_Data\index\_43.fdt
+\Editorial Module\Standard\Site\NewDesign-branch\Redactiemodule\App_Data\index\_43.fdx
+\Editorial Module\Standard\Site\NewDesign-branch\Redactiemodule\App_Data\index\_43.fnm
+\Editorial Module\Standard\Site\NewDesign-branch\Redactiemodule\App_Data\index\_43.frq
+\Editorial Module\Standard\Site\NewDesign-branch\Redactiemodule\App_Data\index\_43.nrm
+\Editorial Module\Standard\Site\NewDesign-branch\Redactiemodule\App_Data\index\_43.prx
+\Editorial Module\Standard\Site\NewDesign-branch\Redactiemodule\App_Data\index\_43.tii
+\Editorial Module\Standard\Site\NewDesign-branch\Redactiemodule\App_Data\index\_43.tis
+\Editorial Module\Standard\Site\NewDesign-branch\Redactiemodule\App_Data\index\_43.tvd
+\Editorial Module\Standard\Site\NewDesign-branch\Redactiemodule\App_Data\index\_43.tvf
+\Editorial Module\Standard\Site\NewDesign-branch\Redactiemodule\App_Data\index\_43.tvx
+\Editorial Module\Standard\Site\NewDesign-branch\Redactiemodule\App_Data\index\_6q.fdt
+\Editorial Module\Standard\Site\NewDesign-branch\Redactiemodule\App_Data\index\_6q.fdx
+\Editorial Module\Standard\Site\NewDesign-branch\Redactiemodule\App_Data\index\_6q.fnm
+\Editorial Module\Standard\Site\NewDesign-branch\Redactiemodule\App_Data\index\_6q.frq
+\Editorial Module\Standard\Site\NewDesign-branch\Redactiemodule\App_Data\index\_6q.nrm
+\Editorial Module\Standard\Site\NewDesign-branch\Redactiemodule\App_Data\index\_6q.prx
+\Editorial Module\Standard\Site\NewDesign-branch\Redactiemodule\App_Data\index\_6q.tii
+\Editorial Module\Standard\Site\NewDesign-branch\Redactiemodule\App_Data\index\_6q.tis
+\Editorial Module\Standard\Site\NewDesign-branch\Redactiemodule\App_Data\index\_6q.tvd
+\Editorial Module\Standard\Site\NewDesign-branch\Redactiemodule\App_Data\index\_6q.tvf
+\Editorial Module\Standard\Site\NewDesign-branch\Redactiemodule\App_Data\index\_6q.tvx
+\Editorial Module\Standard\Site\NewDesign-branch\Redactiemodule\App_Data\index\_7k.cfs
+\Editorial Module\Standard\Site\NewDesign-branch\Redactiemodule\App_Data\index\_7k_1.del
+\Editorial Module\Standard\Site\NewDesign-branch\Redactiemodule\App_Data\index\_7l.cfs
+\Editorial Module\Standard\Site\NewDesign-branch\Redactiemodule\App_Data\index\_7l_1.del
+\Editorial Module\Standard\Site\NewDesign-branch\Redactiemodule\App_Data\index\_7m.cfs
+\Editorial Module\Standard\Site\NewDesign-branch\Redactiemodule\App_Data\index\_7m_1.del
+\Editorial Module\Standard\Site\NewDesign-branch\Redactiemodule\App_Data\index\_7n.cfs
+\Editorial Module\Standard\Site\NewDesign-branch\Redactiemodule\App_Data\index\_7n_1.del
+\Editorial Module\Standard\Site\NewDesign-branch\Redactiemodule\App_Data\index\_7o.cfs
+\Editorial Module\Standard\Site\NewDesign-branch\Redactiemodule\App_Data\index\_7o_1.del
+\Editorial Module\Standard\Site\NewDesign-branch\Redactiemodule\App_Data\index\_7p.cfs
+\Editorial Module\Standard\Site\NewDesign-branch\Redactiemodule\App_Data\index\_k.fdt
+\Editorial Module\Standard\Site\NewDesign-branch\Redactiemodule\App_Data\index\_k.fdx
+\Editorial Module\Standard\Site\NewDesign-branch\Redactiemodule\App_Data\index\_k.fnm
+\Editorial Module\Standard\Site\NewDesign-branch\Redactiemodule\App_Data\index\_k.frq
+\Editorial Module\Standard\Site\NewDesign-branch\Redactiemodule\App_Data\index\_k.nrm
+\Editorial Module\Standard\Site\NewDesign-branch\Redactiemodule\App_Data\index\_k.prx
+\Editorial Module\Standard\Site\NewDesign-branch\Redactiemodule\App_Data\index\_k.tii
+\Editorial Module\Standard\Site\NewDesign-branch\Redactiemodule\App_Data\index\_k.tis
+\Editorial Module\Standard\Site\NewDesign-branch\Redactiemodule\App_Data\index\_k.tvd
+\Editorial Module\Standard\Site\NewDesign-branch\Redactiemodule\App_Data\index\_k.tvf
+\Editorial Module\Standard\Site\NewDesign-branch\Redactiemodule\App_Data\index\_k.tvx
+\Editorial Module\Standard\Site\NewDesign-branch\Redactiemodule\App_Data\index\_k_j.del
+\Editorial Module\Standard\Site\NewDesign-branch\Redactiemodule\App_Data\index\segments.gen
+\Editorial Module\Standard\Site\NewDesign-branch\Redactiemodule\App_Data\index\segments_73
+\Editorial Module\Standard\Site\NewDesign-branch\Redactiemodule\App_Data\index\write.lock

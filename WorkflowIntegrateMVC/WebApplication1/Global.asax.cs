@@ -15,32 +15,6 @@ namespace WebApplication1
     {
         protected void Application_Start()
         {
-            AutoResetEvent syncEvent = new AutoResetEvent(false);
-
-            WorkflowApplication wfApp =
-                new WorkflowApplication(new Germany());
-
-            wfApp.Completed = delegate(WorkflowApplicationCompletedEventArgs e)
-            {
-                syncEvent.Set();
-            };
-
-            wfApp.Aborted = delegate(WorkflowApplicationAbortedEventArgs e)
-            {
-                Console.WriteLine(e.Reason);
-                syncEvent.Set();
-            };
-
-            wfApp.OnUnhandledException = delegate(WorkflowApplicationUnhandledExceptionEventArgs e)
-            {
-                Console.WriteLine(e.UnhandledException.ToString());
-                return UnhandledExceptionAction.Terminate;
-            };
-
-            wfApp.Run();
-
-            syncEvent.WaitOne();
-
             AreaRegistration.RegisterAllAreas();
             FilterConfig.RegisterGlobalFilters(GlobalFilters.Filters);
             RouteConfig.RegisterRoutes(RouteTable.Routes);
