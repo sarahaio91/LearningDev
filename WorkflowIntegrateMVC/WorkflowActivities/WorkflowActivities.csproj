@@ -54,9 +54,15 @@
     <Compile Include="WorkflowStep.cs" />
   </ItemGroup>
   <ItemGroup>
-    <XamlAppDef Include="Workflow.xaml">
+    <XamlAppDef Include="Germany.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
+    </XamlAppDef>
+  </ItemGroup>
+  <ItemGroup>
+    <XamlAppDef Include="Italy.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
     </XamlAppDef>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

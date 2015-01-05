@@ -8,12 +8,14 @@ using System.Activities;
 using WorkflowActivities;
 using WebApplication1.Models;
 using System.Web.Routing;
+using System.Diagnostics;
 
 namespace WebApplication1.Controllers
 {
     public class HomeController : SampleController
     {
         public WorkflowModel.IWorkflowService WorkflowService { get; set; }
+        public IMembershipService MembershipService { get; set; }
 
         protected override void Initialize(RequestContext requestContext)
         {
@@ -23,6 +25,8 @@ namespace WebApplication1.Controllers
         }
         public ActionResult Index()
         {
+            //Guid workflowKey = MembershipService.GetUserWorkflowKey(User.Identity.Name);
+            //Debug.WriteLine(User.Identity.Name);
             WorkflowService.ResumeWorkflow(Guid.Parse("CF9A4462-8C10-476E-B07B-4AEEBD4160EC"));
             string step = WorkflowService.Current();
             WorkflowService.Unload();
