@@ -9,7 +9,7 @@ namespace D2.DAL
 {
     public class D2Context : DbContext, ID2Context 
     {
-        public DbSet<Hero> Heroes { set; get; }
+        public IMyAsyncDbSet<Hero> Heroes { set; get; }
         public IDbSet<Position> Positions { set; get; }
         public IMyAsyncDbSet<Map> Maps { set; get; }
     }

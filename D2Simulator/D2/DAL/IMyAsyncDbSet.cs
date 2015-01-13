@@ -7,8 +7,8 @@ using System.Web;
 
 namespace D2.DAL
 {
-    public interface IMyAsyncDbSet<T> : IDbSet<T> where T : class
+    public interface IMyAsyncDbSet<TEntity> : IDbSet<TEntity> where TEntity : class
     {
-        Task<T> FindAsync(params Object[] keyValues);
+        Task<TEntity> FindAsync(params Object[] keyValues);
     }
 }
