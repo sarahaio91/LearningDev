@@ -10,7 +10,10 @@ namespace OOPPractice
     {
         double calculation(IPrice price);
     }
-    class Calculation
+    class Calculation : ICalculation
     {
+        public double calculation(IPrice price){
+            return price.getPrice() + price.getPrice()*0.1;
+        }
     }
 }

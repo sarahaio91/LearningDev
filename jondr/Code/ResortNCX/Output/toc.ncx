@@ -1,0 +1,705 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE ncx PUBLIC "-//NISO//DTD ncx 2005-1//EN" "http://www.daisy.org/z3986/2005/ncx-2005-1.dtd"[]>
+<ncx xmlns="http://www.daisy.org/z3986/2005/ncx/" version="2005-1">
+  <head>
+    <meta content="urn:uuid:e30e90ff-08cb-4f65-bec8-feb436ba20a1" name="dtb:uid" />
+    <meta content="0" name="dtb:depth" />
+    <meta content="0" name="dtb:totalPageCount" />
+    <meta content="0" name="dtb:maxPageNumber" />
+  </head>
+  <docTitle>
+    <text>Belastingblad 2014 - 15</text>
+  </docTitle>
+  <navMap>
+    <navPoint id="1" playOrder="1">
+      <navLabel>
+        <text>Inhoud</text>
+      </navLabel>
+      <content src="Text/inhoud.xhtml#inhoudsopgave" />
+    </navPoint>
+    <navPoint id="2" playOrder="2">
+      <navLabel>
+        <text>Colofon</text>
+      </navLabel>
+      <content src="Text/inhoud.xhtml#calibre_toc_2" />
+    </navPoint>
+    <navPoint id="3" playOrder="3">
+      <navLabel>
+        <text>JRV</text>
+      </navLabel>
+      <content src="Text/jrvartikelen.xhtml" />
+      <navPoint id="4" playOrder="4">
+        <navLabel>
+          <text>Regelgeving</text>
+        </navLabel>
+        <content src="Text/jrvartikelen.xhtml#ID0EDH" />
+        <navPoint id="5" playOrder="5">
+          <navLabel>
+            <text>918</text>
+          </navLabel>
+          <content src="Text/jrvartikelen.xhtml#ID0ELAAC" />
+        </navPoint>
+        <navPoint id="6" playOrder="6">
+          <navLabel>
+            <text>919</text>
+          </navLabel>
+          <content src="Text/jrvartikelen.xhtml#ID0EQBAC" />
+        </navPoint>
+      </navPoint>
+      <navPoint id="7" playOrder="7">
+        <navLabel>
+          <text>Rechtspraak</text>
+        </navLabel>
+        <content src="Text/jrvartikelen.xhtml#ID0ETDAC" />
+        <navPoint id="8" playOrder="8">
+          <navLabel>
+            <text>920</text>
+          </navLabel>
+          <content src="Text/jrvartikelen.xhtml#ID0E1EAC" />
+        </navPoint>
+        <navPoint id="9" playOrder="9">
+          <navLabel>
+            <text>921</text>
+          </navLabel>
+          <content src="Text/jrvartikelen.xhtml#ID0E1HAC" />
+        </navPoint>
+        <navPoint id="10" playOrder="10">
+          <navLabel>
+            <text>922</text>
+          </navLabel>
+          <content src="Text/jrvartikelen.xhtml#ID0EFNAC" />
+        </navPoint>
+        <navPoint id="11" playOrder="11">
+          <navLabel>
+            <text>923</text>
+          </navLabel>
+          <content src="Text/jrvartikelen.xhtml#ID0ENAAE" />
+        </navPoint>
+        <navPoint id="12" playOrder="12">
+          <navLabel>
+            <text>924</text>
+          </navLabel>
+          <content src="Text/jrvartikelen.xhtml#ID0EFCAE" />
+        </navPoint>
+        <navPoint id="13" playOrder="13">
+          <navLabel>
+            <text>925</text>
+          </navLabel>
+          <content src="Text/jrvartikelen.xhtml#ID0EQDAE" />
+        </navPoint>
+        <navPoint id="14" playOrder="14">
+          <navLabel>
+            <text>926</text>
+          </navLabel>
+          <content src="Text/jrvartikelen.xhtml#ID0EXFAE" />
+        </navPoint>
+        <navPoint id="15" playOrder="15">
+          <navLabel>
+            <text>927</text>
+          </navLabel>
+          <content src="Text/jrvartikelen.xhtml#ID0EAJAE" />
+        </navPoint>
+        <navPoint id="16" playOrder="16">
+          <navLabel>
+            <text>928</text>
+          </navLabel>
+          <content src="Text/jrvartikelen.xhtml#ID0ERKAE" />
+        </navPoint>
+        <navPoint id="17" playOrder="17">
+          <navLabel>
+            <text>929</text>
+          </navLabel>
+          <content src="Text/jrvartikelen.xhtml#ID0EPMAE" />
+        </navPoint>
+        <navPoint id="18" playOrder="18">
+          <navLabel>
+            <text>930</text>
+          </navLabel>
+          <content src="Text/jrvartikelen.xhtml#ID0E4NAE" />
+        </navPoint>
+        <navPoint id="19" playOrder="19">
+          <navLabel>
+            <text>931</text>
+          </navLabel>
+          <content src="Text/jrvartikelen.xhtml#ID0EOPAE" />
+        </navPoint>
+        <navPoint id="20" playOrder="20">
+          <navLabel>
+            <text>932</text>
+          </navLabel>
+          <content src="Text/jrvartikelen.xhtml#ID0EFRAE" />
+        </navPoint>
+        <navPoint id="21" playOrder="21">
+          <navLabel>
+            <text>933</text>
+          </navLabel>
+          <content src="Text/jrvartikelen.xhtml#ID0ERSAE" />
+        </navPoint>
+        <navPoint id="22" playOrder="22">
+          <navLabel>
+            <text>934</text>
+          </navLabel>
+          <content src="Text/jrvartikelen.xhtml#ID0EXUAE" />
+        </navPoint>
+        <navPoint id="23" playOrder="23">
+          <navLabel>
+            <text>935</text>
+          </navLabel>
+          <content src="Text/jrvartikelen.xhtml#ID0EEWAE" />
+        </navPoint>
+        <navPoint id="24" playOrder="24">
+          <navLabel>
+            <text>936</text>
+          </navLabel>
+          <content src="Text/jrvartikelen.xhtml#ID0EAYAE" />
+        </navPoint>
+        <navPoint id="25" playOrder="25">
+          <navLabel>
+            <text>937</text>
+          </navLabel>
+          <content src="Text/jrvartikelen.xhtml#ID0EA1AE" />
+        </navPoint>
+        <navPoint id="26" playOrder="26">
+          <navLabel>
+            <text>938</text>
+          </navLabel>
+          <content src="Text/jrvartikelen.xhtml#ID0ER2AE" />
+        </navPoint>
+        <navPoint id="27" playOrder="27">
+          <navLabel>
+            <text>939</text>
+          </navLabel>
+          <content src="Text/jrvartikelen.xhtml#ID0E64AE" />
+        </navPoint>
+        <navPoint id="28" playOrder="28">
+          <navLabel>
+            <text>940</text>
+          </navLabel>
+          <content src="Text/jrvartikelen.xhtml#ID0E16AE" />
+        </navPoint>
+        <navPoint id="29" playOrder="29">
+          <navLabel>
+            <text>941</text>
+          </navLabel>
+          <content src="Text/jrvartikelen.xhtml#ID0EMBAG" />
+        </navPoint>
+        <navPoint id="30" playOrder="30">
+          <navLabel>
+            <text>942</text>
+          </navLabel>
+          <content src="Text/jrvartikelen.xhtml#ID0EBDAG" />
+        </navPoint>
+        <navPoint id="31" playOrder="31">
+          <navLabel>
+            <text>943</text>
+          </navLabel>
+          <content src="Text/jrvartikelen.xhtml#ID0E2EAG" />
+        </navPoint>
+        <navPoint id="32" playOrder="32">
+          <navLabel>
+            <text>944</text>
+          </navLabel>
+          <content src="Text/jrvartikelen.xhtml#ID0EGHAG" />
+        </navPoint>
+        <navPoint id="33" playOrder="33">
+          <navLabel>
+            <text>945</text>
+          </navLabel>
+          <content src="Text/jrvartikelen.xhtml#ID0EEMAG" />
+        </navPoint>
+        <navPoint id="34" playOrder="34">
+          <navLabel>
+            <text>946</text>
+          </navLabel>
+          <content src="Text/jrvartikelen.xhtml#ID0E3NAG" />
+        </navPoint>
+      </navPoint>
+      <navPoint id="35" playOrder="35">
+        <navLabel>
+          <text>Literatuur</text>
+        </navLabel>
+        <content src="Text/jrvartikelen.xhtml#ID0E3RAG" />
+        <navPoint id="36" playOrder="36">
+          <navLabel>
+            <text>947</text>
+          </navLabel>
+          <content src="Text/jrvartikelen.xhtml#ID0EDTAG" />
+        </navPoint>
+        <navPoint id="37" playOrder="37">
+          <navLabel>
+            <text>948</text>
+          </navLabel>
+          <content src="Text/jrvartikelen.xhtml#ID0EEUAG" />
+        </navPoint>
+        <navPoint id="38" playOrder="38">
+          <navLabel>
+            <text>949</text>
+          </navLabel>
+          <content src="Text/jrvartikelen.xhtml#ID0EZUAG" />
+        </navPoint>
+        <navPoint id="39" playOrder="39">
+          <navLabel>
+            <text>950</text>
+          </navLabel>
+          <content src="Text/jrvartikelen.xhtml#ID0EPVAG" />
+        </navPoint>
+        <navPoint id="40" playOrder="40">
+          <navLabel>
+            <text>951</text>
+          </navLabel>
+          <content src="Text/jrvartikelen.xhtml#ID0ETWAG" />
+        </navPoint>
+        <navPoint id="41" playOrder="41">
+          <navLabel>
+            <text>952</text>
+          </navLabel>
+          <content src="Text/jrvartikelen.xhtml#ID0EOXAG" />
+        </navPoint>
+        <navPoint id="42" playOrder="42">
+          <navLabel>
+            <text>953</text>
+          </navLabel>
+          <content src="Text/jrvartikelen.xhtml#ID0EJZAG" />
+        </navPoint>
+        <navPoint id="43" playOrder="43">
+          <navLabel>
+            <text>954</text>
+          </navLabel>
+          <content src="Text/jrvartikelen.xhtml#ID0EE1AG" />
+        </navPoint>
+        <navPoint id="44" playOrder="44">
+          <navLabel>
+            <text>955</text>
+          </navLabel>
+          <content src="Text/jrvartikelen.xhtml#ID0EC2AG" />
+        </navPoint>
+        <navPoint id="45" playOrder="45">
+          <navLabel>
+            <text>956</text>
+          </navLabel>
+          <content src="Text/jrvartikelen.xhtml#ID0E32AG" />
+        </navPoint>
+        <navPoint id="46" playOrder="46">
+          <navLabel>
+            <text>957</text>
+          </navLabel>
+          <content src="Text/jrvartikelen.xhtml#ID0E13AG" />
+        </navPoint>
+        <navPoint id="47" playOrder="47">
+          <navLabel>
+            <text>958</text>
+          </navLabel>
+          <content src="Text/jrvartikelen.xhtml#ID0EQ4AG" />
+        </navPoint>
+        <navPoint id="48" playOrder="48">
+          <navLabel>
+            <text>959</text>
+          </navLabel>
+          <content src="Text/jrvartikelen.xhtml#ID0EP5AG" />
+        </navPoint>
+        <navPoint id="49" playOrder="49">
+          <navLabel>
+            <text>960</text>
+          </navLabel>
+          <content src="Text/jrvartikelen.xhtml#ID0EF6AG" />
+        </navPoint>
+        <navPoint id="50" playOrder="50">
+          <navLabel>
+            <text>961</text>
+          </navLabel>
+          <content src="Text/jrvartikelen.xhtml#ID0E26AG" />
+        </navPoint>
+        <navPoint id="51" playOrder="51">
+          <navLabel>
+            <text>962</text>
+          </navLabel>
+          <content src="Text/jrvartikelen.xhtml#ID0ERABG" />
+        </navPoint>
+        <navPoint id="52" playOrder="52">
+          <navLabel>
+            <text>963</text>
+          </navLabel>
+          <content src="Text/jrvartikelen.xhtml#ID0EXBBG" />
+        </navPoint>
+        <navPoint id="53" playOrder="53">
+          <navLabel>
+            <text>964</text>
+          </navLabel>
+          <content src="Text/jrvartikelen.xhtml#ID0ETCBG" />
+        </navPoint>
+        <navPoint id="54" playOrder="54">
+          <navLabel>
+            <text>965</text>
+          </navLabel>
+          <content src="Text/jrvartikelen.xhtml#ID0EJDBG" />
+        </navPoint>
+        <navPoint id="55" playOrder="55">
+          <navLabel>
+            <text>966</text>
+          </navLabel>
+          <content src="Text/jrvartikelen.xhtml#ID0E6DBG" />
+        </navPoint>
+        <navPoint id="56" playOrder="56">
+          <navLabel>
+            <text>967</text>
+          </navLabel>
+          <content src="Text/jrvartikelen.xhtml#ID0EAFBG" />
+        </navPoint>
+        <navPoint id="57" playOrder="57">
+          <navLabel>
+            <text>968</text>
+          </navLabel>
+          <content src="Text/jrvartikelen.xhtml#ID0E2FBG" />
+        </navPoint>
+        <navPoint id="58" playOrder="58">
+          <navLabel>
+            <text>969</text>
+          </navLabel>
+          <content src="Text/jrvartikelen.xhtml#ID0E3GBG" />
+        </navPoint>
+        <navPoint id="59" playOrder="59">
+          <navLabel>
+            <text>970</text>
+          </navLabel>
+          <content src="Text/jrvartikelen.xhtml#ID0EWHBG" />
+        </navPoint>
+      </navPoint>
+      <navPoint id="60" playOrder="60">
+        <navLabel>
+          <text>Reeds gesignaleerde rechtspraak</text>
+        </navLabel>
+        <content src="Text/jrvartikelen.xhtml#ID0EZJBG" />
+        <navPoint id="61" playOrder="61">
+          <navLabel>
+            <text>971</text>
+          </navLabel>
+          <content src="Text/jrvartikelen.xhtml#ID0EALBG" />
+        </navPoint>
+        <navPoint id="62" playOrder="62">
+          <navLabel>
+            <text>972</text>
+          </navLabel>
+          <content src="Text/jrvartikelen.xhtml#ID0EHMBG" />
+        </navPoint>
+        <navPoint id="63" playOrder="63">
+          <navLabel>
+            <text>973</text>
+          </navLabel>
+          <content src="Text/jrvartikelen.xhtml#ID0EWNBG" />
+        </navPoint>
+        <navPoint id="64" playOrder="64">
+          <navLabel>
+            <text>974</text>
+          </navLabel>
+          <content src="Text/jrvartikelen.xhtml#ID0EPPBG" />
+        </navPoint>
+        <navPoint id="65" playOrder="65">
+          <navLabel>
+            <text>975</text>
+          </navLabel>
+          <content src="Text/jrvartikelen.xhtml#ID0E1QBG" />
+        </navPoint>
+        <navPoint id="66" playOrder="66">
+          <navLabel>
+            <text>976</text>
+          </navLabel>
+          <content src="Text/jrvartikelen.xhtml#ID0EESBG" />
+        </navPoint>
+        <navPoint id="67" playOrder="67">
+          <navLabel>
+            <text>977</text>
+          </navLabel>
+          <content src="Text/jrvartikelen.xhtml#ID0ELTBG" />
+        </navPoint>
+      </navPoint>
+    </navPoint>
+    <navPoint id="68" playOrder="68">
+      <navLabel>
+        <text>JE</text>
+      </navLabel>
+      <content src="Text/jeartikelen.xhtml" />
+      <navPoint id="69" playOrder="69">
+        <navLabel>
+          <text>Regelgeving</text>
+        </navLabel>
+        <content src="Text/jeartikelen.xhtml#ixlink1" />
+        <navPoint id="70" playOrder="70">
+          <navLabel>
+            <text>978</text>
+          </navLabel>
+          <content src="Text/jeartikelen.xhtml#ID0ELAAC" />
+        </navPoint>
+        <navPoint id="71" playOrder="71">
+          <navLabel>
+            <text>979</text>
+          </navLabel>
+          <content src="Text/jeartikelen.xhtml#ID0E5BAC" />
+        </navPoint>
+        <navPoint id="72" playOrder="72">
+          <navLabel>
+            <text>980</text>
+          </navLabel>
+          <content src="Text/jeartikelen.xhtml#ID0ETDAC" />
+        </navPoint>
+        <navPoint id="73" playOrder="73">
+          <navLabel>
+            <text>981</text>
+          </navLabel>
+          <content src="Text/jeartikelen.xhtml#ID0EYEAC" />
+        </navPoint>
+      </navPoint>
+      <navPoint id="74" playOrder="74">
+        <navLabel>
+          <text>Rechtspraak</text>
+        </navLabel>
+        <content src="Text/jeartikelen.xhtml#ID0ERGAC" />
+        <navPoint id="75" playOrder="75">
+          <navLabel>
+            <text>982</text>
+          </navLabel>
+          <content src="Text/jeartikelen.xhtml#ID0EYHAC" />
+        </navPoint>
+        <navPoint id="76" playOrder="76">
+          <navLabel>
+            <text>983</text>
+          </navLabel>
+          <content src="Text/jeartikelen.xhtml#ID0E5JAC" />
+        </navPoint>
+        <navPoint id="77" playOrder="77">
+          <navLabel>
+            <text>984</text>
+          </navLabel>
+          <content src="Text/jeartikelen.xhtml#ID0EBLAC" />
+        </navPoint>
+        <navPoint id="78" playOrder="78">
+          <navLabel>
+            <text>985</text>
+          </navLabel>
+          <content src="Text/jeartikelen.xhtml#ID0E3MAC" />
+        </navPoint>
+        <navPoint id="79" playOrder="79">
+          <navLabel>
+            <text>986</text>
+          </navLabel>
+          <content src="Text/jeartikelen.xhtml#ID0E6NAC" />
+        </navPoint>
+        <navPoint id="80" playOrder="80">
+          <navLabel>
+            <text>987</text>
+          </navLabel>
+          <content src="Text/jeartikelen.xhtml#ID0E3PAC" />
+        </navPoint>
+        <navPoint id="81" playOrder="81">
+          <navLabel>
+            <text>988</text>
+          </navLabel>
+          <content src="Text/jeartikelen.xhtml#ID0EVBAE" />
+        </navPoint>
+        <navPoint id="82" playOrder="82">
+          <navLabel>
+            <text>989</text>
+          </navLabel>
+          <content src="Text/jeartikelen.xhtml#ID0EGEAE" />
+        </navPoint>
+        <navPoint id="83" playOrder="83">
+          <navLabel>
+            <text>990</text>
+          </navLabel>
+          <content src="Text/jeartikelen.xhtml#ID0EJFAE" />
+        </navPoint>
+        <navPoint id="84" playOrder="84">
+          <navLabel>
+            <text>991</text>
+          </navLabel>
+          <content src="Text/jeartikelen.xhtml#ID0ELGAE" />
+        </navPoint>
+        <navPoint id="85" playOrder="85">
+          <navLabel>
+            <text>992</text>
+          </navLabel>
+          <content src="Text/jeartikelen.xhtml#ID0EJIAE" />
+        </navPoint>
+        <navPoint id="86" playOrder="86">
+          <navLabel>
+            <text>993</text>
+          </navLabel>
+          <content src="Text/jeartikelen.xhtml#ID0EFKAE" />
+        </navPoint>
+      </navPoint>
+      <navPoint id="87" playOrder="87">
+        <navLabel>
+          <text>Literatuur</text>
+        </navLabel>
+        <content src="Text/jeartikelen.xhtml#ID0EZLAE" />
+        <navPoint id="88" playOrder="88">
+          <navLabel>
+            <text>994</text>
+          </navLabel>
+          <content src="Text/jeartikelen.xhtml#ID0EANAE" />
+        </navPoint>
+        <navPoint id="89" playOrder="89">
+          <navLabel>
+            <text>995</text>
+          </navLabel>
+          <content src="Text/jeartikelen.xhtml#ID0EWNAE" />
+        </navPoint>
+        <navPoint id="90" playOrder="90">
+          <navLabel>
+            <text>996</text>
+          </navLabel>
+          <content src="Text/jeartikelen.xhtml#ID0EROAE" />
+        </navPoint>
+        <navPoint id="91" playOrder="91">
+          <navLabel>
+            <text>997</text>
+          </navLabel>
+          <content src="Text/jeartikelen.xhtml#ID0EHPAE" />
+        </navPoint>
+        <navPoint id="92" playOrder="92">
+          <navLabel>
+            <text>998</text>
+          </navLabel>
+          <content src="Text/jeartikelen.xhtml#ID0EIQAE" />
+        </navPoint>
+        <navPoint id="93" playOrder="93">
+          <navLabel>
+            <text>999</text>
+          </navLabel>
+          <content src="Text/jeartikelen.xhtml#ID0EERAE" />
+        </navPoint>
+        <navPoint id="94" playOrder="94">
+          <navLabel>
+            <text>1000</text>
+          </navLabel>
+          <content src="Text/jeartikelen.xhtml#ID0EFSAE" />
+        </navPoint>
+        <navPoint id="95" playOrder="95">
+          <navLabel>
+            <text>1001</text>
+          </navLabel>
+          <content src="Text/jeartikelen.xhtml#ID0E2SAE" />
+        </navPoint>
+        <navPoint id="96" playOrder="96">
+          <navLabel>
+            <text>1002</text>
+          </navLabel>
+          <content src="Text/jeartikelen.xhtml#ID0ERTAE" />
+        </navPoint>
+        <navPoint id="97" playOrder="97">
+          <navLabel>
+            <text>1003</text>
+          </navLabel>
+          <content src="Text/jeartikelen.xhtml#ID0EHUAE" />
+        </navPoint>
+        <navPoint id="98" playOrder="98">
+          <navLabel>
+            <text>1004</text>
+          </navLabel>
+          <content src="Text/jeartikelen.xhtml#ID0E2VAE" />
+        </navPoint>
+        <navPoint id="99" playOrder="99">
+          <navLabel>
+            <text>1005</text>
+          </navLabel>
+          <content src="Text/jeartikelen.xhtml#ID0ERWAE" />
+        </navPoint>
+        <navPoint id="100" playOrder="100">
+          <navLabel>
+            <text>1006</text>
+          </navLabel>
+          <content src="Text/jeartikelen.xhtml#ID0EMXAE" />
+        </navPoint>
+        <navPoint id="101" playOrder="101">
+          <navLabel>
+            <text>1007</text>
+          </navLabel>
+          <content src="Text/jeartikelen.xhtml#ID0ECYAE" />
+        </navPoint>
+        <navPoint id="102" playOrder="102">
+          <navLabel>
+            <text>1008</text>
+          </navLabel>
+          <content src="Text/jeartikelen.xhtml#ID0EYYAE" />
+        </navPoint>
+        <navPoint id="103" playOrder="103">
+          <navLabel>
+            <text>1009</text>
+          </navLabel>
+          <content src="Text/jeartikelen.xhtml#ID0EOZAE" />
+        </navPoint>
+        <navPoint id="104" playOrder="104">
+          <navLabel>
+            <text>1010</text>
+          </navLabel>
+          <content src="Text/jeartikelen.xhtml#ID0EF1AE" />
+        </navPoint>
+        <navPoint id="105" playOrder="105">
+          <navLabel>
+            <text>1011</text>
+          </navLabel>
+          <content src="Text/jeartikelen.xhtml#ID0E21AE" />
+        </navPoint>
+        <navPoint id="106" playOrder="106">
+          <navLabel>
+            <text>1012</text>
+          </navLabel>
+          <content src="Text/jeartikelen.xhtml#ID0E32AE" />
+        </navPoint>
+        <navPoint id="107" playOrder="107">
+          <navLabel>
+            <text>1013</text>
+          </navLabel>
+          <content src="Text/jeartikelen.xhtml#ID0E23AE" />
+        </navPoint>
+        <navPoint id="108" playOrder="108">
+          <navLabel>
+            <text>1014</text>
+          </navLabel>
+          <content src="Text/jeartikelen.xhtml#ID0ER4AE" />
+        </navPoint>
+        <navPoint id="109" playOrder="109">
+          <navLabel>
+            <text>1015</text>
+          </navLabel>
+          <content src="Text/jeartikelen.xhtml#ID0EH5AE" />
+        </navPoint>
+      </navPoint>
+      <navPoint id="110" playOrder="110">
+        <navLabel>
+          <text>Reeds gesignaleerde rechtspraak</text>
+        </navLabel>
+        <content src="Text/jeartikelen.xhtml#ID0ES6AE" />
+        <navPoint id="111" playOrder="111">
+          <navLabel>
+            <text>1016</text>
+          </navLabel>
+          <content src="Text/jeartikelen.xhtml#ID0E1AAG" />
+        </navPoint>
+        <navPoint id="112" playOrder="112">
+          <navLabel>
+            <text>1017</text>
+          </navLabel>
+          <content src="Text/jeartikelen.xhtml#ID0EMCAG" />
+        </navPoint>
+        <navPoint id="113" playOrder="113">
+          <navLabel>
+            <text>1018</text>
+          </navLabel>
+          <content src="Text/jeartikelen.xhtml#ID0EWDAG" />
+        </navPoint>
+        <navPoint id="114" playOrder="114">
+          <navLabel>
+            <text>1019</text>
+          </navLabel>
+          <content src="Text/jeartikelen.xhtml#ID0EAFAG" />
+        </navPoint>
+      </navPoint>
+    </navPoint>
+    <navPoint id="115" playOrder="115">
+      <navLabel>
+        <text>Paginaregister</text>
+      </navLabel>
+      <content src="Text/jeartikelen.xhtml#toclink_paginaregister" />
+    </navPoint>
+  </navMap>
+</ncx>

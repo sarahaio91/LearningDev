@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ncx version="2005-1" xml:lang="nld" xmlns="http://www.daisy.org/z3986/2005/ncx/">
+  <head>
+    <meta content="" name="dtb:uid" />
+    <meta content="0" name="dtb:totalPageCount" />
+    <meta content="0" name="dtb:maxPageNumber" />
+  </head>
+  <docTitle>
+    <text>FED Fiscaal Weekblad 2014 - 22</text>
+  </docTitle>
+  <navMap>
+    <navPoint id="b7c2339c-cc11-4f40-aea5-c4fe1cd4ae3c" playOrder="1">
+      <navLabel>
+        <text>Inhoud</text>
+      </navLabel>
+      <content src="Text/inhoud.html#calibre_toc_1" />
+    </navPoint>
+    <navPoint id="c9d13cf5-8201-41bc-b588-c6ef2451b978" playOrder="2">
+      <navLabel>
+        <text>Colofon</text>
+      </navLabel>
+      <content src="Text/inhoud.html#calibre_toc_2" />
+    </navPoint>
+    <navPoint id="8d6465ae-4806-4e8b-a585-59e55759cbd5" playOrder="3">
+      <navLabel>
+        <text>AWR</text>
+      </navLabel>
+      <content src="Text/artikelen.html#ID0EXAAC" />
+    </navPoint>
+    <navPoint id="9da56b2b-f5ed-4757-b94b-e1e2dae4ccb4" playOrder="4">
+      <navLabel>
+        <text>Inkomstenbelasting</text>
+      </navLabel>
+      <content src="Text/artikelen.html#ID0E2HAE" />
+    </navPoint>
+    <navPoint id="fa81e00b-3526-4a2e-ab25-034a36a75d8b" playOrder="5">
+      <navLabel>
+        <text>Dividendbelasting</text>
+      </navLabel>
+      <content src="Text/artikelen.html#ID0EOXAE" />
+    </navPoint>
+    <navPoint id="8d017983-68f1-4ce0-be7a-e7d584382bbd" playOrder="6">
+      <navLabel>
+        <text>Omzetbelasting</text>
+      </navLabel>
+      <content src="Text/artikelen.html#ID0EJEAG" />
+    </navPoint>
+    <navPoint id="5d0a9f32-5310-442c-8831-b6729c8ab73e" playOrder="7">
+      <navLabel>
+        <text>Paginaregister</text>
+      </navLabel>
+      <content src="Text/artikelen.html#toclink_paginaregister" />
+    </navPoint>
+  </navMap>
+</ncx>

@@ -1,0 +1,703 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?><!DOCTYPE ncx PUBLIC "-//NISO//DTD ncx 2005-1//EN" "http://www.daisy.org/z3986/2005/ncx-2005-1.dtd"><ncx xmlns="http://www.daisy.org/z3986/2005/ncx/" version="2005-1">
+<head>
+   <meta content="urn:uuid:e30e90ff-08cb-4f65-bec8-feb436ba20a1" name="dtb:uid"/>
+   <meta content="0" name="dtb:depth"/>
+   <meta content="0" name="dtb:totalPageCount"/>
+   <meta content="0" name="dtb:maxPageNumber"/>
+</head>
+<docTitle>
+   <text>Belastingblad 2014 - 15</text>
+</docTitle>
+<navMap>
+  <navPoint id="4f3499b3-4beb-4780-a2e5-eb6bd549a9f5" playOrder="1">
+    <navLabel>
+      <text>Inhoud</text>
+    </navLabel>
+    <content src="Text/inhoud.xhtml#inhoudsopgave" />
+  </navPoint>
+  <navPoint id="3c536ef3-df36-496e-b789-b3aaaf7729a7" playOrder="2">
+    <navLabel>
+      <text>Colofon</text>
+    </navLabel>
+    <content src="Text/inhoud.xhtml#calibre_toc_2" />
+  </navPoint>
+  <navPoint id="3" playOrder="3">
+      <navLabel>
+        <text>JRV</text>
+      </navLabel>
+    <content src="Text/jrvartikelen.xhtml" />
+	  <navPoint id="8bdac97b-506a-4472-a67f-65232f331321" playOrder="3">
+    <navLabel>
+      <text>Regelgeving</text>
+    </navLabel>
+    <content src="Text/jrvartikelen.xhtml#ID0EDH" />
+    <navPoint id="919cd621-6856-4c8a-9dfb-675ab349f51d" playOrder="4">
+      <navLabel>
+        <text>918</text>
+      </navLabel>
+      <content src="Text/jrvartikelen.xhtml#ID0ELAAC" />
+    </navPoint>
+    <navPoint id="b0a8e627-abec-4314-bc36-6c6eaff21865" playOrder="5">
+      <navLabel>
+        <text>919</text>
+      </navLabel>
+      <content src="Text/jrvartikelen.xhtml#ID0EQBAC" />
+    </navPoint>
+  </navPoint>
+  <navPoint id="81557651-324f-4cab-bf99-48a95ca14ced" playOrder="6">
+    <navLabel>
+      <text>Rechtspraak</text>
+    </navLabel>
+    <content src="Text/jrvartikelen.xhtml#ID0ETDAC" />
+    <navPoint id="d0413335-5ed1-4636-aad8-c1d14ceda79a" playOrder="7">
+      <navLabel>
+        <text>920</text>
+      </navLabel>
+      <content src="Text/jrvartikelen.xhtml#ID0E1EAC" />
+    </navPoint>
+    <navPoint id="f7539fed-26fd-4163-a155-1df0ba6964b8" playOrder="8">
+      <navLabel>
+        <text>921</text>
+      </navLabel>
+      <content src="Text/jrvartikelen.xhtml#ID0E1HAC" />
+    </navPoint>
+    <navPoint id="764008a9-fb9f-4eee-ab97-c887a74271bf" playOrder="9">
+      <navLabel>
+        <text>922</text>
+      </navLabel>
+      <content src="Text/jrvartikelen.xhtml#ID0EFNAC" />
+    </navPoint>
+    <navPoint id="51abbbf1-bb67-42c9-ac3c-cd82cd19c867" playOrder="10">
+      <navLabel>
+        <text>923</text>
+      </navLabel>
+      <content src="Text/jrvartikelen.xhtml#ID0ENAAE" />
+    </navPoint>
+    <navPoint id="edebd7dd-8c94-483b-999c-1517cd1c691c" playOrder="11">
+      <navLabel>
+        <text>924</text>
+      </navLabel>
+      <content src="Text/jrvartikelen.xhtml#ID0EFCAE" />
+    </navPoint>
+    <navPoint id="65f237a8-6693-4508-9442-210119e69ef1" playOrder="12">
+      <navLabel>
+        <text>925</text>
+      </navLabel>
+      <content src="Text/jrvartikelen.xhtml#ID0EQDAE" />
+    </navPoint>
+    <navPoint id="89b7d8aa-80e7-4046-8d19-55b12f5b5b3a" playOrder="13">
+      <navLabel>
+        <text>926</text>
+      </navLabel>
+      <content src="Text/jrvartikelen.xhtml#ID0EXFAE" />
+    </navPoint>
+    <navPoint id="5f4e5018-8ac2-44d8-bec3-992363772604" playOrder="14">
+      <navLabel>
+        <text>927</text>
+      </navLabel>
+      <content src="Text/jrvartikelen.xhtml#ID0EAJAE" />
+    </navPoint>
+    <navPoint id="1f1cc7db-cf52-42e2-98c9-506e5cd9077e" playOrder="15">
+      <navLabel>
+        <text>928</text>
+      </navLabel>
+      <content src="Text/jrvartikelen.xhtml#ID0ERKAE" />
+    </navPoint>
+    <navPoint id="3145233e-76ab-4090-af04-473a18bc68ff" playOrder="16">
+      <navLabel>
+        <text>929</text>
+      </navLabel>
+      <content src="Text/jrvartikelen.xhtml#ID0EPMAE" />
+    </navPoint>
+    <navPoint id="83a981b1-170f-46a5-b4d5-f7a2a657c48b" playOrder="17">
+      <navLabel>
+        <text>930</text>
+      </navLabel>
+      <content src="Text/jrvartikelen.xhtml#ID0E4NAE" />
+    </navPoint>
+    <navPoint id="801ae196-f085-4602-b8d0-04edfae02007" playOrder="18">
+      <navLabel>
+        <text>931</text>
+      </navLabel>
+      <content src="Text/jrvartikelen.xhtml#ID0EOPAE" />
+    </navPoint>
+    <navPoint id="c46a437e-2fb3-493e-8a33-be23c9312a8d" playOrder="19">
+      <navLabel>
+        <text>932</text>
+      </navLabel>
+      <content src="Text/jrvartikelen.xhtml#ID0EFRAE" />
+    </navPoint>
+    <navPoint id="bb82d0ac-82c5-4e13-bd77-889d730a6de4" playOrder="20">
+      <navLabel>
+        <text>933</text>
+      </navLabel>
+      <content src="Text/jrvartikelen.xhtml#ID0ERSAE" />
+    </navPoint>
+    <navPoint id="17fb6c0d-ee16-43f7-87a6-ed18b7858f67" playOrder="21">
+      <navLabel>
+        <text>934</text>
+      </navLabel>
+      <content src="Text/jrvartikelen.xhtml#ID0EXUAE" />
+    </navPoint>
+    <navPoint id="70550092-8084-420f-9599-3aa2470bc149" playOrder="22">
+      <navLabel>
+        <text>935</text>
+      </navLabel>
+      <content src="Text/jrvartikelen.xhtml#ID0EEWAE" />
+    </navPoint>
+    <navPoint id="20ffd105-863c-48be-a882-ffa32fc5200a" playOrder="23">
+      <navLabel>
+        <text>936</text>
+      </navLabel>
+      <content src="Text/jrvartikelen.xhtml#ID0EAYAE" />
+    </navPoint>
+    <navPoint id="2fbfc853-3381-4023-a715-0a4bdd5bfcb2" playOrder="24">
+      <navLabel>
+        <text>937</text>
+      </navLabel>
+      <content src="Text/jrvartikelen.xhtml#ID0EA1AE" />
+    </navPoint>
+    <navPoint id="62c95fa1-b858-44ad-92d2-8282dd5b7cca" playOrder="25">
+      <navLabel>
+        <text>938</text>
+      </navLabel>
+      <content src="Text/jrvartikelen.xhtml#ID0ER2AE" />
+    </navPoint>
+    <navPoint id="d4e48ea8-ed06-4a89-8060-aa2234fe547e" playOrder="26">
+      <navLabel>
+        <text>939</text>
+      </navLabel>
+      <content src="Text/jrvartikelen.xhtml#ID0E64AE" />
+    </navPoint>
+    <navPoint id="df3f2713-3dd7-4fbf-a830-368b8cac4807" playOrder="27">
+      <navLabel>
+        <text>940</text>
+      </navLabel>
+      <content src="Text/jrvartikelen.xhtml#ID0E16AE" />
+    </navPoint>
+    <navPoint id="5c8ba5e0-71de-4562-a9fe-cbe56426061d" playOrder="28">
+      <navLabel>
+        <text>941</text>
+      </navLabel>
+      <content src="Text/jrvartikelen.xhtml#ID0EMBAG" />
+    </navPoint>
+    <navPoint id="17e6698a-20f0-4605-964f-efa4289ce116" playOrder="29">
+      <navLabel>
+        <text>942</text>
+      </navLabel>
+      <content src="Text/jrvartikelen.xhtml#ID0EBDAG" />
+    </navPoint>
+    <navPoint id="690dcb17-b6cc-47a4-b794-ffa366c0ac45" playOrder="30">
+      <navLabel>
+        <text>943</text>
+      </navLabel>
+      <content src="Text/jrvartikelen.xhtml#ID0E2EAG" />
+    </navPoint>
+    <navPoint id="9f1b50ee-20dd-4170-9ac1-27c98969d2c1" playOrder="31">
+      <navLabel>
+        <text>944</text>
+      </navLabel>
+      <content src="Text/jrvartikelen.xhtml#ID0EGHAG" />
+    </navPoint>
+    <navPoint id="9d1f26b1-c721-4d3c-a552-c6f41db6c2d9" playOrder="32">
+      <navLabel>
+        <text>945</text>
+      </navLabel>
+      <content src="Text/jrvartikelen.xhtml#ID0EEMAG" />
+    </navPoint>
+    <navPoint id="40292e7f-a15e-4e45-920d-15e58738683b" playOrder="33">
+      <navLabel>
+        <text>946</text>
+      </navLabel>
+      <content src="Text/jrvartikelen.xhtml#ID0E3NAG" />
+    </navPoint>
+  </navPoint>
+  <navPoint id="c34d0a7d-89ba-4f08-95bd-efe5ab5f91ef" playOrder="34">
+    <navLabel>
+      <text>Literatuur</text>
+    </navLabel>
+    <content src="Text/jrvartikelen.xhtml#ID0E3RAG" />
+    <navPoint id="f58418ea-2a59-4ad4-826a-bf2a95c62bde" playOrder="35">
+      <navLabel>
+        <text>947</text>
+      </navLabel>
+      <content src="Text/jrvartikelen.xhtml#ID0EDTAG" />
+    </navPoint>
+    <navPoint id="bf851e63-b013-47f9-8002-6ee8b34dd1dd" playOrder="36">
+      <navLabel>
+        <text>948</text>
+      </navLabel>
+      <content src="Text/jrvartikelen.xhtml#ID0EEUAG" />
+    </navPoint>
+    <navPoint id="5e1cfcc0-d7f5-4560-9a42-30cb203f1752" playOrder="37">
+      <navLabel>
+        <text>949</text>
+      </navLabel>
+      <content src="Text/jrvartikelen.xhtml#ID0EZUAG" />
+    </navPoint>
+    <navPoint id="2a0eae29-8065-4de7-b90e-64eed05e809e" playOrder="38">
+      <navLabel>
+        <text>950</text>
+      </navLabel>
+      <content src="Text/jrvartikelen.xhtml#ID0EPVAG" />
+    </navPoint>
+    <navPoint id="63535b2e-2c5d-458f-afc7-de042ffaa77e" playOrder="39">
+      <navLabel>
+        <text>951</text>
+      </navLabel>
+      <content src="Text/jrvartikelen.xhtml#ID0ETWAG" />
+    </navPoint>
+    <navPoint id="1e84bf81-0632-46a0-81af-c1c9c8c84d71" playOrder="40">
+      <navLabel>
+        <text>952</text>
+      </navLabel>
+      <content src="Text/jrvartikelen.xhtml#ID0EOXAG" />
+    </navPoint>
+    <navPoint id="df2670cb-9c38-4302-9489-7b637409687b" playOrder="41">
+      <navLabel>
+        <text>953</text>
+      </navLabel>
+      <content src="Text/jrvartikelen.xhtml#ID0EJZAG" />
+    </navPoint>
+    <navPoint id="5808fd80-b0e5-4888-9a30-318788d9119a" playOrder="42">
+      <navLabel>
+        <text>954</text>
+      </navLabel>
+      <content src="Text/jrvartikelen.xhtml#ID0EE1AG" />
+    </navPoint>
+    <navPoint id="69c9bd20-9878-42c6-9a56-5b5f5d9563aa" playOrder="43">
+      <navLabel>
+        <text>955</text>
+      </navLabel>
+      <content src="Text/jrvartikelen.xhtml#ID0EC2AG" />
+    </navPoint>
+    <navPoint id="88ec7aba-2a96-4b6c-b80e-64c22b88adb6" playOrder="44">
+      <navLabel>
+        <text>956</text>
+      </navLabel>
+      <content src="Text/jrvartikelen.xhtml#ID0E32AG" />
+    </navPoint>
+    <navPoint id="3344a1e1-8ae3-4ed4-9a89-c43630c7d672" playOrder="45">
+      <navLabel>
+        <text>957</text>
+      </navLabel>
+      <content src="Text/jrvartikelen.xhtml#ID0E13AG" />
+    </navPoint>
+    <navPoint id="bb35ec5c-9bfe-493f-af09-6a5790595689" playOrder="46">
+      <navLabel>
+        <text>958</text>
+      </navLabel>
+      <content src="Text/jrvartikelen.xhtml#ID0EQ4AG" />
+    </navPoint>
+    <navPoint id="2a212666-e0c2-4a5b-8f76-7c78470c0f1a" playOrder="47">
+      <navLabel>
+        <text>959</text>
+      </navLabel>
+      <content src="Text/jrvartikelen.xhtml#ID0EP5AG" />
+    </navPoint>
+    <navPoint id="7ab8308e-b927-418b-aa8f-ddb970bb36ae" playOrder="48">
+      <navLabel>
+        <text>960</text>
+      </navLabel>
+      <content src="Text/jrvartikelen.xhtml#ID0EF6AG" />
+    </navPoint>
+    <navPoint id="08b9a767-6eb5-4df9-99f0-572290578f85" playOrder="49">
+      <navLabel>
+        <text>961</text>
+      </navLabel>
+      <content src="Text/jrvartikelen.xhtml#ID0E26AG" />
+    </navPoint>
+    <navPoint id="d9e87d3a-815a-436a-a248-c06f3f9b8534" playOrder="50">
+      <navLabel>
+        <text>962</text>
+      </navLabel>
+      <content src="Text/jrvartikelen.xhtml#ID0ERABG" />
+    </navPoint>
+    <navPoint id="a0fd87f3-c2ee-49dc-8e45-2a06040fda3c" playOrder="51">
+      <navLabel>
+        <text>963</text>
+      </navLabel>
+      <content src="Text/jrvartikelen.xhtml#ID0EXBBG" />
+    </navPoint>
+    <navPoint id="e4bbca23-b86b-45a6-b9fe-a44c4a225410" playOrder="52">
+      <navLabel>
+        <text>964</text>
+      </navLabel>
+      <content src="Text/jrvartikelen.xhtml#ID0ETCBG" />
+    </navPoint>
+    <navPoint id="064f7d64-f33e-4554-8d83-55626c00137f" playOrder="53">
+      <navLabel>
+        <text>965</text>
+      </navLabel>
+      <content src="Text/jrvartikelen.xhtml#ID0EJDBG" />
+    </navPoint>
+    <navPoint id="1709d7c5-b8c2-499f-8a12-657f0bf2d0bf" playOrder="54">
+      <navLabel>
+        <text>966</text>
+      </navLabel>
+      <content src="Text/jrvartikelen.xhtml#ID0E6DBG" />
+    </navPoint>
+    <navPoint id="ae91a314-e9a8-41ee-97fc-61887a575555" playOrder="55">
+      <navLabel>
+        <text>967</text>
+      </navLabel>
+      <content src="Text/jrvartikelen.xhtml#ID0EAFBG" />
+    </navPoint>
+    <navPoint id="1cb53769-3691-44ef-b6f2-49038646f80c" playOrder="56">
+      <navLabel>
+        <text>968</text>
+      </navLabel>
+      <content src="Text/jrvartikelen.xhtml#ID0E2FBG" />
+    </navPoint>
+    <navPoint id="40f54f49-820a-459c-9569-556089fea722" playOrder="57">
+      <navLabel>
+        <text>969</text>
+      </navLabel>
+      <content src="Text/jrvartikelen.xhtml#ID0E3GBG" />
+    </navPoint>
+    <navPoint id="c0ac9685-e85c-4e3e-bc20-8761e45b701c" playOrder="58">
+      <navLabel>
+        <text>970</text>
+      </navLabel>
+      <content src="Text/jrvartikelen.xhtml#ID0EWHBG" />
+    </navPoint>
+  </navPoint>
+  <navPoint id="a1e4966f-17b9-4179-80b1-f2f6428f9c60" playOrder="59">
+    <navLabel>
+      <text>Reeds gesignaleerde rechtspraak</text>
+    </navLabel>
+    <content src="Text/jrvartikelen.xhtml#ID0EZJBG" />
+    <navPoint id="0a713974-c8ea-466a-907e-317439e38323" playOrder="60">
+      <navLabel>
+        <text>971</text>
+      </navLabel>
+      <content src="Text/jrvartikelen.xhtml#ID0EALBG" />
+    </navPoint>
+    <navPoint id="554b3655-e76a-4176-a2e5-d842e2485263" playOrder="61">
+      <navLabel>
+        <text>972</text>
+      </navLabel>
+      <content src="Text/jrvartikelen.xhtml#ID0EHMBG" />
+    </navPoint>
+    <navPoint id="2326a9f4-bca1-4c9f-9236-a51eb63aa1ef" playOrder="62">
+      <navLabel>
+        <text>973</text>
+      </navLabel>
+      <content src="Text/jrvartikelen.xhtml#ID0EWNBG" />
+    </navPoint>
+    <navPoint id="8a681983-ae15-42f1-9f92-9ce916f1ab47" playOrder="63">
+      <navLabel>
+        <text>974</text>
+      </navLabel>
+      <content src="Text/jrvartikelen.xhtml#ID0EPPBG" />
+    </navPoint>
+    <navPoint id="baf2bd41-9bff-4abe-badf-ea0bb46a8f2e" playOrder="64">
+      <navLabel>
+        <text>975</text>
+      </navLabel>
+      <content src="Text/jrvartikelen.xhtml#ID0E1QBG" />
+    </navPoint>
+    <navPoint id="8b1cbba3-3392-4b73-b212-84f6cf29bd9e" playOrder="65">
+      <navLabel>
+        <text>976</text>
+      </navLabel>
+      <content src="Text/jrvartikelen.xhtml#ID0EESBG" />
+    </navPoint>
+    <navPoint id="71fe3a73-cd82-4fb4-b18d-b08fe328809f" playOrder="66">
+      <navLabel>
+        <text>977</text>
+      </navLabel>
+      <content src="Text/jrvartikelen.xhtml#ID0ELTBG" />
+    </navPoint>
+  </navPoint>
+  </navPoint>
+  <navPoint id="3c536ef3-df36-496e-b789-b3aaaf7729a7" playOrder="2">
+    <navLabel>
+      <text>JE</text>
+    </navLabel>
+    <content src="Text/jeartikelen.xhtml" />
+	<navPoint id="df367c62-1566-4de9-b8f0-0382eaf9b58b" playOrder="67">
+    <navLabel>
+      <text>Regelgeving</text>
+    </navLabel>
+    <content src="Text/jeartikelen.xhtml#ixlink1" />
+    <navPoint id="12fe8540-aeba-4eb5-85da-fd8dd74a42f7" playOrder="68">
+      <navLabel>
+        <text>978</text>
+      </navLabel>
+      <content src="Text/jeartikelen.xhtml#ID0ELAAC" />
+    </navPoint>
+    <navPoint id="7baf1937-08cc-4cd0-80f5-1eb708f2c081" playOrder="69">
+      <navLabel>
+        <text>979</text>
+      </navLabel>
+      <content src="Text/jeartikelen.xhtml#ID0E5BAC" />
+    </navPoint>
+    <navPoint id="913e0f8a-c704-4426-8639-7be7b9f0c055" playOrder="70">
+      <navLabel>
+        <text>980</text>
+      </navLabel>
+      <content src="Text/jeartikelen.xhtml#ID0ETDAC" />
+    </navPoint>
+    <navPoint id="94d9c97d-678e-48ec-bb72-f6a8363fa231" playOrder="71">
+      <navLabel>
+        <text>981</text>
+      </navLabel>
+      <content src="Text/jeartikelen.xhtml#ID0EYEAC" />
+    </navPoint>
+  </navPoint>
+  <navPoint id="19f791ef-5302-42c7-9082-4054bb8d5292" playOrder="72">
+    <navLabel>
+      <text>Rechtspraak</text>
+    </navLabel>
+    <content src="Text/jeartikelen.xhtml#ID0ERGAC" />
+    <navPoint id="4c513ffa-ae03-4e4f-8e65-f0ce4d422107" playOrder="73">
+      <navLabel>
+        <text>982</text>
+      </navLabel>
+      <content src="Text/jeartikelen.xhtml#ID0EYHAC" />
+    </navPoint>
+    <navPoint id="452e6a02-6934-4fd1-a420-251e90e85750" playOrder="74">
+      <navLabel>
+        <text>983</text>
+      </navLabel>
+      <content src="Text/jeartikelen.xhtml#ID0E5JAC" />
+    </navPoint>
+    <navPoint id="43ce38ae-3f7b-4b3c-9e05-b0c4ba5affa7" playOrder="75">
+      <navLabel>
+        <text>984</text>
+      </navLabel>
+      <content src="Text/jeartikelen.xhtml#ID0EBLAC" />
+    </navPoint>
+    <navPoint id="17d14f01-b1b8-4e8d-8f2a-be2b3b43571f" playOrder="76">
+      <navLabel>
+        <text>985</text>
+      </navLabel>
+      <content src="Text/jeartikelen.xhtml#ID0E3MAC" />
+    </navPoint>
+    <navPoint id="25af0e91-3467-4e30-928a-15d75b9d7ed3" playOrder="77">
+      <navLabel>
+        <text>986</text>
+      </navLabel>
+      <content src="Text/jeartikelen.xhtml#ID0E6NAC" />
+    </navPoint>
+    <navPoint id="5189931c-aa28-40ba-9a93-c25fb8214516" playOrder="78">
+      <navLabel>
+        <text>987</text>
+      </navLabel>
+      <content src="Text/jeartikelen.xhtml#ID0E3PAC" />
+    </navPoint>
+    <navPoint id="57fe41a0-ae53-4241-aed0-f698204f1eb2" playOrder="79">
+      <navLabel>
+        <text>988</text>
+      </navLabel>
+      <content src="Text/jeartikelen.xhtml#ID0EVBAE" />
+    </navPoint>
+    <navPoint id="0b94df2b-756e-4e5e-8cb9-be4cad65807a" playOrder="80">
+      <navLabel>
+        <text>989</text>
+      </navLabel>
+      <content src="Text/jeartikelen.xhtml#ID0EGEAE" />
+    </navPoint>
+    <navPoint id="78d5110d-baeb-47a7-b7c5-54676136cdf5" playOrder="81">
+      <navLabel>
+        <text>990</text>
+      </navLabel>
+      <content src="Text/jeartikelen.xhtml#ID0EJFAE" />
+    </navPoint>
+    <navPoint id="c78c7cf8-63ea-443d-a3dd-11dc4edaf24c" playOrder="82">
+      <navLabel>
+        <text>991</text>
+      </navLabel>
+      <content src="Text/jeartikelen.xhtml#ID0ELGAE" />
+    </navPoint>
+    <navPoint id="26f4d51e-1225-4d06-b18e-57e087abbd02" playOrder="83">
+      <navLabel>
+        <text>992</text>
+      </navLabel>
+      <content src="Text/jeartikelen.xhtml#ID0EJIAE" />
+    </navPoint>
+    <navPoint id="15a22f42-d315-4ba3-9fca-eecc2fd4f9c5" playOrder="84">
+      <navLabel>
+        <text>993</text>
+      </navLabel>
+      <content src="Text/jeartikelen.xhtml#ID0EFKAE" />
+    </navPoint>
+  </navPoint>
+  <navPoint id="10dfa514-9919-4cf0-8ec5-ccd5e084e0a0" playOrder="85">
+    <navLabel>
+      <text>Literatuur</text>
+    </navLabel>
+    <content src="Text/jeartikelen.xhtml#ID0EZLAE" />
+    <navPoint id="69acab1d-0a34-40a7-a6f5-e1ac55d45cde" playOrder="86">
+      <navLabel>
+        <text>994</text>
+      </navLabel>
+      <content src="Text/jeartikelen.xhtml#ID0EANAE" />
+    </navPoint>
+    <navPoint id="3772350d-a620-4bc9-97bf-a4648f1d44f0" playOrder="87">
+      <navLabel>
+        <text>995</text>
+      </navLabel>
+      <content src="Text/jeartikelen.xhtml#ID0EWNAE" />
+    </navPoint>
+    <navPoint id="b75911fe-e210-4740-a7af-2ee3f9601ec6" playOrder="88">
+      <navLabel>
+        <text>996</text>
+      </navLabel>
+      <content src="Text/jeartikelen.xhtml#ID0EROAE" />
+    </navPoint>
+    <navPoint id="ce180784-106f-4ccd-aaa1-57492fb56072" playOrder="89">
+      <navLabel>
+        <text>997</text>
+      </navLabel>
+      <content src="Text/jeartikelen.xhtml#ID0EHPAE" />
+    </navPoint>
+    <navPoint id="67d2f9c0-675c-4293-b018-77bd037d39ba" playOrder="90">
+      <navLabel>
+        <text>998</text>
+      </navLabel>
+      <content src="Text/jeartikelen.xhtml#ID0EIQAE" />
+    </navPoint>
+    <navPoint id="f90b761c-746e-4fda-b20a-b0d251bb9d5c" playOrder="91">
+      <navLabel>
+        <text>999</text>
+      </navLabel>
+      <content src="Text/jeartikelen.xhtml#ID0EERAE" />
+    </navPoint>
+    <navPoint id="e0062c09-745b-471c-8a72-dfaf50fa64d7" playOrder="92">
+      <navLabel>
+        <text>1000</text>
+      </navLabel>
+      <content src="Text/jeartikelen.xhtml#ID0EFSAE" />
+    </navPoint>
+    <navPoint id="6aa951f5-8ae3-4be5-9a94-33f49c947f5f" playOrder="93">
+      <navLabel>
+        <text>1001</text>
+      </navLabel>
+      <content src="Text/jeartikelen.xhtml#ID0E2SAE" />
+    </navPoint>
+    <navPoint id="04c1e7b5-9d34-4f68-9d87-503a0de5e39b" playOrder="94">
+      <navLabel>
+        <text>1002</text>
+      </navLabel>
+      <content src="Text/jeartikelen.xhtml#ID0ERTAE" />
+    </navPoint>
+    <navPoint id="a7904b95-e6c4-4230-ae97-497c0676dd6e" playOrder="95">
+      <navLabel>
+        <text>1003</text>
+      </navLabel>
+      <content src="Text/jeartikelen.xhtml#ID0EHUAE" />
+    </navPoint>
+    <navPoint id="be804c97-3eb7-4f40-bacb-4ca0c68eb1cd" playOrder="96">
+      <navLabel>
+        <text>1004</text>
+      </navLabel>
+      <content src="Text/jeartikelen.xhtml#ID0E2VAE" />
+    </navPoint>
+    <navPoint id="7148d758-79ba-45c5-a6d4-425699081b78" playOrder="97">
+      <navLabel>
+        <text>1005</text>
+      </navLabel>
+      <content src="Text/jeartikelen.xhtml#ID0ERWAE" />
+    </navPoint>
+    <navPoint id="43bff9b4-586d-4865-b582-ed159516ff89" playOrder="98">
+      <navLabel>
+        <text>1006</text>
+      </navLabel>
+      <content src="Text/jeartikelen.xhtml#ID0EMXAE" />
+    </navPoint>
+    <navPoint id="b02b8212-82fc-427a-bbc3-e9e8d3c43f95" playOrder="99">
+      <navLabel>
+        <text>1007</text>
+      </navLabel>
+      <content src="Text/jeartikelen.xhtml#ID0ECYAE" />
+    </navPoint>
+    <navPoint id="8e057017-072e-4f17-be87-8d03c1fe0d86" playOrder="100">
+      <navLabel>
+        <text>1008</text>
+      </navLabel>
+      <content src="Text/jeartikelen.xhtml#ID0EYYAE" />
+    </navPoint>
+    <navPoint id="ec342247-5c1c-4307-9b53-0d8777a9eb37" playOrder="101">
+      <navLabel>
+        <text>1009</text>
+      </navLabel>
+      <content src="Text/jeartikelen.xhtml#ID0EOZAE" />
+    </navPoint>
+    <navPoint id="c6e1e26e-3360-43f4-9d89-42fb6a9569b0" playOrder="102">
+      <navLabel>
+        <text>1010</text>
+      </navLabel>
+      <content src="Text/jeartikelen.xhtml#ID0EF1AE" />
+    </navPoint>
+    <navPoint id="d3bb1ece-32cb-44a0-84b6-c5061e810020" playOrder="103">
+      <navLabel>
+        <text>1011</text>
+      </navLabel>
+      <content src="Text/jeartikelen.xhtml#ID0E21AE" />
+    </navPoint>
+    <navPoint id="6d96a035-d328-475b-a40c-f00d9be875d4" playOrder="104">
+      <navLabel>
+        <text>1012</text>
+      </navLabel>
+      <content src="Text/jeartikelen.xhtml#ID0E32AE" />
+    </navPoint>
+    <navPoint id="4db10095-1040-4a51-b01d-3f0be7b2c91e" playOrder="105">
+      <navLabel>
+        <text>1013</text>
+      </navLabel>
+      <content src="Text/jeartikelen.xhtml#ID0E23AE" />
+    </navPoint>
+    <navPoint id="12800227-7808-4448-8deb-83d07cc07ad9" playOrder="106">
+      <navLabel>
+        <text>1014</text>
+      </navLabel>
+      <content src="Text/jeartikelen.xhtml#ID0ER4AE" />
+    </navPoint>
+    <navPoint id="fdfd36d2-a892-4fb9-8b0d-afc393555bfd" playOrder="107">
+      <navLabel>
+        <text>1015</text>
+      </navLabel>
+      <content src="Text/jeartikelen.xhtml#ID0EH5AE" />
+    </navPoint>
+  </navPoint>
+  <navPoint id="2b115ed6-a309-4663-aa3e-223f8a57bfad" playOrder="108">
+    <navLabel>
+      <text>Reeds gesignaleerde rechtspraak</text>
+    </navLabel>
+    <content src="Text/jeartikelen.xhtml#ID0ES6AE" />
+    <navPoint id="084282e4-0afa-42ca-bfed-a67834588846" playOrder="109">
+      <navLabel>
+        <text>1016</text>
+      </navLabel>
+      <content src="Text/jeartikelen.xhtml#ID0E1AAG" />
+    </navPoint>
+    <navPoint id="f1bb3021-5f92-45ce-874f-dd64fb4576db" playOrder="110">
+      <navLabel>
+        <text>1017</text>
+      </navLabel>
+      <content src="Text/jeartikelen.xhtml#ID0EMCAG" />
+    </navPoint>
+    <navPoint id="3b0d05ff-441e-4057-82ae-22ab88ae080f" playOrder="111">
+      <navLabel>
+        <text>1018</text>
+      </navLabel>
+      <content src="Text/jeartikelen.xhtml#ID0EWDAG" />
+    </navPoint>
+    <navPoint id="dccb8674-80a5-4568-b073-ae63b3addc90" playOrder="112">
+      <navLabel>
+        <text>1019</text>
+      </navLabel>
+      <content src="Text/jeartikelen.xhtml#ID0EAFAG" />
+    </navPoint>
+  </navPoint>
+  </navPoint>
+  <navPoint id="162" playOrder="162">
+      <navLabel>
+        <text>Paginaregister</text>
+      </navLabel>
+      <content src="Text/jeartikelen.xhtml#toclink_paginaregister"/>
+    </navPoint>
+</navMap>
+</ncx>

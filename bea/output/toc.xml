@@ -1,0 +1,153 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ncx version="2005-1" xml:lang="nld" xmlns="http://www.daisy.org/z3986/2005/ncx/">
+  <head>
+    <meta content="" name="dtb:uid" />
+    <meta content="0" name="dtb:totalPageCount" />
+    <meta content="0" name="dtb:maxPageNumber" />
+  </head>
+  <docTitle>
+    <text>
+    </text>
+  </docTitle>
+  <navMap>
+    <navPoint id="f2740e13-6487-4cd6-83bb-2947cb02f810" playOrder="1">
+      <navLabel>
+        <text>Inhoud</text>
+      </navLabel>
+      <content src="Text/inhoud.html" />
+    </navPoint>
+    <navPoint id="33eed31b-7263-4daa-b7e9-958f3378099a" playOrder="2">
+      <navLabel>
+        <text>Colofon</text>
+      </navLabel>
+      <content src="Text/03_Colofon.html" />
+    </navPoint>
+    <navPoint id="f966684e-98d3-4e7f-9a89-d43502b00ef9" playOrder="3">
+      <navLabel>
+        <text>Algemeen</text>
+      </navLabel>
+      <content src="Text/artikelen.html#ID0ENF" />
+      <navPoint id="36cee29d-4ee1-40ad-bfa0-9c817393ed7b" playOrder="4">
+        <navLabel>
+          <text>Proceshouding gemachtigde reden voor lagere proceskostenvergoeding</text>
+        </navLabel>
+        <content src="Text/artikelen.html#ID0EDH" />
+      </navPoint>
+    </navPoint>
+    <navPoint id="15c66cfd-0cb7-448b-a527-a31def2d0527" playOrder="5">
+      <navLabel>
+        <text>Inkomstenbelasting</text>
+      </navLabel>
+      <content src="Text/artikelen.html#ID0EZIAC" />
+      <navPoint id="d0aab14c-6512-4f8b-989a-78091ab7d4d2" playOrder="6">
+        <navLabel>
+          <text>Geen vrijvalwinst bij zetelverplaatsing pensioen-bv</text>
+        </navLabel>
+        <content src="Text/artikelen.html#ID0EOKAC" />
+      </navPoint>
+      <navPoint id="2904f192-85e1-48ac-b2b2-30b8ee9ad0f9" playOrder="7">
+        <navLabel>
+          <text>Lening onzakelijk door niet-inroepen pandrecht</text>
+        </navLabel>
+        <content src="Text/artikelen.html#ID0EPHAE" />
+      </navPoint>
+    </navPoint>
+    <navPoint id="e65c8f54-952d-48d0-9160-d0fe16e19e84" playOrder="8">
+      <navLabel>
+        <text>Vennootschapsbelasting</text>
+      </navLabel>
+      <content src="Text/artikelen.html#ID0E3SAE" />
+      <navPoint id="46a910b3-34fa-4905-8b6c-b0b361b83611" playOrder="9">
+        <navLabel>
+          <text>Inhaalverliezen en interne royalty’s</text>
+        </navLabel>
+        <content src="Text/artikelen.html#ID0ESUAE" />
+      </navPoint>
+    </navPoint>
+    <navPoint id="4c580641-8e21-4477-8919-02b8addf33c2" playOrder="10">
+      <navLabel>
+        <text>Belastingen van rechtsverkeer</text>
+      </navLabel>
+      <content src="Text/artikelen.html#ID0EJOAG" />
+      <navPoint id="e8981545-d9c6-438e-9a43-fab6fb2d74a0" playOrder="11">
+        <navLabel>
+          <text>Kat in de zak leidt na ontbinding van de koopovereenkomst in ieder geval nog tot een pleister op de wonde: teruggave van de voldane overdrachtsbelasting</text>
+        </navLabel>
+        <content src="Text/artikelen.html#ID0E5PAG" />
+      </navPoint>
+    </navPoint>
+    <navPoint id="efe7a4a4-c815-4cb8-a19d-412cd8ae072a" playOrder="12">
+      <navLabel>
+        <text>Loonbelasting</text>
+      </navLabel>
+      <content src="Text/artikelen.html#ID0E51AG" />
+      <navPoint id="02d4a39c-38fa-4ba2-ac30-b5efa11bdb6d" playOrder="13">
+        <navLabel>
+          <text>Dga’s blijven na toetreding derde aandeelhouder dga voor toepassing van de werknemersverzekeringen</text>
+        </navLabel>
+        <content src="Text/artikelen.html#ID0EU3AG" />
+      </navPoint>
+    </navPoint>
+    <navPoint id="a08925e6-0412-462f-8c97-e952dc92177b" playOrder="14">
+      <navLabel>
+        <text>Omzetbelasting</text>
+      </navLabel>
+      <content src="Text/artikelen.html#ID0EUDBG" />
+      <navPoint id="38759464-abf7-40c8-bf79-383e864249d0" playOrder="15">
+        <navLabel>
+          <text>Formulier voor opgaaf startende onderneming voldoende voor afmelding fiscale eenheid OB</text>
+        </navLabel>
+        <content src="Text/artikelen.html#ID0EJFBG" />
+      </navPoint>
+      <navPoint id="46981e7a-63ec-4ec3-9bb3-2883875d2603" playOrder="16">
+        <navLabel>
+          <text>Voor berekening leges moeten arbeidskosten verhoogd worden met hoog BTW-tarief</text>
+        </navLabel>
+        <content src="Text/artikelen.html#ID0EYRBG" />
+      </navPoint>
+    </navPoint>
+    <navPoint id="3eb76a18-a13f-4e60-86d6-e37cc4204822" playOrder="17">
+      <navLabel>
+        <text>Schenk- en erfbelasting</text>
+      </navLabel>
+      <content src="Text/artikelen.html#ID0EP5BG" />
+      <navPoint id="df413383-8b94-40cf-8963-d83f281e8837" playOrder="18">
+        <navLabel>
+          <text>Liquidatiewaarde en BOR niet van toepassing op vastgoed-BV die steeds winst maakt</text>
+        </navLabel>
+        <content src="Text/artikelen.html#ID0EGAAI" />
+      </navPoint>
+    </navPoint>
+    <navPoint id="84c186e7-f6a3-496d-9400-63d33137c4b5" playOrder="19">
+      <navLabel>
+        <text>Invordering</text>
+      </navLabel>
+      <content src="Text/artikelen.html#ID0EGMAI" />
+      <navPoint id="3c3de051-04ad-4326-9463-590dcd995323" playOrder="20">
+        <navLabel>
+          <text>Belastingrechter mag niet oordelen over afwijzing kwijtscheldingsverzoek </text>
+        </navLabel>
+        <content src="Text/artikelen.html#ID0E3NAI" />
+      </navPoint>
+    </navPoint>
+    <navPoint id="2776018d-ccbf-4f74-b746-9e8a5d6a0bfb" playOrder="21">
+      <navLabel>
+        <text>
+        </text>
+      </navLabel>
+      <content src="Text/artikelen.html#ID0EF1AI" />
+      <navPoint id="a2847499-2d6b-438e-bd81-654996941e97" playOrder="22">
+        <navLabel>
+          <text>Verhandeling</text>
+        </navLabel>
+        <content src="Text/artikelen.html#ID0EK2AI" />
+      </navPoint>
+    </navPoint>
+    <navPoint id="ca1cdc7b-faef-4c11-bed1-f176b4015549" playOrder="23">
+      <navLabel>
+        <text>Paginaregister</text>
+      </navLabel>
+      <content src="Text/artikelen.html#toclink_paginaregister" />
+    </navPoint>
+  </navMap>
+</ncx>

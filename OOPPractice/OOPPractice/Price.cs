@@ -10,7 +10,4 @@ namespace OOPPractice
     {
         double getPrice();
     }
-    class Price
-    {
-    }
 }

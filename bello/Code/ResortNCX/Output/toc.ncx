@@ -1,0 +1,309 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE ncx PUBLIC "-//NISO//DTD ncx 2005-1//EN" "http://www.daisy.org/z3986/2005/ncx-2005-1.dtd"[]>
+<ncx xmlns="http://www.daisy.org/z3986/2005/ncx/" version="2005-1">
+  <head>
+    <meta content="urn:uuid:e30e90ff-08cb-4f65-bec8-feb436ba20a1" name="dtb:uid" />
+    <meta content="0" name="dtb:depth" />
+    <meta content="0" name="dtb:totalPageCount" />
+    <meta content="0" name="dtb:maxPageNumber" />
+  </head>
+  <docTitle>
+    <text>Belastingblad 2014 - 15</text>
+  </docTitle>
+  <navMap>
+    <navPoint id="1" playOrder="1">
+      <navLabel>
+        <text>Inhoud</text>
+      </navLabel>
+      <content src="Text/Inhoud.html" />
+    </navPoint>
+    <navPoint id="2" playOrder="2">
+      <navLabel>
+        <text>Beschouwingen</text>
+      </navLabel>
+      <content src="Text/Section0000.html#ID0EGG" />
+      <navPoint id="3" playOrder="3">
+        <navLabel>
+          <text>Belastingblad 2015/32</text>
+        </navLabel>
+        <content src="Text/Section0000.html#ID0EMG" />
+      </navPoint>
+    </navPoint>
+    <navPoint id="4" playOrder="4">
+      <navLabel>
+        <text>Conclusies A-G</text>
+      </navLabel>
+      <content src="Text/Section0000.html#ID0EQGAC" />
+      <navPoint id="5" playOrder="5">
+        <navLabel>
+          <text>Belastingblad 2015/33</text>
+        </navLabel>
+        <content src="Text/Section0000.html#ID0E3GAC" />
+      </navPoint>
+      <navPoint id="6" playOrder="6">
+        <navLabel>
+          <text>Belastingblad 2015/34</text>
+        </navLabel>
+        <content src="Text/Section0000.html#ID0EWJAC" />
+      </navPoint>
+    </navPoint>
+    <navPoint id="7" playOrder="7">
+      <navLabel>
+        <text>Wet WOZ</text>
+      </navLabel>
+      <content src="Text/Section0000.html#ID0EPPAC" />
+      <navPoint id="8" playOrder="8">
+        <navLabel>
+          <text>Belastingblad 2015/35</text>
+        </navLabel>
+        <content src="Text/Section0000.html#ID0E2PAC" />
+      </navPoint>
+      <navPoint id="9" playOrder="9">
+        <navLabel>
+          <text>Belastingblad 2015/36</text>
+        </navLabel>
+        <content src="Text/Section0000.html#ID0EWGAE" />
+      </navPoint>
+      <navPoint id="10" playOrder="10">
+        <navLabel>
+          <text>Belastingblad 2015/37</text>
+        </navLabel>
+        <content src="Text/Section0000.html#ID0EPMAE" />
+      </navPoint>
+      <navPoint id="11" playOrder="11">
+        <navLabel>
+          <text>Belastingblad 2015/38</text>
+        </navLabel>
+        <content src="Text/Section0000.html#ID0ELTAE" />
+      </navPoint>
+      <navPoint id="12" playOrder="12">
+        <navLabel>
+          <text>Belastingblad 2015/39</text>
+        </navLabel>
+        <content src="Text/Section0000.html#ID0ECEAG" />
+      </navPoint>
+      <navPoint id="13" playOrder="13">
+        <navLabel>
+          <text>Belastingblad 2015/40</text>
+        </navLabel>
+        <content src="Text/Section0000.html#ID0EJJAG" />
+      </navPoint>
+      <navPoint id="14" playOrder="14">
+        <navLabel>
+          <text>Belastingblad 2015/41</text>
+        </navLabel>
+        <content src="Text/Section0000.html#ID0EBVAG" />
+      </navPoint>
+      <navPoint id="15" playOrder="15">
+        <navLabel>
+          <text>Belastingblad 2015/42</text>
+        </navLabel>
+        <content src="Text/Section0000.html#ID0E6XAG" />
+      </navPoint>
+    </navPoint>
+    <navPoint id="16" playOrder="16">
+      <navLabel>
+        <text>Wet WOZ / Onroerendezaakbelastingen</text>
+      </navLabel>
+      <content src="Text/Section0000.html#ID0EKCBG" />
+      <navPoint id="17" playOrder="17">
+        <navLabel>
+          <text>Belastingblad 2015/43</text>
+        </navLabel>
+        <content src="Text/Section0000.html#ID0EWCBG" />
+      </navPoint>
+    </navPoint>
+    <navPoint id="18" playOrder="18">
+      <navLabel>
+        <text>Leges</text>
+      </navLabel>
+      <content src="Text/Section0000.html#ID0EWNBG" />
+      <navPoint id="19" playOrder="19">
+        <navLabel>
+          <text>Belastingblad 2015/44</text>
+        </navLabel>
+        <content src="Text/Section0000.html#ID0ECOBG" />
+      </navPoint>
+      <navPoint id="20" playOrder="20">
+        <navLabel>
+          <text>Belastingblad 2015/45</text>
+        </navLabel>
+        <content src="Text/Section0000.html#ID0ET1BG" />
+      </navPoint>
+    </navPoint>
+    <navPoint id="21" playOrder="21">
+      <navLabel>
+        <text>Afvalstoffenheffing / Rioolheffing</text>
+      </navLabel>
+      <content src="Text/Section0000.html#ID0EWLAI" />
+      <navPoint id="22" playOrder="22">
+        <navLabel>
+          <text>Belastingblad 2015/46</text>
+        </navLabel>
+        <content src="Text/Section0000.html#ID0ECMAI" />
+      </navPoint>
+    </navPoint>
+    <navPoint id="23" playOrder="23">
+      <navLabel>
+        <text>Zuiveringsheffing</text>
+      </navLabel>
+      <content src="Text/Section0000.html#ID0EXVAI" />
+      <navPoint id="24" playOrder="24">
+        <navLabel>
+          <text>Belastingblad 2015/47</text>
+        </navLabel>
+        <content src="Text/Section0000.html#ID0EDWAI" />
+      </navPoint>
+    </navPoint>
+    <navPoint id="25" playOrder="25">
+      <navLabel>
+        <text>Bestuursrecht / Bestuursprocesrecht</text>
+      </navLabel>
+      <content src="Text/Section0000.html#ID0EX4AI" />
+      <navPoint id="26" playOrder="26">
+        <navLabel>
+          <text>Belastingblad 2015/48</text>
+        </navLabel>
+        <content src="Text/Section0000.html#ID0ED5AI" />
+      </navPoint>
+    </navPoint>
+    <navPoint id="27" playOrder="27">
+      <navLabel>
+        <text>Bestuursrecht / Bestuursprocesrecht / Wet WOZ</text>
+      </navLabel>
+      <content src="Text/Section0000.html#ID0EUGBI" />
+      <navPoint id="28" playOrder="28">
+        <navLabel>
+          <text>Belastingblad 2015/49</text>
+        </navLabel>
+        <content src="Text/Section0000.html#ID0EAHBI" />
+      </navPoint>
+    </navPoint>
+    <navPoint id="29" playOrder="29">
+      <navLabel>
+        <text>Bestuursprocesrecht</text>
+      </navLabel>
+      <content src="Text/Section0000.html#ID0EEOBI" />
+      <navPoint id="30" playOrder="30">
+        <navLabel>
+          <text>Belastingblad 2015/50</text>
+        </navLabel>
+        <content src="Text/Section0000.html#ID0EQOBI" />
+      </navPoint>
+      <navPoint id="31" playOrder="31">
+        <navLabel>
+          <text>Belastingblad 2015/51</text>
+        </navLabel>
+        <content src="Text/Section0000.html#ID0EPVBI" />
+      </navPoint>
+    </navPoint>
+    <navPoint id="32" playOrder="32">
+      <navLabel>
+        <text>Bestuurprocesrecht / Wet WOZ</text>
+      </navLabel>
+      <content src="Text/Section0000.html#ID0EI2BI" />
+      <navPoint id="33" playOrder="33">
+        <navLabel>
+          <text>Belastingblad 2015/52</text>
+        </navLabel>
+        <content src="Text/Section0000.html#ID0EU2BI" />
+      </navPoint>
+    </navPoint>
+    <navPoint id="34" playOrder="34">
+      <navLabel>
+        <text>Omzetbelasting</text>
+      </navLabel>
+      <content src="Text/Section0000.html#ID0EYNCI" />
+      <navPoint id="35" playOrder="35">
+        <navLabel>
+          <text>Belastingblad 2015/53</text>
+        </navLabel>
+        <content src="Text/Section0000.html#ID0EEOCI" />
+      </navPoint>
+    </navPoint>
+    <navPoint id="36" playOrder="36">
+      <navLabel>
+        <text>Wetgeving</text>
+      </navLabel>
+      <content src="Text/Section0000.html#ID0EDUCI" />
+      <navPoint id="37" playOrder="37">
+        <navLabel>
+          <text>Belastingblad 2015/54</text>
+        </navLabel>
+        <content src="Text/Section0000.html#ID0EJUCI" />
+      </navPoint>
+      <navPoint id="38" playOrder="38">
+        <navLabel>
+          <text>Belastingblad 2015/55</text>
+        </navLabel>
+        <content src="Text/Section0000.html#ID0E6CDI" />
+      </navPoint>
+      <navPoint id="39" playOrder="39">
+        <navLabel>
+          <text>Belastingblad 2015/56</text>
+        </navLabel>
+        <content src="Text/Section0000.html#ID0E5KDI" />
+      </navPoint>
+      <navPoint id="40" playOrder="40">
+        <navLabel>
+          <text>Belastingblad 2015/57</text>
+        </navLabel>
+        <content src="Text/Section0000.html#ID0EGSDI" />
+      </navPoint>
+      <navPoint id="41" playOrder="41">
+        <navLabel>
+          <text>Belastingblad 2015/58</text>
+        </navLabel>
+        <content src="Text/Section0000.html#ID0EQAAK" />
+      </navPoint>
+      <navPoint id="42" playOrder="42">
+        <navLabel>
+          <text>Belastingblad 2015/59</text>
+        </navLabel>
+        <content src="Text/Section0000.html#ID0EORAK" />
+      </navPoint>
+    </navPoint>
+    <navPoint id="43" playOrder="43">
+      <navLabel>
+        <text>Kamervragen</text>
+      </navLabel>
+      <content src="Text/Section0000.html#ID0ETPBK" />
+      <navPoint id="44" playOrder="44">
+        <navLabel>
+          <text>Belastingblad 2015/60</text>
+        </navLabel>
+        <content src="Text/Section0000.html#ID0EZPBK" />
+      </navPoint>
+    </navPoint>
+    <navPoint id="45" playOrder="45">
+      <navLabel>
+        <text>Actualiteiten</text>
+      </navLabel>
+      <content src="Text/Section0000.html#ID0EDUBK" />
+      <navPoint id="46" playOrder="46">
+        <navLabel>
+          <text>Belastingblad 2015/61</text>
+        </navLabel>
+        <content src="Text/Section0000.html#ID0EJUBK" />
+      </navPoint>
+      <navPoint id="47" playOrder="47">
+        <navLabel>
+          <text>Belastingblad 2015/62</text>
+        </navLabel>
+        <content src="Text/Section0000.html#ID0EAVBK" />
+      </navPoint>
+    </navPoint>
+    <navPoint id="48" playOrder="48">
+      <navLabel>
+        <text>Colofon</text>
+      </navLabel>
+      <content src="Text/Section0000.html#colofon" />
+    </navPoint>
+    <navPoint id="49" playOrder="49">
+      <navLabel>
+        <text>Paginaregister</text>
+      </navLabel>
+      <content src="Text/Section0000.html#paginaregister" />
+    </navPoint>
+  </navMap>
+</ncx>

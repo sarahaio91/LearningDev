@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?><!DOCTYPE ncx PUBLIC "-//NISO//DTD ncx 2005-1//EN" "http://www.daisy.org/z3986/2005/ncx-2005-1.dtd"><ncx xmlns="http://www.daisy.org/z3986/2005/ncx/" version="2005-1">
+<head>
+   <meta content="urn:uuid:e30e90ff-08cb-4f65-bec8-feb436ba20a1" name="dtb:uid"/>
+   <meta content="0" name="dtb:depth"/>
+   <meta content="0" name="dtb:totalPageCount"/>
+   <meta content="0" name="dtb:maxPageNumber"/>
+</head>
+<docTitle>
+   <text>Belastingblad 2014 - 15</text>
+</docTitle>
+<navMap>
+  <navPoint id="4ff11067-af79-4c92-8406-750ff4515f18" playOrder="1">
+    <navLabel>
+      <text>Inhoud</text>
+    </navLabel>
+    <content src="Text/Inhoud.html" />
+  </navPoint>
+  <navPoint id="c395f960-5403-4f0d-ad9e-4b9546af1ebd" playOrder="3">
+    <navLabel>
+      <text>Beschouwingen</text>
+    </navLabel>
+    <content src="Text/Section0000.html#ID0EGG" />
+	<navPoint id="3dfa46cc-4e72-4ded-88d8-6998e821e4dc" playOrder="5">
+      <navLabel>
+        <text>Belastingblad 2015/32</text>
+      </navLabel>
+      <content src="Text/Section0000.html#ID0EMG" />
+    </navPoint>
+  </navPoint>
+  <navPoint id="66565d6f-0fc3-4ed5-90a6-f4134bf5385f" playOrder="4">
+    <navLabel>
+      <text>Conclusies A-G</text>
+    </navLabel>
+    <content src="Text/Section0000.html#ID0EQGAC" />
+    <navPoint id="3dfa46cc-4e72-4ded-88d8-6998e821e4dc" playOrder="5">
+      <navLabel>
+        <text>Belastingblad 2015/33</text>
+      </navLabel>
+      <content src="Text/Section0000.html#ID0E3GAC" />
+    </navPoint>
+    <navPoint id="23538f54-f4ec-4627-bc90-77e2dfd5237a" playOrder="6">
+      <navLabel>
+        <text>Belastingblad 2015/34</text>
+      </navLabel>
+      <content src="Text/Section0000.html#ID0EWJAC" />
+    </navPoint>
+  </navPoint>
+  <navPoint id="db69161c-ae94-4288-9307-d1d7bdef1cff" playOrder="8">
+    <navLabel>
+      <text>Wet WOZ</text>
+    </navLabel>
+    <content src="Text/Section0000.html#ID0EPPAC" />
+    <navPoint id="e01c8e37-df74-4d45-b86f-34a137691b61" playOrder="9">
+      <navLabel>
+        <text>Belastingblad 2015/35</text>
+      </navLabel>
+      <content src="Text/Section0000.html#ID0E2PAC" />
+    </navPoint>
+    <navPoint id="f0303c41-8949-4c1f-b962-2f784898bcf4" playOrder="10">
+      <navLabel>
+        <text>Belastingblad 2015/36</text>
+      </navLabel>
+      <content src="Text/Section0000.html#ID0EWGAE" />
+    </navPoint>
+    <navPoint id="c555fa03-89cd-43eb-aa28-67c588146c81" playOrder="11">
+      <navLabel>
+        <text>Belastingblad 2015/37</text>
+      </navLabel>
+      <content src="Text/Section0000.html#ID0EPMAE" />
+    </navPoint>
+    <navPoint id="a985e41b-fd4b-44f4-b40f-cc6e9ea7b210" playOrder="12">
+      <navLabel>
+        <text>Belastingblad 2015/38</text>
+      </navLabel>
+      <content src="Text/Section0000.html#ID0ELTAE" />
+    </navPoint>
+    <navPoint id="b086651c-d0c2-4bb3-b300-c006c0bcc3cb" playOrder="13">
+      <navLabel>
+        <text>Belastingblad 2015/39</text>
+      </navLabel>
+      <content src="Text/Section0000.html#ID0ECEAG" />
+    </navPoint>
+    <navPoint id="479d079c-21f4-466f-bb0e-612ebe3a8721" playOrder="14">
+      <navLabel>
+        <text>Belastingblad 2015/40</text>
+      </navLabel>
+      <content src="Text/Section0000.html#ID0EJJAG" />
+    </navPoint>
+    <navPoint id="6644226d-e4f4-4845-a5c4-3e21c02e08a9" playOrder="15">
+      <navLabel>
+        <text>Belastingblad 2015/41</text>
+      </navLabel>
+      <content src="Text/Section0000.html#ID0EBVAG" />
+    </navPoint>
+    <navPoint id="21a6d48c-80fb-488a-833f-7b1284ef97f2" playOrder="16">
+      <navLabel>
+        <text>Belastingblad 2015/42</text>
+      </navLabel>
+      <content src="Text/Section0000.html#ID0E6XAG" />
+    </navPoint>
+  </navPoint>
+  <navPoint id="36369161-9c74-4c91-b659-e1f022324ccd" playOrder="17">
+    <navLabel>
+      <text>Wet WOZ / Onroerendezaakbelastingen</text>
+    </navLabel>
+    <content src="Text/Section0000.html#ID0EKCBG" />
+    <navPoint id="94e724d3-b51d-43e3-b73e-2dcaa3c362ec" playOrder="18">
+      <navLabel>
+        <text>Belastingblad 2015/43</text>
+      </navLabel>
+      <content src="Text/Section0000.html#ID0EWCBG" />
+    </navPoint>
+  </navPoint>
+  <navPoint id="1ad156c5-40f7-455c-8e46-6df2ebc2fe2a" playOrder="19">
+    <navLabel>
+      <text>Leges</text>
+    </navLabel>
+    <content src="Text/Section0000.html#ID0EWNBG" />
+    <navPoint id="6cdbb06c-dc5f-421e-bda1-b7e1137c8f7c" playOrder="20">
+      <navLabel>
+        <text>Belastingblad 2015/44</text>
+      </navLabel>
+      <content src="Text/Section0000.html#ID0ECOBG" />
+    </navPoint>
+    <navPoint id="2c8e743f-e695-45a0-9da3-1c48573d7718" playOrder="21">
+      <navLabel>
+        <text>Belastingblad 2015/45</text>
+      </navLabel>
+      <content src="Text/Section0000.html#ID0ET1BG" />
+    </navPoint>
+  </navPoint>
+  <navPoint id="3461223a-3346-49c4-8999-550180962c4b" playOrder="22">
+    <navLabel>
+      <text>Afvalstoffenheffing / Rioolheffing</text>
+    </navLabel>
+    <content src="Text/Section0000.html#ID0EWLAI" />
+    <navPoint id="bcce4866-2360-4982-a943-3759b0882c13" playOrder="23">
+      <navLabel>
+        <text>Belastingblad 2015/46</text>
+      </navLabel>
+      <content src="Text/Section0000.html#ID0ECMAI" />
+    </navPoint>
+  </navPoint>
+  <navPoint id="4dfd6470-1b9c-426f-90e5-51903dc10121" playOrder="24">
+    <navLabel>
+      <text>Zuiveringsheffing</text>
+    </navLabel>
+    <content src="Text/Section0000.html#ID0EXVAI" />
+    <navPoint id="dc96a119-6056-4af3-9473-efdae412bc2a" playOrder="25">
+      <navLabel>
+        <text>Belastingblad 2015/47</text>
+      </navLabel>
+      <content src="Text/Section0000.html#ID0EDWAI" />
+    </navPoint>
+  </navPoint>
+  <navPoint id="1fd600f7-79c4-464b-9415-2310fe9cfd51" playOrder="26">
+    <navLabel>
+      <text>Bestuursrecht / Bestuursprocesrecht</text>
+    </navLabel>
+    <content src="Text/Section0000.html#ID0EX4AI" />
+    <navPoint id="8556b39c-29fe-4d86-8eba-6dda87cc7779" playOrder="27">
+      <navLabel>
+        <text>Belastingblad 2015/48</text>
+      </navLabel>
+      <content src="Text/Section0000.html#ID0ED5AI" />
+    </navPoint>
+  </navPoint>
+  <navPoint id="6f7b3825-7b4e-4966-8e6b-1eb2523e46c1" playOrder="28">
+    <navLabel>
+      <text>Bestuursrecht / Bestuursprocesrecht / Wet WOZ</text>
+    </navLabel>
+    <content src="Text/Section0000.html#ID0EUGBI" />
+    <navPoint id="3fb0c0c1-2fc4-4b46-9760-997bbf23ee93" playOrder="29">
+      <navLabel>
+        <text>Belastingblad 2015/49</text>
+      </navLabel>
+      <content src="Text/Section0000.html#ID0EAHBI" />
+    </navPoint>
+  </navPoint>
+  <navPoint id="05e2a04f-0b09-40c4-b368-c9e86a3aca41" playOrder="30">
+    <navLabel>
+      <text>Bestuursprocesrecht</text>
+    </navLabel>
+    <content src="Text/Section0000.html#ID0EEOBI" />
+    <navPoint id="87bfbf8c-0856-4cdd-b826-30334b122a8e" playOrder="31">
+      <navLabel>
+        <text>Belastingblad 2015/50</text>
+      </navLabel>
+      <content src="Text/Section0000.html#ID0EQOBI" />
+    </navPoint>
+    <navPoint id="4199f954-08e4-44a1-b47e-2343478bf0be" playOrder="32">
+      <navLabel>
+        <text>Belastingblad 2015/51</text>
+      </navLabel>
+      <content src="Text/Section0000.html#ID0EPVBI" />
+    </navPoint>
+  </navPoint>
+  <navPoint id="324a5d10-9cd0-4ac9-8591-4f00a62a4f0a" playOrder="33">
+    <navLabel>
+      <text>Bestuurprocesrecht / Wet WOZ</text>
+    </navLabel>
+    <content src="Text/Section0000.html#ID0EI2BI" />
+    <navPoint id="b3570537-459e-4a3b-8364-1a11d5ef0dc4" playOrder="34">
+      <navLabel>
+        <text>Belastingblad 2015/52</text>
+      </navLabel>
+      <content src="Text/Section0000.html#ID0EU2BI" />
+    </navPoint>
+  </navPoint>
+  <navPoint id="49bc0311-a295-4a8b-b0d8-0f190a62973a" playOrder="35">
+    <navLabel>
+      <text>Omzetbelasting</text>
+    </navLabel>
+    <content src="Text/Section0000.html#ID0EYNCI" />
+    <navPoint id="ee5d5ee4-d39a-47fc-8173-d763c6a8cf1d" playOrder="36">
+      <navLabel>
+        <text>Belastingblad 2015/53</text>
+      </navLabel>
+      <content src="Text/Section0000.html#ID0EEOCI" />
+    </navPoint>
+  </navPoint>
+  <navPoint id="aba9bc76-8ec2-464a-a242-3900476fc7f5" playOrder="37">
+    <navLabel>
+      <text>Wetgeving</text>
+    </navLabel>
+    <content src="Text/Section0000.html#ID0EDUCI" />
+	<navPoint id="ee5d5ee4-d39a-47fc-8173-d763c6a8cf1d" playOrder="36">
+      <navLabel>
+        <text>Belastingblad 2015/54</text>
+      </navLabel>
+      <content src="Text/Section0000.html#ID0EJUCI" />
+    </navPoint>
+	<navPoint id="ee5d5ee4-d39a-47fc-8173-d763c6a8cf1d" playOrder="36">
+      <navLabel>
+        <text>Belastingblad 2015/55</text>
+      </navLabel>
+      <content src="Text/Section0000.html#ID0E6CDI" />
+    </navPoint>
+	<navPoint id="ee5d5ee4-d39a-47fc-8173-d763c6a8cf1d" playOrder="36">
+      <navLabel>
+        <text>Belastingblad 2015/56</text>
+      </navLabel>
+      <content src="Text/Section0000.html#ID0E5KDI" />
+    </navPoint>
+	<navPoint id="ee5d5ee4-d39a-47fc-8173-d763c6a8cf1d" playOrder="36">
+      <navLabel>
+        <text>Belastingblad 2015/57</text>
+      </navLabel>
+      <content src="Text/Section0000.html#ID0EGSDI" />
+    </navPoint>
+	<navPoint id="ee5d5ee4-d39a-47fc-8173-d763c6a8cf1d" playOrder="36">
+      <navLabel>
+        <text>Belastingblad 2015/58</text>
+      </navLabel>
+      <content src="Text/Section0000.html#ID0EQAAK" />
+    </navPoint>
+	<navPoint id="ee5d5ee4-d39a-47fc-8173-d763c6a8cf1d" playOrder="36">
+      <navLabel>
+        <text>Belastingblad 2015/59</text>
+      </navLabel>
+      <content src="Text/Section0000.html#ID0EORAK" />
+    </navPoint>
+  </navPoint>
+  <navPoint id="e43983a1-f46b-428e-8e08-9e1b8f78a571" playOrder="38">
+    <navLabel>
+      <text>Kamervragen</text>
+    </navLabel>
+    <content src="Text/Section0000.html#ID0ETPBK" />
+	<navPoint id="ee5d5ee4-d39a-47fc-8173-d763c6a8cf1d" playOrder="36">
+      <navLabel>
+        <text>Belastingblad 2015/60</text>
+      </navLabel>
+      <content src="Text/Section0000.html#ID0EZPBK" />
+    </navPoint>
+  </navPoint>
+  <navPoint id="97c9dc8c-58cd-4e67-b364-d9be657d0a04" playOrder="39">
+    <navLabel>
+      <text>Actualiteiten</text>
+    </navLabel>
+    <content src="Text/Section0000.html#ID0EDUBK" />
+	<navPoint id="ee5d5ee4-d39a-47fc-8173-d763c6a8cf1d" playOrder="36">
+      <navLabel>
+        <text>Belastingblad 2015/61</text>
+      </navLabel>
+      <content src="Text/Section0000.html#ID0EJUBK" />
+    </navPoint>
+	<navPoint id="ee5d5ee4-d39a-47fc-8173-d763c6a8cf1d" playOrder="36">
+      <navLabel>
+        <text>Belastingblad 2015/62</text>
+      </navLabel>
+      <content src="Text/Section0000.html#ID0EAVBK" />
+    </navPoint>
+  </navPoint>
+  <navPoint id="69f9323f-91f1-420e-937b-1f8e59cea23f" playOrder="40">
+    <navLabel>
+      <text>Colofon</text>
+    </navLabel>
+    <content src="Text/Section0000.html#colofon" />
+  </navPoint>
+  <navPoint id="paginaregister" playOrder="41">
+    <navLabel>
+      <text>Paginaregister</text>
+    </navLabel>
+    <content src="Text/Section0000.html#paginaregister" />
+  </navPoint>
+</navMap>
+</ncx>

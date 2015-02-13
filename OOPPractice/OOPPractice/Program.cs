@@ -10,6 +10,16 @@ namespace OOPPractice
     {
         static void Main(string[] args)
         {
+            //IProduct fish = new Fish();
+            //Console.WriteLine(fish.getPrice());
+            //ICalculation cal = new Calculation();
+            //IPrice price = new Fish();
+            //Console.WriteLine(cal.calculation(price));
+            //IDescription des = new Fish();
+            //Console.WriteLine(des.getDescription());
+            IDatabaseNew data = new CustomerNew();
+            data.Add();
+            data.Read();
         }
     }
 }

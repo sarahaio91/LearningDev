@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?><!DOCTYPE ncx PUBLIC "-//NISO//DTD ncx 2005-1//EN" "http://www.daisy.org/z3986/2005/ncx-2005-1.dtd"><ncx xmlns="http://www.daisy.org/z3986/2005/ncx/" version="2005-1">
+<head>
+   <meta content="urn:uuid:e30e90ff-08cb-4f65-bec8-feb436ba20a1" name="dtb:uid"/>
+   <meta content="0" name="dtb:depth"/>
+   <meta content="0" name="dtb:totalPageCount"/>
+   <meta content="0" name="dtb:maxPageNumber"/>
+</head>
+<docTitle>
+		<text>Belastingadvies 2014-17</text>
+	</docTitle>
+	<navMap>
+    <navPoint id="398ae260-7b70-4a0c-a02b-bb8a8371f37d" playOrder="1">
+      <navLabel>
+        <text>Inhoud</text>
+      </navLabel>
+      <content src="Text/inhoud.html" />
+    </navPoint>
+    <navPoint id="da492893-220e-49b9-83ef-925bebfdb31e" playOrder="2">
+      <navLabel>
+        <text>Colofon</text>
+      </navLabel>
+      <content src="Text/03_Colofon.html" />
+    </navPoint>
+    <navPoint id="6a340fdc-d521-49bb-9a3a-e8ed24b916ff" playOrder="3">
+      <navLabel>
+        <text>Algemeen</text>
+      </navLabel>
+      <content src="Text/artikelen.html#ID0ENF" />
+	  <navPoint id="6a340fdc-d521-49bb-9a3a-e8ed24b916ff" playOrder="3">
+      <navLabel>
+        <text>Immateriële schadevergoeding voor erfgenamen die na overlijden erflaatster procedure voortzetten</text>
+      </navLabel>
+      <content src="Text/artikelen.html#ID0ENG" />
+    </navPoint>
+    </navPoint>
+    <navPoint id="8404f5a8-7c13-405b-9547-42e28ac60b64" playOrder="4">
+      <navLabel>
+        <text>Inkomstenbelasting</text>
+      </navLabel>
+      <content src="Text/artikelen.html#ID0ENEAC" />
+		<navPoint id="6a340fdc-d521-49bb-9a3a-e8ed24b916ff" playOrder="3">
+      <navLabel>
+        <text>Hoge Raad stuurt ‘bosbouwende’ agrariër fiscaal het bos in</text>
+      </navLabel>
+      <content src="Text/artikelen.html#ID0ENFAC" />
+    </navPoint>
+		<navPoint id="6a340fdc-d521-49bb-9a3a-e8ed24b916ff" playOrder="3">
+      <navLabel>
+        <text>Jurisprudentie over onzakelijke leningen ook van toepassing op garantie door dga</text>
+      </navLabel>
+      <content src="Text/artikelen.html#ID0ERAAE" />
+    </navPoint>
+		<navPoint id="6a340fdc-d521-49bb-9a3a-e8ed24b916ff" playOrder="3">
+      <navLabel>
+        <text>Spraakgebruik bepalend voor uitleg begrip ‘woning in aanbouw’</text>
+      </navLabel>
+      <content src="Text/artikelen.html#ID0ECHAE" />
+    </navPoint>
+		<navPoint id="6a340fdc-d521-49bb-9a3a-e8ed24b916ff" playOrder="3">
+      <navLabel>
+        <text>Latente belastingclaim over direct na overlijden uitgekeerd dividend gesteld op 6,25%</text>
+      </navLabel>
+      <content src="Text/artikelen.html#ID0EAOAE" />
+    </navPoint>
+    </navPoint>
+    <navPoint id="458f232a-3516-4a32-b0dc-5c78b813adc9" playOrder="5">
+      <navLabel>
+        <text>Vennootschapsbelasting</text>
+      </navLabel>
+      <content src="Text/artikelen.html#ID0E3WAE" />
+		<navPoint id="6a340fdc-d521-49bb-9a3a-e8ed24b916ff" playOrder="3">
+      <navLabel>
+        <text>Niet-uitkeerbare wettelijke winstreserves vormen zuivere winst</text>
+      </navLabel>
+      <content src="Text/artikelen.html#ID0E3XAE" />
+    </navPoint>
+    </navPoint>
+    <navPoint id="bb295239-332a-4323-856a-71ac90d006e5" playOrder="6">
+      <navLabel>
+        <text>Loonbelasting</text>
+      </navLabel>
+      <content src="Text/artikelen.html#ID0EP5AE" />
+      <navPoint id="45d081eb-9ff5-4701-9b33-14c5ca702e60" playOrder="7">
+        <navLabel>
+          <text>Bestelauto niet (nagenoeg) uitsluitend geschikt voor vervoer goederen</text>
+        </navLabel>
+        <content src="Text/artikelen.html#ID0EP6AE" />
+      </navPoint>
+      <navPoint id="45d081eb-9ff5-4701-9b33-14c5ca702e60" playOrder="7">
+        <navLabel>
+          <text>Herzien beleidsbesluit pensioenen over AOW-franchises</text>
+        </navLabel>
+        <content src="Text/artikelen.html#ID0E4CAG" />
+      </navPoint>
+    </navPoint>
+    <navPoint id="552d9390-a05e-4387-af87-a37087b066ef" playOrder="8">
+      <navLabel>
+        <text>Omzetbelasting</text>
+      </navLabel>
+      <content src="Text/artikelen.html#ID0E1JAG" />
+	  <navPoint id="552d9390-a05e-4387-af87-a37087b066ef" playOrder="8">
+      <navLabel>
+        <text>Verzending goederen naar afnemer vangt pas aan als goederen gereed zijn</text>
+      </navLabel>
+      <content src="Text/artikelen.html#ID0E1KAG" />
+    </navPoint>
+    </navPoint>
+    <navPoint id="e8473314-310d-4fea-86bb-3f21e90e5982" playOrder="9">
+      <navLabel>
+        <text>Schenk- en erfbelasting</text>
+      </navLabel>
+      <content src="Text/artikelen.html#ID0E41AG" />
+	  <navPoint id="e8473314-310d-4fea-86bb-3f21e90e5982" playOrder="9">
+      <navLabel>
+        <text>Door betwisting aansprakelijkheid schenkingsrecht geen aftrek mogelijk voor successierecht</text>
+      </navLabel>
+      <content src="Text/artikelen.html#ID0E42AG" />
+    	</navPoint>
+    </navPoint>
+    <navPoint id="8b3b4fda-128c-40a6-ace4-602569fe6837" playOrder="10">
+      <navLabel>
+        <text>Invordering</text>
+      </navLabel>
+      <content src="Text/artikelen.html#ID0EIABG" />
+	  <navPoint id="8b3b4fda-128c-40a6-ace4-602569fe6837" playOrder="10">
+      <navLabel>
+        <text>Waarborgen continuïteit bedrijf leidt niet tot onbehoorlijk bestuur</text>
+      </navLabel>
+      <content src="Text/artikelen.html#ID0EIBBG" />
+    </navPoint>
+    </navPoint>
+    <navPoint id="263d8398-6150-40b5-90f2-5c7ed5b422d2" playOrder="11">
+      <navLabel>
+        <text>Fiscale signalementen</text>
+      </navLabel>
+      <content src="Text/artikelen.html#ID0EFIBG" />
+    </navPoint>
+    <navPoint id="f64fbb99-cdbe-473b-9d02-7b3731c83134" playOrder="13">
+      <navLabel>
+        <text>Paginaregister</text>
+      </navLabel>
+      <content src="Text/artikelen.html#toclink_paginaregister" />
+    </navPoint>
+  </navMap>
+</ncx>

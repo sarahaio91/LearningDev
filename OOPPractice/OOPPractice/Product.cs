@@ -6,19 +6,26 @@ using System.Threading.Tasks;
 
 namespace OOPPractice
 {
-    public interface IProduct
+    public interface IDescription
     {
         string getDescription();
     }
-    class Fish : IProduct, IPrice
+    public interface IProduct
     {
+        string getDescription();
+        double getPrice();
+    }
+    class Fish : IProduct, IPrice, IDescription
+    {
+        double price = 5.0;
+        string description = "I'm a fish!";
         public string getDescription()
         {
-            return "I'm a fish!";
+            return description;
         }
         public double getPrice()
         {
-            return 5.0;
+            return price;
         }
     }
 }

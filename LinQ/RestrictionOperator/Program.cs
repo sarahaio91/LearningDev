@@ -41,7 +41,8 @@ namespace RestrictionOperator
             //obj.LinQ41();
             //obj.LinQ42();
             //obj.LinQ43();
-            obj.LinQ44();
+            //obj.LinQ44();
+            obj.LinQ46();
         }
         public class Product
         {
@@ -279,6 +280,13 @@ namespace RestrictionOperator
                     Array.ForEach(y.Str.ToArray(), m => Console.WriteLine(m));
                 });
             }
+
+            public void LinQ46()
+            {
+                int[] factorsOf300 = { 2, 2, 3, 5, 5 }; 
+
+            }
+
             public class MyCompare : IEqualityComparer<string>
             {
                 public bool Equals(string a, string b)
